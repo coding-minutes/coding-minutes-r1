@@ -1,0 +1,252 @@
+.learning-path-container {
+  background-color: #f9f9f9 !important;
+}
+.learning-path-outer-container {
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.learning-path-internal-container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.learning-path-about h4 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+.learning-path-about p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.course-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  margin-top: 40px;
+
+}
+.all-courses {
+  margin-top: 2px;
+  cursor: pointer;
+  background-color: white;
+  /* max-width: 340px; */
+  /* width: max-content; */
+  border-radius: 10px;
+  display: flex;
+  
+}
+.all-courses a {
+  display: flex;
+}
+.all-courses img {
+  height: 56px;
+}
+.course-type {
+  padding: 16px 30px;
+  margin: 0 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.course-type a {
+  display: flex;
+  align-items: center;
+  color: #151518;
+}
+.course-type a img {
+  
+  width: 25px;
+  margin: 0 10px;
+  /* padding-top: 15px; */
+}
+
+#rocket-image img {
+  width: 17px;
+}
+
+.learning-path-course-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.learning-path-course-row-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10px;
+}
+.individual-course-items {
+  margin: 30px 10px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.learning-path-course-items {
+  width: 405px;
+  background-color: white;
+  padding: 20px 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.course-image img {
+  width: 405px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.course-difficulty-level {
+  border: 2px solid #EAEAEA;
+  width: fit-content;
+  border-radius: 100px;
+  padding: 5px 12px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.green{
+  border: 2px solid #09C533;
+  color: #09C533;
+  text-align: center;
+  font-size: 11px;
+}
+.yellow{
+  border: 2px solid #FFCD3E;
+  color: #FFCD3E;
+  text-align: center;
+  font-size: 11px;
+  
+}
+.red{
+  border: 2px solid #F35227;
+  text-align: center;
+  color: #F35227;
+  font-size: 11px;
+}
+.course-title {
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.course-mentor {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.explore-now {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+.explore-now a {
+  margin-left: auto;
+}
+.explore-now a img {
+  width: 130px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* ============= Media Query (Medium Devices) =========== */
+@media screen and (max-width: 1400px) {
+  .course-types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .course-type {
+    width: 350px;
+    margin-bottom: 10px;
+  }
+  
+  .all-courses {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .learning-path-course-row-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+  .learning-path-course-items {
+    width: 350px;
+  }
+  .course-image img{
+    width: 350px;
+  }
+}
+
+/* ============ Media Query ( Medium Small Devices) =========== */
+@media screen and (max-width: 1232px) {
+  .course-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .learning-path-course-row-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .learning-path-course-title{
+    /* margin: auto; */
+    text-align: center;
+  }
+}
+
+/* ========== Media Query (Small Devies) ========== */
+@media screen and (max-width:960px) {
+  .course-types{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .learning-path-course-row-group{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .learning-path-about h4{
+    font-size: 30px;
+  }
+  .learning-path-about p{
+    font-size: 16px;
+  }
+}
+
+/* =========== Media Query (Very small Devices) ============= */
+@media screen and (max-width:560px) {
+  .learning-path-container{
+    width: 100% !important;
+  }
+  .learning-path-outer-container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .learning-path-about h4{
+    font-size: 25px;
+  }
+  .learning-path-about p{
+    font-size: 15px;
+  }
+  .learning-path-course-items{
+    width: 300px;
+  }
+  .course-type {
+    width: auto;
+    margin-bottom: 10px;
+    padding:15px 10px;
+    font-size: 14px;
+  }
+  .course-types{
+  }
+  .course-image img{
+    width: 300px;
+  }
+  .course-rating{
+    font-size: 14px;
+  }
+  .explore-now img {
+    width: 100px;
+  }
+  .learning-path-course-row-group {
+  }
+}

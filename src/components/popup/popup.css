@@ -1,0 +1,105 @@
+.modal-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+  }
+  .modal-first {
+    display: flex;
+    flex-direction: column;
+    background-color: #61D96E;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #cancel-button {
+      margin: 25px;
+      margin-bottom: 5px;
+    background-color: #EAEAEA;
+    margin-left: auto;
+    padding: 4px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .modal-container .title {
+    display: inline-block;
+    text-align: center;
+    background-color: #61D96E;
+    padding: 20px;
+    padding-bottom: 60px;
+color: white;
+  }
+  .email {
+      display: flex;
+      justify-content: center;
+  }
+  .email input {
+      margin: 20px 5px;
+      font-size: 16px;
+      padding: 10px;
+  }
+  .email span {
+    background: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
+    color: white;
+    height: max-content;
+    margin:20px 5px;
+    padding: 12px 20px;
+    border-radius: 5px;
+  }
+  
+  /* .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  } */
+  
+  /* .modal-container .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modal-container .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  /* .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  } */
+  
+
+

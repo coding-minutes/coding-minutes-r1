@@ -1,0 +1,122 @@
+.footer-outer-container {
+  background-color: #F9F9F9 !important;
+  margin: auto !important;
+}
+.footer-internal-container {
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 100px;
+}
+.footer-items{
+    margin-top: 80px;
+}
+.about-cm {
+    line-height: 160%;
+    font-weight: 300;
+}
+.about-cm img{
+width: 360px;
+}
+.about-cm .about-cm-text {
+    margin-top: 10px;
+}
+.about-cm .copyright-info {
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+.footer-nav ul li{
+    font-weight: 300;
+    padding-bottom: 14px;
+
+}
+.footer-nav ul li a{
+    color: black;
+}
+.footer-contacts{
+
+}
+.footer-contacts .socials p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-contacts .socials img {
+    width: 30px;
+    margin-right: 20px;
+}
+.contacts {
+    margin-top: 30px;
+    line-height: 28px;
+}
+a{
+    color:black;
+}
+
+
+/* =========== Media Query (Medium Devices) ============== */
+@media screen and (max-width:1100px) {
+    .footer-internal-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .footer-items {
+        margin-top: 30px;
+    }
+    .about-cm {
+        margin-top: 50px;
+    }
+    .about-cm img {
+        width: 300px;
+    }
+    .about-cm .copyright-info {
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .footer-nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-nav ul li {
+        padding: 0px 10px;
+    }
+    .footer-contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contacts .socials p{
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+    .contacts {
+        margin-top: 15px;
+        margin-bottom: 70px;
+
+    }
+}
+
+/* ============ Media Query (Small devices) ========== */
+@media screen and (max-width:770px) {
+    .footer-internal-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .about-cm img{
+        width: 250px;
+    }
+    .footer-nav{
+        /* display: none !important; */
+    }
+    .footer-nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-nav ul li{
+        padding-top: 8px;
+    }
+    .footer-contacts {
+        margin-top: 0px;
+    }
+}

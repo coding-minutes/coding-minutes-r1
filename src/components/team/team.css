@@ -1,0 +1,125 @@
+.team-outer-container {
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+}
+.team-title {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.team-member-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+}
+.team-member-item img {
+  width: 400px;
+}
+.team-member-item p {
+  padding-top: 40px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+.team-content {
+  border: 1px solid #d8d8d8;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.team-content p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.team-socials {
+  padding-bottom: 20px;
+}
+.team-socials img {
+  width: 30px;
+  margin-right: 30px;
+}
+#prateek-bhaiya .team-socials {
+  margin-top: 60px;
+}
+#mohit-bhaiya .team-socials {
+  margin-top: 30px;
+}
+
+/* ============= Media Query (Medium and small devices) ============ */
+@media screen and (max-width: 1500px) {
+  .team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+  .team-member-item {
+    margin: auto;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ============== Media Query (Medium - Small devices) ========== */
+@media screen and (max-width: 1064px) {
+  .team-members {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+  }
+  .team-member-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ============ Media Query (small devices) ========== */
+@media screen and (max-width: 770px) {
+  .team-outer-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+  .team-title {
+    font-size: 25px;
+  }
+  .team-members {
+    /* display: grid; */
+    /* align-items: flex-start; */
+  }
+  .team-member-item {
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 0;
+    margin: auto;
+    width: 302px;
+  }
+  .team-member-item img {
+    width: 302px;
+  }
+  .team-member-item p {
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  .team-content p {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 14px;
+      width: 300px;
+  }
+  .team-socials img{
+      width: 30px;
+      margin-right: 15px;
+  }
+}

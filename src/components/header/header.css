@@ -1,0 +1,89 @@
+.header-outer-container {
+  margin: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.header-internal-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* margin-top: 120px; */
+}
+.header-left {
+  margin-top: 70px;
+}
+.header-left h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+}
+.header-left .h3-second {
+  background: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:600;
+}
+.header-left-text{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.header-left-text span{
+  font-weight: 500;
+}
+.header-left-buttons {
+  display: flex;
+  margin-top: 30px;
+}
+.header-left-buttons a{
+  margin-right: 20px;
+}
+
+.header-left-buttons a img {
+  width: 150px;
+}
+
+.header-right-image img {
+  width: 500px;
+}
+
+/* ============ Media Query (Medium Devices) ============= */
+@media screen and (max-width:1200px) {
+  .header-internal-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .header-right-image img{
+    margin-top: 30px;
+  }
+}
+
+/* ============ Media Query (Small Devices) ========= */
+@media screen and (max-width:674px) {
+  .header-outer-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .header-left {
+    margin-top: 20px;
+  }
+  .header-left h3{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .header-left-text{
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .header-left-buttons{
+    margin-top: 25px;
+  }
+  .header-left-buttons a{
+    margin-right: 15px;
+  }
+  .header-left-buttons a img{
+    width: 130px;
+  }
+  .header-right-image img{
+    width: 300px;
+  }
+}
