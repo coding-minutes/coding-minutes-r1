@@ -10,6 +10,7 @@ import Team from './team/Team'
 import Newsletter from './newsletter/Newsletter'
 import FAQ from './faq/FAQ'
 import Footer from './footer/Footer'
+import DiscordDashboard from './discord/DiscordDashboard'
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <LearningPath />
             <WhyCM />
             <CampusCaptains />
+            <DiscordDashboard/>
             <Team />
             <Newsletter />
             <FAQ />

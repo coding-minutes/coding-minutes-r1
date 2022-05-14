@@ -16,7 +16,7 @@ const CampusCaptains = () => {
               Become a Campus Captain for your campus. win swags, Coding
               T-Shirts & cash incentives!
             </p>
-            <Link to="/campus-captains-signup">
+            <Link to="/campus-captains">
               <img src={campusCaptainButton} alt="" />
             </Link>
           </div>

@@ -11,7 +11,7 @@ const Team = () => {
   return (
     <div className="components-outer-container">
       <div className="team-outer-container">
-        <div className="team-internal-container" id="about">
+        <div className="team-internal-container" id="team">
           <div className="team-title">Meet the team 😎</div>
           <div className="team-members">
             <div className="team-member-item" id="prateek-bhaiya">

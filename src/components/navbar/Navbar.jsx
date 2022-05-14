@@ -37,16 +37,18 @@ const Navbar = () => {
                   <a href="#courses">Courses</a>
                 </li>
                 <li>
-                  <a href="#events">Events</a>
+                  <a href="#campus-captains">Campus Captains</a>
+                </li>
+
+                <li>
+                  <a href="https://discord.gg/jwvtDtnkJv" target="_blank">Discord</a>
                 </li>
                 <li>
                   <a href="https://ide.codingminutes.com" target="_blank">Online IDE</a>
                 </li>
+               
                 <li>
-                  <a href="#campus-captains">Campus Captains</a>
-                </li>
-                <li>
-                  <a href="#about">Team</a>
+                  <a href="#team">Team</a>
                 </li>
                 <li>
                   <a href="#contact">Contact us</a>

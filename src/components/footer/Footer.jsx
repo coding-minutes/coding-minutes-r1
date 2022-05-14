@@ -24,10 +24,10 @@ const Footer = () => {
           </div>
           <div className="footer-items footer-nav">
             <ul>
-              <li> <a href="#about"> About us</a></li>
-              <li> <a href="#events"> Events</a></li>
+              <li> <a href="#team"> About us</a></li>
               <li> <a href="#courses"> Courses</a></li>
               <li> <a href="#campus-captains"> Campus Captain</a></li>
+              <li> <a href="#discord-dashboard"> Discord</a></li>
               <li> <a href="https://ide.codingminutes.com" target="_blank"> Online IDE</a></li>
               <li> <a href="#contact"> Contact us</a></li>
             </ul>

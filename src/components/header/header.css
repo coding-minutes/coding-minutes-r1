@@ -9,7 +9,7 @@
   /* margin-top: 120px; */
 }
 .header-left {
-  margin-top: 70px;
+  margin-top: 85px;
 }
 .header-left h3 {
   font-size: 40px;
@@ -76,12 +76,19 @@
   }
   .header-left-buttons{
     margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .header-left-buttons a{
     margin-right: 15px;
   }
   .header-left-buttons a img{
     width: 130px;
+  }
+  .header-right {
+    display: flex;
+    justify-content: center;
   }
   .header-right-image img{
     width: 300px;

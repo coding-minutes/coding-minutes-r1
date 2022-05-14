@@ -38,15 +38,15 @@ const Newsletter = () => {
         setUser({
           email: "",
         });
-        alert("Thanks for subscribing!");
+        alert("Thanks for Subscribing!");
       }
       else {
-        alert("Please Fill All The Fields");
+        alert("Please fill all the Fields");
       }
     } 
     else 
     {
-      alert("Please Enter Valid Email");
+      alert("Please enter a valid Email");
     }
   };
 
@@ -56,8 +56,8 @@ const Newsletter = () => {
   return (
     <div class="newsletter">
       <p>
-        Hey coder, sign up to never miss an update when we upload a new course or announce giveaways! <br/>
-        We promise we wont spam, we will send only a maximum of 2 emails a month
+        Hey Coders !! <br/> <br/> Subscribe to our newsletter so that you never miss any update when a new course is launched or we announce giveaways! <br/>
+        We promise we won't spam. 
       </p>
       <form method="POST">
         <div class="text">
@@ -73,7 +73,7 @@ const Newsletter = () => {
           />
           <button onClick={postData}>
             {/* <AiOutlineArrowRight style={{ paddingTop: "3px" }} /> */}
-            Submit
+            Subscribe
           </button>
         </div>
       </form>
