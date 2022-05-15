@@ -4,6 +4,8 @@ import learnMoreImage from "../../assets/Images/main/learn-more.svg";
 import exploreCoursesImage from "../../assets/Images/main/explore-courses.svg";
 import headerImage from "../../assets/Images/main/header-image.png";
 
+import cmYearFirst from '../../assets/Images/main/event-images/cm-year-first.svg'
+
 const Header = () => {
   return (
     <div className="components-outer-container">
@@ -11,8 +13,8 @@ const Header = () => {
         <div className="header-internal-container">
           <div className="header-left">
             <div className="header-left-tagline">
-              <h3>Kickstart your</h3>
-              <h3 className="h3-second">Coding Career in Minutes</h3>
+              <h3>Coding Minutes turns 1!</h3>
+              <h3 className="h3-second">Get <span>90% off</span> on all our courses!!</h3>
             </div>
             <div className="header-left-text">
               <p>

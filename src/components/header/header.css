@@ -22,6 +22,17 @@
   -webkit-text-fill-color: transparent;
   font-weight:600;
 }
+
+.h3-second {
+  margin-top: 10px;
+}
+
+.h3-second span {
+  font-weight: bold;
+  font-size: 40px !important;
+  text-decoration: underline !important;
+}
+
 .header-left-text{
   margin-top: 30px;
   font-size: 18px;
@@ -40,6 +51,10 @@
 
 .header-left-buttons a img {
   width: 150px;
+}
+
+.header-right-image {
+  /* margin-top: 60px; */
 }
 
 .header-right-image img {
@@ -67,7 +82,8 @@
     margin-top: 20px;
   }
   .header-left h3{
-    font-size: 30px;
+    font-size: 27px;
+    /* font-size: 30px; */
     line-height: 50px;
   }
   .header-left-text{
