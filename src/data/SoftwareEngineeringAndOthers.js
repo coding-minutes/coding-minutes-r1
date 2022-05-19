@@ -6,7 +6,7 @@ export const SoftwareEngineeringAndOthers = [
         courseThumbnail : gitAndGithub,
         courseDifficulty : "Beginners to Advanced 🔥🔥🔥",
         courseDifficultyColor : "green",
-        courseTitle : "Git & Github Master course (2021)",
+        courseTitle : "Git & GitHub Master Course (2022)",
         courseMentor : "Mohit Uniyal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.8",
