@@ -16,7 +16,7 @@ import Advertisement from './advertisement/Advertisement'
 const Home = () => {
     return (
         <>
-            <Advertisement />
+            {/* <Advertisement /> */}
             <Navbar />
             <Header />
             <Statistics />

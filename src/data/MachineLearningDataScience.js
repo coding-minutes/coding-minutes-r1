@@ -15,7 +15,7 @@ export const MachineLearningDataScience = [
         courseMentor : "Mohit Uniyal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink: "https://www.udemy.com/course/python-data-science-master-course/?couponCode=BDAY360"
+        udemyLink: "https://www.udemy.com/course/python-data-science-master-course/?couponCode=MAY420"
     },
     {
         courseThumbnail : machineLearningEssentials,

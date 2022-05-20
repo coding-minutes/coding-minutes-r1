@@ -12,7 +12,7 @@ export const ProgrammingForBeginners = [
         courseMentor : "Prateek Narang",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.8",
-        udemyLink : "https://www.udemy.com/course/learn-coding-for-beginners/?couponCode=BDAY360",
+        udemyLink : "https://www.udemy.com/course/learn-coding-for-beginners/?couponCode=MAY420",
     },
     {
         courseThumbnail : CppProgrammingEssentials,
@@ -22,7 +22,7 @@ export const ProgrammingForBeginners = [
         courseMentor : "Prateek Narang",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink : "https://www.udemy.com/course/c-plus-plus-programming-beginners/?couponCode=BDAY360",
+        udemyLink : "https://www.udemy.com/course/c-plus-plus-programming-beginners/?couponCode=MAY420",
     },
     // {
     //     courseThumbnail : JavaEssentials,
@@ -42,7 +42,7 @@ export const ProgrammingForBeginners = [
         courseMentor : "Mohit Uniyal, Prateek Narang",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "5.0",
-        udemyLink : "https://www.udemy.com/course/python-programming-beginners-bootcamp/?couponCode=BDAY360"
+        udemyLink : "https://www.udemy.com/course/python-programming-beginners-bootcamp/?couponCode=MAY420"
     },
     
 ]

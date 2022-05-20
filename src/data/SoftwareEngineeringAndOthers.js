@@ -10,6 +10,6 @@ export const SoftwareEngineeringAndOthers = [
         courseMentor : "Mohit Uniyal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.8",
-        udemyLink : "https://www.udemy.com/course/git-github-master-course/?couponCode=BDAY360"
+        udemyLink : "https://www.udemy.com/course/git-github-master-course/?couponCode=MAY420"
     },
 ]

@@ -13,7 +13,7 @@ export const DataStructuresAndCompetitive = [
         courseMentor : "Prateek Narang",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink : "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?couponCode=BDAY360",
+        udemyLink : "https://www.udemy.com/course/cpp-data-structures-algorithms-prateek-narang/?couponCode=MAY420",
     },
     {
         courseThumbnail : dataStructuresLevelUpImage,
@@ -23,7 +23,7 @@ export const DataStructuresAndCompetitive = [
         courseMentor : "Prateek Narang",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink : "https://www.udemy.com/course/cpp-data-structures-algorithms-levelup-prateek-narang/?couponCode=BDAY360"
+        udemyLink : "https://www.udemy.com/course/cpp-data-structures-algorithms-levelup-prateek-narang/?couponCode=MAY420"
     },
     {
         courseThumbnail : competitiveProgrammingImage,
@@ -33,6 +33,6 @@ export const DataStructuresAndCompetitive = [
         courseMentor : "Prateek Narang, Apaar Kamal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink : "https://www.udemy.com/course/competitive-programming-algorithms-coding-minutes/?couponCode=BDAY360"
+        udemyLink : "https://www.udemy.com/course/competitive-programming-algorithms-coding-minutes/?couponCode=MAY420"
     },
 ]
