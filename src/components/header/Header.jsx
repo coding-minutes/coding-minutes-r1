@@ -13,8 +13,8 @@ const Header = () => {
         <div className="header-internal-container">
           <div className="header-left">
             <div className="header-left-tagline">
-              <h3>Sale ends today 🚀</h3>
-              <h3 className="h3-second">Claim all the courses at 85% off!</h3>
+              <h3>Kickstart your </h3>
+              <h3 className="h3-second">Coding Career in Minutes</h3>
             </div>
             <div className="header-left-text">
               <p>
