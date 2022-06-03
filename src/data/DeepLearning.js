@@ -11,7 +11,7 @@ export const DeepLearning = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink : "#machine-learning"
+        udemyLink : "/deep-learning"
     },
     {
         courseThumbnail : computerVisionSpecialization,
@@ -21,7 +21,7 @@ export const DeepLearning = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink : "#machine-learning"
+        udemyLink : "/computer-vision-specialisation"
     },
     {
         courseThumbnail : naturalLanguageProcessing,
@@ -31,6 +31,6 @@ export const DeepLearning = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink : "#machine-learning"
+        udemyLink : "/natural-language"
     },
 ]

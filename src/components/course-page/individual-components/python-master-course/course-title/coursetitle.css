@@ -1,0 +1,101 @@
+.course-title-outer-container {
+    background: #F9F9F9;
+}
+.course-title-inner-container {
+    padding: 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 140px; */
+    justify-content: space-between;
+}
+.course-title-left {
+    padding-left: 20px;
+}
+.course-title-inner-container .course-title-left .title {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 30px;
+}
+.course-title-left .title h3 {
+    font-size: 25px;
+}
+.course-title-left .price-info{
+padding-top: 30px;
+}
+.price-info .first {
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 18px;
+}
+.price-info .middle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #B9B9C0;
+    text-decoration: line-through;
+    margin-right: 18px;
+}
+.price-info .last {
+    background: linear-gradient(90deg, #F77B26 0%, #F55A47 100%);
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.udemy-info {
+    display: flex;
+    align-items: center;
+}
+.udemy-info a {
+    background: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
+    border-radius: 100px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.course-title-right {
+    margin-left: auto;
+}
+
+
+@media screen and (max-width:1074px) {
+.course-title-inner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-content: center;
+}
+.course-title-right{
+    margin-left: 0;
+    margin: auto;
+}
+    
+}
+
+@media screen and (max-width:450px) {
+    .course-title-inner-container {
+        padding: 20px 20px;
+    }
+    .title img {
+        display: none;
+    }
+    .udemy-info {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .price-info .middle {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .udemy-info a {
+        width: max-content;
+        margin-bottom: 10px;
+    }
+    iframe {
+     width: 300px;   
+     height: 200px;
+    }
+}

@@ -11,7 +11,7 @@ export const SpecialisationOnAlgorithms = [
         courseMentor : "Prateek Narang, Apaar Kamal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.8",
-        udemyLink : "https://www.udemy.com/course/graph-theory-algorithms-for-competitive-programming/?couponCode=MAY420"
+        udemyLink : "/graph-algorithms"
     },
     {
         courseThumbnail : GameTheory,
@@ -21,7 +21,7 @@ export const SpecialisationOnAlgorithms = [
         courseMentor : " Apaar Kamal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "5.0",
-        udemyLink : "https://www.udemy.com/course/game-theory-algorithms-in-competitive-programming-course/?couponCode=MAY420"
+        udemyLink : "/game-theory"
     },
     {
         courseThumbnail : DynamicProgramming,
@@ -31,6 +31,6 @@ export const SpecialisationOnAlgorithms = [
         courseMentor : "Prateek Narang, Apaar Kamal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink : "https://www.udemy.com/course/dynamic-programming-master-course-coding-minutes/?couponCode=MAY420"
+        udemyLink : "/dynamic-programming"
     },
 ]

@@ -17,6 +17,8 @@ import {MachineLearningDataScience} from "../../data/MachineLearningDataScience"
 import {DeepLearning} from "../../data/DeepLearning"
 import {SoftwareEngineeringAndOthers} from "../../data/SoftwareEngineeringAndOthers"
 
+import { Link } from "react-router-dom";
+
 const LearningPaths = () => {
   return (
     <div className="learning-path-container">
@@ -74,7 +76,7 @@ const LearningPaths = () => {
                             <span className="course-rating">
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <a href={data.udemyLink} target="_blank"><img src={exploreNowImage} alt="" /></a>
+                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
@@ -105,7 +107,7 @@ const LearningPaths = () => {
                             <span className="course-rating">
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <a href={data.udemyLink} target="_blank"><img src={exploreNowImage} alt="" /></a>
+                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
@@ -134,7 +136,7 @@ const LearningPaths = () => {
                             <span className="course-rating">
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <a href={data.udemyLink} target="_blank"><img src={exploreNowImage} alt="" /></a>
+                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
@@ -162,7 +164,7 @@ const LearningPaths = () => {
                             <span className="course-rating">
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <a href={data.udemyLink}><img src={exploreNowImage} alt="" /></a>
+                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
@@ -218,7 +220,7 @@ const LearningPaths = () => {
                             <span className="course-rating">
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <a href={data.udemyLink} target="_blank"><img src={exploreNowImage} alt="" /></a>
+                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>

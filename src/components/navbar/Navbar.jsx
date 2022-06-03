@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="navbar-outer-container">
         <div className="navbar-internal-container" id="home">
           <nav className="navigation">
-            <a href="#home" className="brand-name">
+            <a href="/" className="brand-name">
               <img src={Logo} alt="" />
             </a>
             <div
@@ -31,13 +31,13 @@ const Navbar = () => {
             >
               <ul>
                 <li>
-                  <a href="#home" >Home</a>
+                  <a href="/#home" >Home</a>
                 </li>
                 <li>
-                  <a href="#courses">Courses</a>
+                  <a href="/#courses">Courses</a>
                 </li>
                 <li>
-                  <a href="#campus-captains">Campus Captains</a>
+                  <a href="/#campus-captains">Campus Captains</a>
                 </li>
 
                 <li>
@@ -48,10 +48,10 @@ const Navbar = () => {
                 </li>
                
                 <li>
-                  <a href="#team">Team</a>
+                  <a href="/#team">Team</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact us</a>
+                  <a href="/#contact">Contact us</a>
                 </li>
               </ul>
             </div>

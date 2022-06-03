@@ -15,7 +15,7 @@ export const MachineLearningDataScience = [
         courseMentor : "Mohit Uniyal",
         courseRatingStars : "⭐⭐⭐⭐⭐",
         courseRatingNumber: "4.7",
-        udemyLink: "https://www.udemy.com/course/python-data-science-master-course/?couponCode=MAY420"
+        udemyLink: "/python-data-science"
     },
     {
         courseThumbnail : machineLearningEssentials,
@@ -25,7 +25,7 @@ export const MachineLearningDataScience = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink: "#home"
+        udemyLink: "/machine-learning"
     },
     {
         courseThumbnail : deepLearningEssentials,
@@ -35,7 +35,7 @@ export const MachineLearningDataScience = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink : "#home"
+        udemyLink : "/deep-learning"
     },
     {
         courseThumbnail : computerVisionSpecialization,
@@ -45,7 +45,7 @@ export const MachineLearningDataScience = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink : "#home"
+        udemyLink : "/computer-vision-specialisation"
     },
     {
         courseThumbnail : naturalLanguageProcessing,
@@ -55,6 +55,6 @@ export const MachineLearningDataScience = [
         courseMentor : "Prateek Narang, Mohit Uniyal",
         courseRatingStars : "Coming Soon",
         courseRatingNumber: "",
-        udemyLink : "#home"
+        udemyLink : "/natural-language"
     },
 ]
