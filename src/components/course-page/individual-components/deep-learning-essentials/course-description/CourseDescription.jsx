@@ -26,7 +26,7 @@ const CourseDescription = () => {
                   <span>Become a 10x Problem Solver</span>
                   <span>Learn to apply Data Structures</span>
                   <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Leran to write Complex Codes</span>
+                  <span>Learn to write Complex Codes</span>
                   <span>Master Dynamic Programming and Graphs</span>
                   <span>150+ carefully Curated Problems </span>
                   <span>BONUS : Build a LRU Cache</span>
