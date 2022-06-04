@@ -19,7 +19,7 @@ const CompCoding = () => {
     <CourseDescription />
     <BuyOnUdemy />
     <FAQ />
-    <Footer />2
+    <Footer />
   </div>
   )
 }

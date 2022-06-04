@@ -14,7 +14,7 @@ const DeepLearning = () => {
   
   return (
     <div>
-      5
+      
     <Navbar />
     <CourseTitle />
     <CourseDescription />

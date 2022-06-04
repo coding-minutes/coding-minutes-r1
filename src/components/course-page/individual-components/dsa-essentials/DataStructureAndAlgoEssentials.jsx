@@ -13,7 +13,7 @@ const DataStructureAndAlgoEssentials = () => {
 
   
     return (
-      <div>6
+      <div>
       <Navbar />
       <CourseTitle />
       <CourseDescription />

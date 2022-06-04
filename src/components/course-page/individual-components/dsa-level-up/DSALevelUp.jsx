@@ -14,7 +14,7 @@ const DSALevelUp = () => {
   
   return (
     <div>
-    <Navbar />7
+    <Navbar />
     <CourseTitle />
     <CourseDescription />
     <BuyOnUdemy />

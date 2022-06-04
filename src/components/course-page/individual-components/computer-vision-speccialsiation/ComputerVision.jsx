@@ -19,7 +19,7 @@ const ComputerVision = () => {
     <CourseDescription />
     <BuyOnUdemy />
     <FAQ />
-    <Footer />3
+    <Footer />
   </div>
   )
 }

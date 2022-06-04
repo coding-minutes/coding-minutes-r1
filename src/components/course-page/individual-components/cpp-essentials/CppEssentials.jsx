@@ -19,7 +19,7 @@ const CppEssentials = () => {
       <CourseDescription />
       <BuyOnUdemy />
       <FAQ />
-      <Footer />4
+      <Footer />
     </div>
   );
 };

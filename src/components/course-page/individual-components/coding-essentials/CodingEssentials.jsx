@@ -23,7 +23,7 @@ const CodingEssentials = () => {
       <BuyOnUdemy />
       <FAQ />
       <Footer />
-      1
+      
     </div>
   );
 };
