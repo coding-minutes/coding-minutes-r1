@@ -13,8 +13,7 @@ const CourseTitle = () => {
               <h3>Git & GitHub Master Course (2022)</h3>
             </div>
             <div className="short-info">
-              The only course you need to master problem solving using Data
-              Structures and Algorithms in C++
+             Git & GitHub Master Course is now on #Udemy!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

@@ -13,8 +13,7 @@ const CourseTitle = () => {
               <h3>Competitive Programming Essentials, Master Algorithms</h3>
             </div>
             <div className="short-info">
-              The only course you need to master problem solving using Data
-              Structures and Algorithms in C++
+              Competitive Programming Essentials, Master Algorithms Course is now on #Udemy!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

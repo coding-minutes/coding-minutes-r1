@@ -13,8 +13,7 @@ const CourseTitle = () => {
               <h3>Game Theory Algorithms for Competitive Programming</h3>
             </div>
             <div className="short-info">
-              The only course you need to master problem solving using Data
-              Structures and Algorithms in C++
+              Game Theory Algorithms for Competitive Programming Course is now on #Udemy!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

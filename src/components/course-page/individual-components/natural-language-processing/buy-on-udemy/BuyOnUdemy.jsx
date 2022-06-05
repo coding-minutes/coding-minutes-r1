@@ -14,7 +14,7 @@ const BuyOnUdemy = () => {
             <h3>Coding Skills to Next Level?</h3>
             <p>Join the Course Now!</p>
             <a href="#">
-              Enroll now on Udemy
+             Coming Soon
             </a>
           </div>
           <div className="buy-on-udemy-right">

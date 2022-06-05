@@ -13,8 +13,7 @@ const CourseTitle = () => {
               <h3>Computer Vision Specialisation</h3>
             </div>
             <div className="short-info">
-              The only course you need to master problem solving using Data
-              Structures and Algorithms in C++
+              Computer Vision Specialisation Course is coming on #Udemy!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>
@@ -22,8 +21,8 @@ const CourseTitle = () => {
               <span className="last">Use code : MAY420</span>
             </div>
             <div className="udemy-info">
-              <a href="#">Enroll now on Udemy</a>
-              <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
+              <a href="#">Coming Soon</a>
+              {/* <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span> */}
             </div>
           </div>
           <div className="course-title-right">
