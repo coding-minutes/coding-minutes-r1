@@ -1,7 +1,7 @@
 import React from 'react'
 import './headerBanner.css'
 
-import headerBannerImage from '../../assets/Images/main/headerBanner.png'
+import headerBannerImage from '../../assets/Images/main/headerBanner.svg'
 
 const HeaderBanner = () => {
     return (

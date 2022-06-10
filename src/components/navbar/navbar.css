@@ -9,8 +9,7 @@
 }
 .navbar-internal-container {
   display: flex;
-  /* height: 90px; */
-  padding: 12px 0;
+  height: 90px;
   align-items: center;
 
   
