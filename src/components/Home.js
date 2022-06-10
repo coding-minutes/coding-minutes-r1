@@ -12,11 +12,13 @@ import FAQ from './faq/FAQ'
 import Footer from './footer/Footer'
 import DiscordDashboard from './discord/DiscordDashboard'
 import Advertisement from './advertisement/Advertisement'
+import HeaderBanner from './header-banner/HeaderBanner'
 
 const Home = () => {
     return (
         <>
             {/* <Advertisement /> */}
+            <HeaderBanner/>
             <Navbar />
             <Header />
             <Statistics />
