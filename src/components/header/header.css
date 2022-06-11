@@ -9,7 +9,7 @@
   /* margin-top: 120px; */
 }
 .header-left {
-  margin-top: 85px;
+  margin-top: 130px;
 }
 .header-left h3 {
   font-size: 40px;
@@ -20,7 +20,7 @@
   background: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight:600;
+  font-weight: 600;
 }
 
 .h3-second {
@@ -33,28 +33,51 @@
   text-decoration: underline !important;
 }
 
-.header-left-text{
+.header-left-text {
   margin-top: 30px;
   font-size: 18px;
   font-weight: 300;
 }
-.header-left-text span{
+.header-left-text span {
   font-weight: 500;
 }
 .header-left-buttons {
   display: flex;
   margin-top: 30px;
 }
-.header-left-buttons a{
+.header-left-buttons a {
   margin-right: 20px;
+  margin-top: 10px;
+  display: block;
 }
 
 .header-left-buttons a img {
-  width: 150px;
+  width: 200px;
+  background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+  margin: 1px;
+  z-index: -1;
+}
+.header-left-buttons a span {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+
+  background: white;
+  color: #5848ea;
+  font-weight: 500;
+  border: 2px solid #5848ea;
+  transition: all 300ms ease;
+}
+.header-left-buttons a span:hover {
+
+  background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+  color: white !important;
+  border: 2px solid white;
 }
 
 .header-right-image {
-  /* margin-top: 60px; */
+  margin-top: 40px;
 }
 
 .header-right-image img {
@@ -62,18 +85,21 @@
 }
 
 /* ============ Media Query (Medium Devices) ============= */
-@media screen and (max-width:1200px) {
-  .header-internal-container{
+@media screen and (max-width: 1200px) {
+  .header-internal-container {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .header-right-image img{
+  .header-right-image img {
     margin-top: 30px;
+  }
+  .header-left {
+    margin-top: 85px;
   }
 }
 
 /* ============ Media Query (Small Devices) ========= */
-@media screen and (max-width:674px) {
+@media screen and (max-width: 674px) {
   .header-outer-container {
     margin-left: 20px;
     margin-right: 20px;
@@ -81,32 +107,52 @@
   .header-left {
     margin-top: 20px;
   }
-  .header-left h3{
+  .header-left h3 {
     font-size: 27px;
     /* font-size: 30px; */
     line-height: 50px;
   }
-  .header-left-text{
+  .header-left-text {
     margin-top: 15px;
     font-size: 16px;
   }
-  .header-left-buttons{
+  .header-left-buttons {
     margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .header-left-buttons a{
+  .header-left-buttons a {
     margin-right: 15px;
   }
-  .header-left-buttons a img{
+  .header-left-buttons a img {
     width: 130px;
   }
+  .header-left-buttons a span {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+  
+    background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    transition: all 300ms ease;
+  }
+  .header-left-buttons a span:hover {
+  
+    background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+    color: white !important;
+    border: 2px solid white;
+  }
+  
+
   .header-right {
     display: flex;
     justify-content: center;
   }
-  .header-right-image img{
+  .header-right-image img {
     width: 300px;
   }
 }

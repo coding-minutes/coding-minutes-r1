@@ -9,10 +9,23 @@
     margin-left: 80px;
     margin-right: 80px;
 }
+.headerImagePhone {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .headerImage {
+        display: none;
+    }
+    .headerImagePhone {
+        display: block;
+        width: 100%;
+        height: 100px;
+    }
+}
 
 @media screen and (max-width:674px) {
     .header-banner-container img{
-        height: 30px;
-
+        /* height: 30px; */
     }
 }

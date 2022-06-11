@@ -13,27 +13,28 @@ const Header = () => {
         <div className="header-internal-container">
           <div className="header-left">
             <div className="header-left-tagline">
-              <h3>Kickstart your </h3>
-              <h3 className="h3-second">Coding Career in Minutes</h3>
+              <h3>Summer Sale is on! </h3>
+              <h3 className="h3-second">Get 90% off on all courses</h3>
             </div>
             <div className="header-left-text">
               <p>
                 <span>Pocket friendly courses</span> with interactive content,
-                top-notch instructors, TA support, Projects & Assignments.
+                top-notch <br/> instructors, TA support, Projects & Assignments.
               </p>
             </div>
             <div className="header-left-buttons">
               <div className="explore-courses">
                 <a href="#courses">
-                  <img src={exploreCoursesImage} alt="" />
+                  {/* <img src={exploreCoursesImage} alt="" /> */}
+                  <span>Explore courses</span>
                 </a>
               </div>
-              <div className="learn-more">
-                <a href="#courses">
+              {/* <div className="learn-more"> */}
+                {/* <a href="#courses"> */}
                   {/* ▶ Learn more */}
-                  <img src={learnMoreImage} alt="" />
-                </a>
-              </div>
+                  {/* <img src={learnMoreImage} alt="" /> */}
+                {/* </a> */}
+              {/* </div> */}
             </div>
           </div>
           <div className="header-right">

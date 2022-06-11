@@ -1,6 +1,7 @@
 import React from "react";
 import "./statistics.css";
-import CMStatistics from "../../assets/Images/main/cm-statistics.svg";
+// import CMStatistics from "../../assets/Images/main/cm-statistics.svg";
+import CMStatistics from "../../assets/Images/main/cm-statistics-updated.svg";
 
 const Statistics = () => {
   return (

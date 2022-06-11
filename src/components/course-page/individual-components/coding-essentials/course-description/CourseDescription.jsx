@@ -68,7 +68,7 @@ const CourseDescription = () => {
                 </div>
                 <div className="bottom-child">
                   <img src={dartIcon} alt="" />
-                  <span>Industry vetted curriculumt</span>
+                  <span>Industry vetted curriculum</span>
                 </div>
                 <div className="bottom-child">
                   <img src={webDesignIcon} alt="" />
