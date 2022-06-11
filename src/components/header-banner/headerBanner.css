@@ -19,8 +19,9 @@
     }
     .headerImagePhone {
         display: block;
-        width: 100%;
+        width: 90%;
         height: 100px;
+        /* display: none; */
     }
 }
 

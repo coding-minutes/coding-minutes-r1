@@ -18,8 +18,8 @@ const Header = () => {
             </div>
             <div className="header-left-text">
               <p>
-                <span>Pocket friendly courses</span> with interactive content,
-                top-notch <br/> instructors, TA support, Projects & Assignments.
+              <span className="header-breakPoint">   <span>Pocket friendly courses</span> with interactive content, top-notch </span>
+                instructors, TA support, Projects & Assignments.
               </p>
             </div>
             <div className="header-left-buttons">

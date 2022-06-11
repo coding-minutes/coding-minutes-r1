@@ -45,6 +45,10 @@
   display: flex;
   margin-top: 30px;
 }
+.header-breakPoint {
+  display: block;
+  font-weight: 300 !important;
+}
 .header-left-buttons a {
   margin-right: 20px;
   margin-top: 10px;
@@ -73,7 +77,7 @@
 
   background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   color: white !important;
-  border: 2px solid white;
+  border: 2px solid #9549eb;
 }
 
 .header-right-image {
@@ -110,14 +114,20 @@
   .header-left h3 {
     font-size: 27px;
     /* font-size: 30px; */
-    line-height: 50px;
+    line-height: initial;
+  }
+  .h3-second {
+    margin-top: 10px;
+  }
+  .header-breakPoint {
+    display: inline;
   }
   .header-left-text {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     font-size: 16px;
   }
   .header-left-buttons {
-    margin-top: 25px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
