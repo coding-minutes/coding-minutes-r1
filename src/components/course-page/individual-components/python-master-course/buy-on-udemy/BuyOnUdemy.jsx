@@ -13,7 +13,7 @@ const BuyOnUdemy = () => {
             <h3>Ready to take your</h3>
             <h3>Coding Skills to Next Level?</h3>
             <p>Join the Course Now!</p>
-            <a href="https://www.udemy.com/course/python-programming-beginners-bootcamp/?couponCode=JUNE360"  target="_blank">
+            <a href="https://www.udemy.com/course/python-programming-beginners-bootcamp/?couponCode=JUNE420"  target="_blank">
               Enroll now on Udemy
             </a>
           </div>

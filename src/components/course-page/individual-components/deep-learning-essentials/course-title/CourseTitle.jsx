@@ -16,9 +16,9 @@ const CourseTitle = () => {
               Deep Learnings Essentials Course is coming soon on #Udemy!
             </div>
             <div className="price-info">
-              <span className="first">₹ 360</span>
+              <span className="first">₹ 420</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : JUNE360</span>
+              <span className="last">Use code : JUNE420</span>
             </div>
             <div className="udemy-info">
               <a href="#">
