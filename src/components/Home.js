@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <>
             {/* <Advertisement /> */}
-            <HeaderBanner/>
+            {/* <HeaderBanner/> */}
             <Navbar />
             <Header />
             <Statistics />
