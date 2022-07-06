@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Python Programming Master course</h3>
+              <h1>Python Programming Master course</h1>
             </div>
             <div className="short-info">
-             Python Programming Master Course is now on #Udemy!
+            Hone your programming skills by learning Python3 - master data structures, OOPS, problem solving and project building!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

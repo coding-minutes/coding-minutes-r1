@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Dynamic Programming Master Course</h3>
+              <h1>Dynamic Programming Master Course</h1>
             </div>
             <div className="short-info">
-              Dynamic Programming Course is now on #Udemy!
+            Ultimate Specialisation on Recursion, Backtracking and Dynamic Programming for Competitive Coding & Interviews.
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

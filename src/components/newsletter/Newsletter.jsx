@@ -56,8 +56,7 @@ const Newsletter = () => {
   return (
     <div class="newsletter">
       <p>
-        Hey Coders !! <br/> <br/> Subscribe to our newsletter so that you never miss any update when a new course is launched or we announce giveaways! <br/>
-        We promise we won't spam. 
+        Hey Coder! <br/> <br/> Subscribe to our newsletter to never miss any updates about new course launch, discounts, blogs, giveaways and hiring opportunities!  
       </p>
       <form method="POST">
         <div class="text">

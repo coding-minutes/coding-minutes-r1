@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ8 from "./faq/FAQ8";
 import Footer from "../../../footer/Footer";
 const DP = () => {
   
@@ -18,7 +18,7 @@ const DP = () => {
     <CourseTitle />
     <CourseDescription />
     <BuyOnUdemy />
-    <FAQ />
+    <FAQ8 />
     <Footer />
   </div>
   )

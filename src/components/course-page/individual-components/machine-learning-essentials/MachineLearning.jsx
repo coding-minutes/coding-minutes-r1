@@ -17,12 +17,13 @@ const MachineLearning = () => {
   
   return (
     <div>
-    <Navbar />
+    {/* <Navbar />
     <CourseTitle />
     <CourseDescription />
     <BuyOnUdemy />
     <FAQ />
-    <Footer />
+    <Footer /> */}
+    Coming Soon!
   </div>
   )
 }

@@ -30,18 +30,21 @@ const Navbar = () => {
               }
             >
               <ul>
-                <li>
+                {/* <li>
                   <a href="/#home" >Home</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="/#courses">Courses</a>
+                </li>
+                <li>
+                  <a href="https://blog.codingminutes.com/">Blogs</a>
                 </li>
                 <li>
                   <a href="/#campus-captains">Campus Captains</a>
                 </li>
 
                 <li>
-                  <a href="https://discord.gg/jwvtDtnkJv" target="_blank">Discord</a>
+                  <a href="https://discord.gg/jwvtDtnkJv" target="_blank">Community</a>
                 </li>
                 <li>
                   <a href="https://ide.codingminutes.com" target="_blank">Online IDE</a>

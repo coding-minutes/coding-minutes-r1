@@ -19,54 +19,45 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Understand & implement important techniques in Competitive Programming</span>
+                  <span>Learn advanced techniques to optimise naive solutions</span>
+                  <span>Ace code-thons and online coding competitons on Codeforces, HackerRank</span>
+                  <span>Get ready for ACM-ICPC, Google Kickstart, CodeJam & more</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime
-                  you get a coding question?
+                Equip yourself with essential programming techniques required for <span>ACM-ICPC, Google CodeJam, Kickstart, Facebook HackerCup</span> & more. Welcome to <span>Competitive Programming Essentials -</span> the ultimate specialisation on <span>Algorithms</span>  for Competitive Coders!
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the
-                  only course that provides you an ultimate practice on problem
-                  solving process and helping you to take your data structures
-                  and algorithms on next level.
+                The online Competitive Programming Essentials by <span>Coding Minutes</span> is a highly exhaustive & rigorous course on Competitive Programming. The 50+ hours course covers the breadth & depth of algorithmic programming starting from a recap of common data structures, and diving deep into essential and advanced algorithms.
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang
-                  from Google.
+                The course structure is well-researched by instructors who not only Competitive Coders but have worked with companies like <span>Google & Scaler.</span> This course will help you to get a solid grip of fundamental concepts & comes with practice questions so that you sail through online coding challenges and code-athons with ease. The course is divided into 10 modules and 50 sections covering topics like Mathematics, Number Theory, Bitmasking, Inclusion-Exclusion, Meet in the Middle Techniques, Segment Trees, Fenwick Trees, Square Root Decomposition, Graph Algorithms, Shortest Paths, Game Theory, Pattern Matching, Binary Search, Greedy Techniques, Dynamic Programming and even more.
                 </p>
+                <p>
+                The problem setters of the course are <span>Siddharth Singhal</span> and <span>Rajdeep Singh.</span> Both are upcoming software developers at Microsoft and Razorpay respectively. They both exhibit excellent knowledge of Data Structures and Algorithms and are avid competitive programmers.
+                </p>
+                <p>
+                Many top companies like <span>Google, Facebook, Amazon, Directi, CodeNation, Goldman Sachs</span> etc encourage Competitive Programming and conduct coding competitions to hire smart people who can solve problems.
+                </p>
+                <p><span>Course Highlights</span></p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>Instructors from Google & Scaler Academy</span>
+                  <span>50+ hours of high quality & structured content</span>
+                  <span>In-depth coverage of all topics</span>
+                  <span>Exhaustive Course Curriculum</span>
+                  <span>Code Evaluation on Coding Exercises</span>
+                  <span>Lifetime Access</span>
                 </div>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -88,7 +79,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
                 <img src={prateekBhaiyaImage} alt="" />

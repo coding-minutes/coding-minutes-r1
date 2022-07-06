@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Game Theory Algorithms for Competitive Programming</h3>
+              <h1>Game Theory Algorithms for Competitive Programming</h1>
             </div>
             <div className="short-info">
-              Game Theory Algorithms for Competitive Programming Course is now on #Udemy!
+            Dive deep into game theory algorithms, learn & apply these techniques for Codeforces & Competitive Programming problems!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

@@ -18,54 +18,64 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Complete Python3 Programming</span>
+                  <span>Logic Building & Problem Solving</span>
+                  <span>Object Oriented Programming</span>
+                  <span>Inheritance & Polymorphism</span>
+                  <span>Intermediate - Advanced Python Concepts</span>
+                  <span>Modules & Packages</span>
+                  <span>File & Exception Handling</span>
+                  <span>30+ Algorithmic Problems</span>
+                  <span>Project - Markov Text Generation</span>
+                  <span>Project - URL Shortner</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime
-                  you get a coding question?
+                Welcome to <span>Python Programming Master Course (2021) -</span> <span>the most comprehensive & robust Python3 Course</span> by <span>Coding Minutes</span> designed for absolute beginners & developers!
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the
-                  only course that provides you an ultimate practice on problem
-                  solving process and helping you to take your data structures
-                  and algorithms on next level.
+                Python is the hottest programming language of the 21st century. It is widely in <span>Machine Learning & Data Science.</span> Many top companies like <span>Instagram, Spotify, Netflix, Google, Dropbox</span> use python extensively for their projects which includes building <span>web apps, data pipelines, data analysis & visualisation, deep learning</span> at scale and large scale distributed systems.
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang
-                  from Google.
+                This is the <span>most comprehensive and detailed course</span> for the Python programming language taught by <span>Mohit Uniyal who is a data scientist turned instructor & Prateek Narang, a Google Engineer & algorithms instructor!</span> Both the instructors have taught thousands of students in the last few years and have received amazing reviews. Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you!
+                </p>
+                <p>
+                With <span>over 200+ lectures</span> and more than 18 hours of video, this course ensures you build a solid foundation in Python. This course includes quizzes, mock tests, coding exercises and <span>practical projects</span> - URL Shortener & Text Generation.
+                </p>
+                <p>
+                This is a completely hands-on course, with interactive videos & coding in <span>Jupyter Notebooks</span>. You get the <span>complete code repository</span> to practice & revise on your machine.
                 </p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>Installing Python</span>
+                  <span>Different ways of running Python code</span>
+                  <span>Python Fundamentals - Syntax</span>
+                  <span>Operators and Expressions</span>
+                  <span>Conditional Statements</span>
+                  <span>For & while Loop</span>
+                  <span>Lists & Tuples</span>
+                  <span>Sets & Dictionaries</span>
+                  <span>Functions</span>
+                  <span>Arbitrary and Keyword arguments</span>
+                  <span>Built-in Functions</span>
+                  <span>File Handling & Error Handling</span>
+                  <span>Modules & Packages</span>
+                  <span>Object-Oriented Programming</span>
+                  <span>Inheritance & Polymorphism</span>
+                  <span>Iterators</span>
+                  <span>Generators</span>
+                  <span>Decorators</span>
                 </div>
+                <br />
+                <p><span>So what are you waiting for? Join Prateek & Mohit in this amazing journey, and start your journey of becoming a Python Champion today!  Looking forward to see you in the course.</span></p>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -87,7 +97,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
                 <img src={mohitBhaiyaImage} alt="" />

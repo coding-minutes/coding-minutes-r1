@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ11 from "./faq/FAQ11";
 import Footer from "../../../footer/Footer";
 const Git = () => {
   
@@ -18,7 +18,7 @@ const Git = () => {
     <CourseTitle />
     <CourseDescription />
     <BuyOnUdemy />
-    <FAQ />
+    <FAQ11 />
     <Footer />
   </div>
   )

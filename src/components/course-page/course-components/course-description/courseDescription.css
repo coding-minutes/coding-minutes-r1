@@ -11,8 +11,6 @@
   gap: 40px;
 }
 
-.description-left {
-}
 .description-left .top .what-you-will-learn {
   border: 1px solid #d8d8d8;
   padding: 20px;
@@ -153,6 +151,7 @@
     }
     .description-right .instructor {
         margin: auto;
+        
     }
     .bottom .bottom-children {
         display: grid;

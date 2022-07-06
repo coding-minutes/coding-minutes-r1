@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ2 from "./faq/FAQ2";
 import Footer from "../../../footer/Footer";
 const PythonMasterCourse = () => {
   
@@ -18,7 +18,7 @@ const PythonMasterCourse = () => {
       <CourseTitle />
       <CourseDescription />
       <BuyOnUdemy />
-      <FAQ />
+      <FAQ2 />
       <Footer />
     </div>
   );

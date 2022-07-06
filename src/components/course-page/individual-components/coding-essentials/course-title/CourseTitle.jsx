@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Coding Essentials, Logic Building for Beginners</h3>
+              <h1>Coding Essentials, Logic Building for Beginners</h1>
             </div>
             <div className="short-info">
-             Coding Essentials, Logic Building for Beginners Course is now on #Udemy!
+            Enter the world of programming, learn fundamental building blocks of programming & problem solving for beginners.
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

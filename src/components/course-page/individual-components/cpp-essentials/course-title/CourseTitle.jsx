@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>C++ Programming Essentials for Beginners</h3>
+              <h1>C++ Programming Essentials for Beginners</h1>
             </div>
             <div className="short-info">
-              C++ Programming Essentials for Beginners Course is now on #Udemy!
+            Beginner friendly course to learn C++ programming in a fun & easy way and enter the world of computer science!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>
@@ -27,15 +27,7 @@ const CourseTitle = () => {
           </div>
           <div className="course-title-right">
             <div className="intro-lecture">
-              <iframe
-                width="400"
-                height="267"
-                src="https://www.youtube-nocookie.com/embed/bN4erfb3cKw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+            <iframe width="400" height="267" src="https://www.youtube.com/embed/i0XRrAK1r2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>

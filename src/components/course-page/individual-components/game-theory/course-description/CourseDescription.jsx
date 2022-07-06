@@ -19,49 +19,52 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Learn in-depth Game Theory Concepts</span>
+                  <span>Learn to solve Competitive Programming Questions</span>
+                  <span>Problems involving Nim Game, Sprague-Grundy Theorem</span>
+                  <span>Combinatorial Games, Subtraction Games, Games as Graphs</span>
+                  <span>Learn by solving Easy, Medium & Hard problems</span>
+                  <span>Hands-on Coding for every Game Theory Challenge</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+                
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime you get a coding question?
+                This hands-on course is designed for <span>everyone</span> to learn & implement Game Theory concepts to solve <span>Competitive Programming Challenges.</span> You will learn how approach Game Theory based questions involving - Nim Game, Sprague Grundy Theorem, Subtraction Games, Combinatorial Games, Graph Games, Take-away games! The course involves both breadth and depth of these topics with enough examples and hands-on coding for each problem.
+               </p>
+                <p>
+                <span>Competitive programming or Sport Programming</span> is a mind sport usually, involving participants trying to program according to provided specifications. Competitive programming is recognised and supported by several multinational software and Internet companies, such as Google and Facebook. Popular Competitive Programming platforms include Codeforces, Codechef, HackerEarth, HackerRank, Spoj and more! This course is designed for both beginners and advanced programmers looking forward to take the next leap in Competitive Programming!
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures and algorithms on next level.
+                Participation in programming contests can increase student enthusiasm for computer science studies. The skills acquired in ICPC-like programming contests also improve career prospects,  which often require candidates to solve complex programming and algorithmic problems on the spot.
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang from Google.
+                This comprehensive course is taught by <span>Apaar Kamal</span>, who is a highly successful competitive coder and popular bootcamp Udemy Instructor and has taught <span>thousands of students</span> in several online and in-person courses over last <span>2+ years.</span> This is <span>deep-dive course,</span> we not just delve into theory but focus on the practical aspects by <span>solving multiple game theory problems of various difficulty levels.</span>
+                </p>
+                <p>
+                The course starts with basics of Game Theory and then diving deeper topics! Here are some of the topics that you will learn in this course.
                 </p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>Combinatorial Games</span>
+                  <span>Take-away Games</span>
+                  <span>N/P Positions</span>
+                  <span>Game of Nim</span>
+                  <span>Nim-Sum</span>
+                  <span>Applications of Nim-Sum</span>
+                  <span>Similar Nim-Games</span>
+                  <span>Games as Graphs</span>
+                  <span>Sprague Grundy Function</span>
+                  <span>Sprague Grundy Theorem</span>
+                  <span>20+ Problems with Code</span>
                 </div>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -83,7 +86,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
              
               <div className="instructor-two instructor">

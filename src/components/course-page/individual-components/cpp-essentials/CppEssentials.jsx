@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ1 from "./faq/FAQ1";
 import Footer from "../../../footer/Footer";
 const CppEssentials = () => {
 
@@ -18,7 +18,7 @@ const CppEssentials = () => {
       <CourseTitle />
       <CourseDescription />
       <BuyOnUdemy />
-      <FAQ />
+      <FAQ1 />
       <Footer />
     </div>
   );

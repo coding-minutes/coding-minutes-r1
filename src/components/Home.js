@@ -11,8 +11,8 @@ import Newsletter from './newsletter/Newsletter'
 import FAQ from './faq/FAQ'
 import Footer from './footer/Footer'
 import DiscordDashboard from './discord/DiscordDashboard'
-import Advertisement from './advertisement/Advertisement'
-import HeaderBanner from './header-banner/HeaderBanner'
+// import Advertisement from './advertisement/Advertisement'
+// import HeaderBanner from './header-banner/HeaderBanner'
 
 const Home = () => {
     return (

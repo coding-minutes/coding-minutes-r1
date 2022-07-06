@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ5 from "./faq/FAQ5";
 import Footer from "../../../footer/Footer";
 const CompCoding = () => {
   
@@ -18,7 +18,7 @@ const CompCoding = () => {
     <CourseTitle />
     <CourseDescription />
     <BuyOnUdemy />
-    <FAQ />
+    <FAQ5 />
     <Footer />
   </div>
   )

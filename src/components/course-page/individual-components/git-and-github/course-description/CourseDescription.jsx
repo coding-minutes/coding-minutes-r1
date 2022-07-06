@@ -19,49 +19,53 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Understand Version Control Systems</span>
+                  <span>Master Git, the most popular VCS</span>
+                  <span>Git Workflow - Staging area, git commits, git diff</span>
+                  <span>Branching - Creating and Merging Branches</span>
+                  <span>Deploying a Git Repository on Github</span>
+                  <span>Using Github Pages to deploy websites</span>
+                  <span>How to collaborate as a team</span>
+                  <span>Moving back and forth in git timeline</span>
+                  <span>Advanced Git Features - Rebasing, Stashing, Branching, Merge Conflicts</span>
+                  <span>Project Work - Create a Web Portfolio</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime you get a coding question?
+                If you are curious to know how big tech giants manage multiple versions of their projects? In this course, you will learn everything related to version control systems.
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures and algorithms on next level.
+                Welcome to the <span>Git & Github Master course (2021).</span> This course is designed for absolute beginners who have no experience in project building and developers who already are working on projects, but want to upskill with the advanced features of git.
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang from Google.
+                Hi, My name is <span>Mohit Uniyal,</span> I'm a data scientist and a programming instructor. I co-created <span>Coding Minutes</span> to help students & developers like you to build a solid foundation & become great programmers.
                 </p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>Version Control Systems</span>
+                  <span>Command Line Tool</span>
+                  <span>Git Introduction</span>
+                  <span>Tracking your projects</span>
+                  <span>Additional Git commands</span>
+                  <span>Non-linear Development: Branching</span>
+                  <span>Non-linear Development: Merging</span>
+                  <span>Non-linear Development: Rebasing</span>
+                  <span>Introduction to Github</span>
+                  <span>Social Coding with Github</span>
+                  <span>Miscellaneous Git Tools</span>
+                  <span>Rewriting History</span>
+                  <span>Project Work : Creating your portfolio website </span>
                 </div>
+                <br />
+                <p>No matter whether you are a student, web developer, mobile developer, data scientist or just a computer programmer. Everyone should have Git & Github in their toolkit. This course the only course you need to master Git & Github. The course covers everything in a practical hands-on manner. You will get a quiz in each section to test your understanding of the topics.</p>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -83,7 +87,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
       
               <div className="instructor-two instructor">

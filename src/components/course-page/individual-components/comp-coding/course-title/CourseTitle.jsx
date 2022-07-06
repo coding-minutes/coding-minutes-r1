@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Competitive Programming Essentials, Master Algorithms</h3>
+              <h1>Competitive Programming Essentials, Master Algorithms</h1>
             </div>
             <div className="short-info">
-              Competitive Programming Essentials, Master Algorithms Course is now on #Udemy!
+            Master competitive coding techniques - maths, number theory, dynamic programming, advanced data structures & algorithms
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>
@@ -27,15 +27,7 @@ const CourseTitle = () => {
           </div>
           <div className="course-title-right">
             <div className="intro-lecture">
-              <iframe
-                width="400"
-                height="267"
-                src="https://www.youtube-nocookie.com/embed/bN4erfb3cKw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+            <iframe width="400" height="267" src="https://www.youtube.com/embed/JDwiZkjR38M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>

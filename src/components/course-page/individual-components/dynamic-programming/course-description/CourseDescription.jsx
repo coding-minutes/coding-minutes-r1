@@ -19,49 +19,50 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Identify what type of problems can be solved using DP</span>
+                  <span>Come with recurrence for most DP Problems</span>
+                  <span>Master the advance DP techniques</span>
+                  <span>Face interviews and online challenges more confidently</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime you get a coding question?
+                Are you feeling brushed-up with data structures and algorithms but often feel stuck when it comes to DP! But no more, we are super happy to present the <span>Dynamic Programming Specialisation Course</span> for everyone, to help you master the important Dynamic Programming Concepts and level up for <span>Competitive Coding & Interviews.</span>
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures and algorithms on next level.
+                The Dynamic Programming Master Course is taught by <span>Apaar Kamal,</span> software engineer at Google & Master on <span>Codeforces</span> along with <span>Prateek Narang,</span> an ex-Google engineer and founder of <span>Coding Minutes.</span> This highly detailed & rigorous curriculum has been designed to ensure your success in online competitions where Dynamic Programming problems are very common these days.
+Many top companies like Google, Facebook, Amazon, Directi, CodeNation, Goldman Sachs etc encourage Competitive Programming and conduct coding competitions to hire smart people who can solve problems.
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang from Google.
+                Dynamic Programming is a popular algorithmic technique in computer programming that helps to efficiently solve a class of problems that have overlapping subproblems and optimal substructure property.
+                </p>
+                <p>
+                If any problem can be divided into subproblems, which in turn are divided into smaller subproblems, and if there are overlapping among these subproblems, then the solutions to these subproblems can be saved for future reference. In this way, algorithm can be improved, and lot of problems can be optimised using Dynamic Programming.
+                </p>
+                <p>
+                The 40+ hours course covers the breadth & depth of dynamic programming starting from a recap of <span>recursion, backtracking,</span> and diving deep into Dynamic Programming techniques like  -
                 </p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>1D, 2D, Multi-dimensional DP</span>
+                  <span>DP and Partition Problems</span>
+                  <span>DP for Combinatorics & Subsequences</span>
+                  <span>DP on Strings</span>
+                  <span>Digit DP</span>
+                  <span>DP on Trees & Graphs</span>
+                  <span>SOS DP and</span>
+                  <span>DP with Bitmasks</span>
+                  <span>DP and Matrix Exponentiation</span>
+                  <span>DP in Game Theory</span>
+                  <span>DP with advanced data structures</span>
                 </div>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -83,7 +84,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
                 <img src={prateekBhaiyaImage} alt="" />

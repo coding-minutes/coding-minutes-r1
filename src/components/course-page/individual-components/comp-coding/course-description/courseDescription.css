@@ -11,8 +11,6 @@
   gap: 40px;
 }
 
-.description-left {
-}
 .description-left .top .what-you-will-learn {
   border: 1px solid #d8d8d8;
   padding: 20px;
@@ -30,7 +28,7 @@
 .learn-columns span {
   display: list-item;
   list-style: disc;
-  font-size: 13px;
+  font-size: 15px;
 }
 .description-left .top .course-overview {
   border: 1px solid #d8d8d8;
@@ -50,7 +48,7 @@
 .overview-columns span {
   display: list-item;
   list-style: disc;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .description-left .bottom {
@@ -95,7 +93,7 @@
 }
 .description-right .instructor p {
   padding: 20px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .description-right .instructor .social-links {
   margin-left: 20px;

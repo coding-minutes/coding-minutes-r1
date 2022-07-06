@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ3 from "./faq/FAQ3";
 import Footer from "../../../footer/Footer";
 const DataStructureAndAlgoEssentials = () => {
 
@@ -18,7 +18,7 @@ const DataStructureAndAlgoEssentials = () => {
       <CourseTitle />
       <CourseDescription />
       <BuyOnUdemy />
-      <FAQ />
+      <FAQ3 />
       <Footer />
     </div>
       );

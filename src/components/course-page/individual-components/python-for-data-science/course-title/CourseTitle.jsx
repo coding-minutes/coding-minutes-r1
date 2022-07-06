@@ -10,10 +10,10 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Python for Data Science Master Course</h3>
+              <h1>Python for Data Science Master Course</h1>
             </div>
             <div className="short-info">
-             Python for Data Science Master Course is now on #Udemy!
+            Level up in Data Science using Python, master Numpy, Pandas, Data Visualisation, Web Scraping, Automation, SQL & more.!
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>
@@ -27,7 +27,7 @@ const CourseTitle = () => {
           </div>
           <div className="course-title-right">
             <div className="intro-lecture">
-              <iframe
+              {/* <iframe
                 width="400"
                 height="267"
                 src="https://www.youtube-nocookie.com/embed/bN4erfb3cKw"
@@ -35,7 +35,8 @@ const CourseTitle = () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-              ></iframe>
+              ></iframe> */}
+              <iframe width="400" height="267" src="https://www.youtube.com/embed/ILXTx4nlbJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>

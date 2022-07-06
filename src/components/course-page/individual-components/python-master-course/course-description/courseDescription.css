@@ -11,8 +11,6 @@
   gap: 40px;
 }
 
-.description-left {
-}
 .description-left .top .what-you-will-learn {
   border: 1px solid #d8d8d8;
   padding: 20px;
@@ -32,7 +30,7 @@
 .learn-columns span {
   display: list-item;
   list-style: disc;
-  font-size: 13px;
+  font-size: 15px;
 }
 .description-left .top .course-overview {
   border: 1px solid #d8d8d8;
@@ -46,6 +44,7 @@
 }
 .course-overview p {
   margin-bottom: 15px;
+  font-size: 15px;
 }
 .overview-columns {
   display: grid;
@@ -54,16 +53,16 @@
   margin-top: 30px;
   gap: 10px;
 }
-.overview-columns span {
+.overview-columns1 span {
   display: list-item;
   list-style: disc;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .description-left .bottom {
   margin-top: 40px;
 }
-.description-left .bottom h4 {
+.description-left .bottom h2 {
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -102,7 +101,7 @@
 }
 .description-right .instructor p {
   padding: 20px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .description-right .instructor .social-links {
   margin-left: 20px;
@@ -119,7 +118,7 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  .course-overview .overview-columns {
+  .course-overview .overview-columns1 {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -160,6 +159,10 @@
     }
     .description-right .instructor {
         margin: auto;
+        width: auto;
+    }
+    .description-right .instructor img {
+      width: 100%;
     }
     .bottom .bottom-children {
         display: grid;

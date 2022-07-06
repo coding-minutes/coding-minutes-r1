@@ -19,17 +19,13 @@
 
 .newsletter p {
      font-size: 15px;
-     letter-spacing: 1px;
+
  }
 
  form {
      margin-top: 20px;
  }
 
- .text {
-    /* display: flex; */
-    /* justify-content: center; */
-}
 
  .newsletter-input {
      padding: 10px;

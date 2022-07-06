@@ -3,7 +3,7 @@ import Navbar from "../../../navbar/Navbar";
 import CourseTitle from "./course-title/CourseTitle";
 import CourseDescription from "./course-description/CourseDescription";
 import BuyOnUdemy from "./buy-on-udemy/BuyOnUdemy";
-import FAQ from "../../../faq/FAQ";
+import FAQ6 from "./faq/FAQ6";
 import Footer from "../../../footer/Footer";
 const GraphAlgorithms = () => {
   
@@ -18,7 +18,7 @@ const GraphAlgorithms = () => {
     <CourseTitle />
     <CourseDescription />
     <BuyOnUdemy />
-    <FAQ />
+    <FAQ6 />
     <Footer />
   </div>
   )

@@ -51,6 +51,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
+  font-size: 15px;
 }
 .navigation-menu li a:hover {
   font-weight: 500;

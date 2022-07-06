@@ -18,49 +18,36 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
+                  <span>Understand the building blocks of programming</span>
+                  <span>Concepts before you start learning programming languages and advanced topics</span>
+                  <span>Identify how to break down a problem statement & build logical thinking mindset</span>
+                  <span>Learn to illustrate the steps required to solve a problem</span>
+                  {/* <span>Learn to apply Data Structures</span>
                   <span>Sliding Window, Hashing, Maps and Sets</span>
                   <span>Learn to write Complex Codes</span>
                   <span>Master Dynamic Programming and Graphs</span>
                   <span>150+ carefully Curated Problems </span>
                   <span>BONUS : Build a LRU Cache</span>
                   <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Practice Questions on All Important Topics</span> */}
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
-                <p>
-                  Do you find yourself feeling like you get "stuck" everytime you get a coding question?
-                </p>
-                <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures and algorithms on next level.
-                </p>
-                <p>
-                  This course is taught by an expert instructor Prateek Narang from Google.
-                </p>
-                <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
-                </div>
+                <h2>Course Overview</h2>
+                <br />
+                <p>Are you an absolute beginner looking forward to kickstart your journey in the programming domain. Coding can be hard skill learn to learn for many but no more. Welcome to <span>Coding Essentials</span>, the most fundamental course that every aspiring programmer should take to kickstart their journey in the world of programming. The course teaches you the fundamental building blocks - before you start writing code in any programming language. </p>
+
+<p>You will understand the basic concepts and techniques to break down a given problem into smaller parts by drawing flowcharts, write pseudocode, and real code is also demonstrated using Python. </p>
+
+<p>The course is your first step towards problem solving, and will help you to get your basics right. After this course, you can easily pursue a course on learning a programming language of your choice, followed by Data Structures, Algorithms & Competitive Programming. Many top companies like <span>Google, Facebook, Amazon, Directi, CodeNation, Goldman Sachs</span> etc encourage Competitive Programming and conduct coding competitions to hire smart people who can solve problems.</p>
+
+<p>This course is taught by <span>Prateek Narang</span>, who is not just a software engineer but a teacher by heart. He has worked with companies like <span>Google</span>, and has co-founded two startups including <span>Coding Minutes</span>. He is currently working as Instructor & Engineer at Scaler, and has helped many students to achieve their dreams.</p>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -82,7 +69,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
                 <img src={prateekBhaiyaImage} alt="" />

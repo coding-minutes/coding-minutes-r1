@@ -10,11 +10,11 @@ const CourseTitle = () => {
           <div className="course-title-left">
             <div className="title">
               <img src={dartIcon} alt="" />
-              <h3>Data Structures and Algorithms Essentials</h3>
+              <h1>Data Structures and Algorithms Essentials</h1>
             </div>
             <div className="short-info">
-              The only course you need to master problem solving using Data
-              Structures and Algorithms in C++
+            Master core computer science concepts by mastering data structures, algorithms & problem solving using C++
+
             </div>
             <div className="price-info">
               <span className="first">₹ 420</span>

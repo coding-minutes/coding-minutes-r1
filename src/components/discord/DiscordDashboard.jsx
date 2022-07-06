@@ -6,7 +6,7 @@ const DiscordDashboard = () => {
     // <div className="components-outer-container">
       <div className="discord-dashboard-container">
         <div className="discord-dashboard-internal-container" id="#discord-dashboard">
-          <div className="discord-dashboard-title">Join our Discord Server  (10k+ members)</div>
+          <div className="discord-dashboard-title">Join our Discord Server  (15k+ members)</div>
           <iframe
             src="https://discord.com/widget?id=846128445662560276&theme=dark"
             width="350"

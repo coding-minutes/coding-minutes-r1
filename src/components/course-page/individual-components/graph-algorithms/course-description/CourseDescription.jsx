@@ -19,49 +19,63 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
-                  <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Graph Basics, Applications</span>
+                  <span>BFS, DFS, Connected Components</span>
+                  <span>Shortest Paths - Dijkstra, Bellman, Floyd Warshall</span>
+                  <span>Travelling Salesman Problem - DP with Bitmasks</span>
+                  <span>Topological Ordering, Strongly Connected Components</span>
+                  <span>Disjoint Set Union, Minimum Spanning Trees, Prim's & Kruskal</span>
+                  <span>Advanced Graphs, Euler Tour, Trees</span>
+                  <span>Network Flow, LCA, Articulation Points</span>
+                  <span>Graphs for Competitive Programming</span>
+                  <span>80 + Competitive Coding Questions</span>
+                  <span>Complete Code Repository in C++ and Java</span>
+                  <span>Coding Exercises Solutions</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+               
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime you get a coding question?
+                Welcome to Graph Algorithms for Competitive Coding - the most detailed <span>Specialisation in Graph Theory</span> for Competitive Programmers, Software Engineers & Computer Science students!
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures and algorithms on next level.
+                Graphs is quite an <span>important topic</span> for software engineers, both for academics & online competitions and for solving real life challenges. Graph algorithms form the very fundamentals of many popular applications like - Google Maps, social media apps like Facebook, Instagram, Quora, LinkedIn, Computer Vision applications such as image segmentation, resolving dependencies while compile time, vehicle routing problems in supply chain and many more. This course provides a detailed overview of Graph Theory algorithms in computer science, along with <span>hands on implementation</span> of all the algorithms in <span>C++</span>. Not just that you will get 80+ competitive coding questions, to practice & test your skills! 
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang from Google.
+                This comprehensive course is taught by <span>Prateek Narang & Apaar Kamal,</span> who are <span>Software Engineers at Google</span> and have taught over <span>thousands of students</span> in competitive programming over <span>last 5+ years.</span> This course is worth thousands of dollars, but <span>Coding Minutes</span> is providing you this course to you at a <span>fraction of its original cost!</span> This is action oriented course, we not just delve into theory but focus on the practical aspects by building implementing algorithms & solving problems. With over <span>95+ high quality video lectures, easy to understand explanations</span> this is one of the most detailed and robust course for Graph Algorithms ever created.
+                </p>
+                <p>           
+Course starts very basics with how to store and represent graphs on a computer, and then dives into popular algorithms & techniques for problem solving. The course is divided into two parts.
                 </p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>Graph Representations</span>
+                  <span>Popular Traversals - BFS & DFS</span>
+                  <span>Cycle Detection - Weighted & Unweighted Graphs</span>
+                  <span>Topological Ordering & Directed Acyclic Graphs</span>
+                  <span>Disjoint Set Union, Path Compression & Union by Rank</span>
+                  <span>Minimum Spanning Trees - Prim's & Kruskal's</span>
+                  <span>Shortest Paths - BFS, Dijkstra's, Bellman Ford, Floyd Warshall</span>
+                  <span>Travelling Salesman Problem, Min Cost Hamiltonian Cycle</span>
+                  <span>Flood Fill</span>
+                  <span>Multisource BFS</span>
+                  <span>DFS & Backedges</span>
+                  <span>SCC's & Kosaraju's Algorithm</span>
+                  <span>Euler Tour</span>
+                  <span>LCA</span>
+                  <span>Trees</span>
+                  <span>Articulation Points & Bridges</span>
+                  <span>Network Flow</span>
                 </div>
+                <br />
+                <p>The part-II is recommended for programmers who want to deep dive into Competitive Programming & take part in contests. For most students part-I is good enough to understand the most fundamental concepts and techniques in graphs!</p>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -83,7 +97,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
                 <img src={prateekBhaiyaImage} alt="" />

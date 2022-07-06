@@ -18,49 +18,65 @@ const CourseDescription = () => {
           <div className="description-left">
             <div className="top">
               <div className="what-you-will-learn">
-                <h4>What you'll learn</h4>
+                <h2>What you'll learn</h2>
+                
                 <div className="learn-columns">
-                  <span>Accelerate your algorithmic thinking</span>
-                  <span>Using C++ Standard Template Library</span>
-                  <span>Learn to optimise brute force solutions</span>
-                  <span>Become a 10x Problem Solver</span>
+                  <span>Core concepts & internals of Data Structures</span>
+                  <span>Trees, Linked Lists, Heaps, Graphs</span>
+                  <span>Build all data structures from scratch</span>
+                  <span>Object Oriented Programming Basics</span>
                   <span>Learn to apply Data Structures</span>
-                  <span>Sliding Window, Hashing, Maps and Sets</span>
-                  <span>Learn to write Complex Codes</span>
-                  <span>Master Dynamic Programming and Graphs</span>
-                  <span>150+ carefully Curated Problems </span>
-                  <span>BONUS : Build a LRU Cache</span>
-                  <span>Analysis of Space Time Complexity</span>
-                  <span>Practice Questions on All Important Topics</span>
+                  <span>Brute Force & Optimisation Techniques</span>
+                  <span>Space Time Complexity Analysis</span>
+                  <span>Hash Functions, Collision Handling</span>
+                  <span>Recursion & Backtracking</span>
+                  <span>Dynamic Memory & Pointers</span>
+                  <span>Create your own DS library!</span>
+                  <span>C++ Standard Template Library Basics</span>
+                  <span>Project - Design & Implement Shopping Cart</span>
                 </div>
               </div>
               <div className="course-overview">
-                <h4>Course Overview</h4>
+                <h2>Course Overview</h2>
+                <br />
                 <p>
-                  Do you find yourself feeling like you get "stuck" everytime you get a coding question?
+                Are you a <span>beginner</span> looking to enter the world of Data Structures or <span>intermediate</span> programmer wondering what happens behind a Hash-table?
                 </p>
                 <p>
-                  Welcome to Data Structure and Algorithms, Level up course, the only course that provides you an ultimate practice on problem solving process and helping you to take your data structures and algorithms on next level.
+                Welcome to <span>Data Structures & Algorithms, Essentials Course</span> - the only course you need to understand the core concepts behind Data Structures & build a solid programming foundations using C++ . The course is taught by an expert instructor <span>Prateek Narang</span> from <span>Google</span>, who is not just a <span>software engineer</span> but also has mentored thousands of students in becoming great programmers & developers and is <span>top rated on Udemy</span> for his amazing teaching skills.
                 </p>
                 <p>
-                  This course is taught by an expert instructor Prateek Narang from Google.
+                Every software application revolves around data, performing different operations like Insert, Delete, Update & Search. To be a great software developer, understanding of Data Structures & Algorithms is must and this course provides you a deep understanding of the topic by covering both the theory and <span>hands-on-implementation of each data structure from scratch.</span>
+                </p>
+                <p>
+                The Course contains <span>20+ hours</span> of interactive video content & dozens of <span>coding exercises,</span> teaching you all essential concepts starting from ground zero. Each section covers data structure in great detail, with <span>Coding Exercises</span> & <span>real life examples</span>. 
+                </p>
+                <p>
+                  <span>Here is what you will learn :</span>
                 </p>
                 <div className="overview-columns">
-                  <span>Arrays and Vectors</span>
-                  <span>Binary Search</span>
-                  <span>String Problems</span>
-                  <span>Recursion Problems</span>
-                  <span>Sliding Window Problem</span>
-                  <span>Linked List Problem</span>
-                  <span>Sorting and Searching</span>
-                  <span>Stack and Queue</span>
-                  <span>Binary Tree</span>
-                  <span>Graph Algorithms</span>
+                  <span>Bit masking</span>
+                  <span>Object Oriented Programming Basics</span>
+                  <span>Pointers & Dynamic Memory (C++)</span>
+                  <span>Recursion</span>
+                  <span>Array, 2D Array, Strings, Vectors</span>
+                  <span>Linked Lists, Stacks, Queues</span>
+                  <span>Trees, BST, Tries</span>
+                  <span>Heaps/Priority Queues</span>
+                  <span>Hash-tables, Collision Handling</span>
+                  <span>Graphs</span>
+                  <span>Brute Force, Backtracking</span>
+                  <span>Sorting & Searching</span>
+                  <span>Divide & Conquer</span>
+                  <span>Dynamic Programming</span>
                 </div>
+                <br />
+                <p>
+The course is designed for <span>beginner & intermediate programmers.</span> We try to make not so easy topics look easy with intuitive explanations & interactive video lectures with dozens of memes ;) The course finishes with a final mini project - a command line app for an online shopping cart combining principles from Object Oriented Programming & Data Structures.</p>
               </div>
             </div>
             <div className="bottom">
-              <h4>What makes us special?</h4>
+              <h2>What makes us special?</h2>
               <div className="bottom-children">
                 <div className="bottom-child">
                   <img src={speechBubbleIcon} alt="" />
@@ -82,7 +98,7 @@ const CourseDescription = () => {
             </div>
           </div>
           <div className="description-right">
-            <h4>Meet the Instructor</h4>
+            <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
                 <img src={prateekBhaiyaImage} alt="" />
