@@ -11,7 +11,7 @@ const CampusCaptains = () => {
       <div className="campus-captain-outer-container">
         <div className="campus-captain-inner-container" id="campus-captains">
           <div className="campus-captain-left">
-            <h3>Campus Captain 🏁 </h3>
+            <h1>Campus Captain 🏁 </h1>
             <p>
               Become a Campus Captain for your campus. win swags, Coding
               T-Shirts & cash incentives!

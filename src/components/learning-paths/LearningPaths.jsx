@@ -26,7 +26,7 @@ const LearningPaths = () => {
         <div className="learning-path-outer-container">
           <div className="learning-path-internal-container" id="courses">
             <div className="learning-path-about">
-              <h4>Explore learning paths 🔥</h4>
+              <h1>Explore learning paths 🔥</h1>
               <p>
                 Begin the journey for your dream job with these industry vetted
                 learning paths..

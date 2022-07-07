@@ -11,7 +11,7 @@
 .why-cm-title img {
   width: 21px;
 }
-.why-cm-title h3 {
+.why-cm-title h2 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 10px;
@@ -74,7 +74,7 @@
   .why-cm-title img {
     width: 14px;
   }
-  .why-cm-title h3 {
+  .why-cm-title h2 {
     font-size: 25px;
   }
   .why-cm-title p {

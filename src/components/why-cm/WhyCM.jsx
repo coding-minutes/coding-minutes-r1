@@ -16,7 +16,7 @@ const WhyCM = () => {
       <div className="why-cm-outer-container">
         <div className="why-cm-internal-container">
           <div className="why-cm-title">
-            <h3> <img src={udemyIcon} alt="" /> Udemy + Coding Minutes Advantage</h3>
+            <h2> <img src={udemyIcon} alt="" /> Udemy + Coding Minutes Advantage</h2>
             <p>Now spend less than a Pizza 🍕, Learn more than ever 💡</p>
           </div>
           <div className="why-cm-reasons">

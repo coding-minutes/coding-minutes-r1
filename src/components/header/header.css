@@ -11,7 +11,7 @@
 .header-left {
   margin-top: 130px;
 }
-.header-left h3 {
+.header-left h1 {
   font-size: 40px;
   font-weight: 500;
   line-height: 50px;
@@ -111,7 +111,7 @@
   .header-left {
     margin-top: 20px;
   }
-  .header-left h3 {
+  .header-left h1 {
     font-size: 27px;
     /* font-size: 30px; */
     line-height: initial;

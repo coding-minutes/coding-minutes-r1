@@ -10,7 +10,7 @@
   padding-bottom: 100px;
   padding-top: 100px;
 }
-.learning-path-about h4 {
+.learning-path-about h1 {
   font-size: 40px;
   font-weight: 600;
   padding-top: 50px;
@@ -204,7 +204,7 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  .learning-path-about h4{
+  .learning-path-about h1{
     font-size: 30px;
   }
   .learning-path-about p{
@@ -221,7 +221,7 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-  .learning-path-about h4{
+  .learning-path-about h1{
     font-size: 25px;
   }
   .learning-path-about p{
@@ -236,8 +236,7 @@
     padding:15px 10px;
     font-size: 14px;
   }
-  .course-types{
-  }
+
   .course-image img{
     width: 300px;
   }
@@ -247,6 +246,5 @@
   .explore-now img {
     width: 100px;
   }
-  .learning-path-course-row-group {
-  }
+
 }
