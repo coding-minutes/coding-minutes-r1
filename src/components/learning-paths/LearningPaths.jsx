@@ -16,10 +16,10 @@ import {SpecialisationOnAlgorithms} from "../../data/SpecialisationOnAlgorithms"
 import {MachineLearningDataScience} from "../../data/MachineLearningDataScience"
 import {DeepLearning} from "../../data/DeepLearning"
 import {SoftwareEngineeringAndOthers} from "../../data/SoftwareEngineeringAndOthers"
-
 import { Link } from "react-router-dom";
 
 const LearningPaths = () => {
+  var c=0;
   return (
     <div className="learning-path-container">
       <div className="components-outer-container">
@@ -148,8 +148,12 @@ const LearningPaths = () => {
               <div className="learning-path-course fourth-row">
                 <div className="learning-path-course-title" id="machine-learning">Machine Learning</div>
                 <div className="learning-path-course-row-group">
-                {MachineLearningDataScience.map((data, key) => {
-                    return (
+                {
+                 
+                MachineLearningDataScience.map((data, key) => {
+                    if(c===0){
+                    c++;
+                      return (
                       <div className="individual-course-items">
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
@@ -169,7 +173,33 @@ const LearningPaths = () => {
                         </div>
                       </div>
                     );
-                  })}
+                  }
+                  else
+                  {
+                    return (
+                      <div className="individual-course-items">
+                        <div className="course-image">
+                          <img src={data.courseThumbnail} alt="" />
+                        </div>
+                        <div className="learning-path-course-items">
+                          <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
+                          <p className="course-title">{data.courseTitle}</p>
+                          <p className="course-mentor">
+                            Mentor : {data.courseMentor}
+                          </p>
+                          <br />
+                          <div className="explore-now">
+                            <span className="course-rating">
+                              {data.courseRatingStars} {data.courseRatingNumber}
+                            </span>
+                            {/* <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link> */}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  }
+                  })
+                  }
                 </div>
               </div>
 

@@ -23,7 +23,7 @@ export const MachineLearningDataScience = [
         courseDifficultyColor : "green",
         courseTitle : "Machine Learning Essentials",
         courseMentor : "Prateek Narang, Mohit Uniyal",
-        courseRatingStars : "Coming Soon",
+        courseRatingStars : "Coming Soon!",
         courseRatingNumber: "",
         udemyLink: "/machine-learning"
     },
@@ -33,7 +33,7 @@ export const MachineLearningDataScience = [
         courseDifficultyColor : "yellow",
         courseTitle : "Deep Learnings Essentials",
         courseMentor : "Prateek Narang, Mohit Uniyal",
-        courseRatingStars : "Coming Soon",
+        courseRatingStars : "Coming Soon!",
         courseRatingNumber: "",
         udemyLink : "/deep-learning"
     },
@@ -43,7 +43,7 @@ export const MachineLearningDataScience = [
         courseDifficultyColor : "yellow",
         courseTitle : "Computer Vision Specialisation",
         courseMentor : "Prateek Narang, Mohit Uniyal",
-        courseRatingStars : "Coming Soon",
+        courseRatingStars : "Coming Soon!",
         courseRatingNumber: "",
         udemyLink : "/computer-vision-specialisation"
     },
@@ -53,8 +53,9 @@ export const MachineLearningDataScience = [
         courseDifficultyColor : "yellow",
         courseTitle : "Natural Language Processing",
         courseMentor : "Prateek Narang, Mohit Uniyal",
-        courseRatingStars : "Coming Soon",
+        courseRatingStars : "Coming Soon!",
         courseRatingNumber: "",
         udemyLink : "/natural-language"
     },
+   
 ]
