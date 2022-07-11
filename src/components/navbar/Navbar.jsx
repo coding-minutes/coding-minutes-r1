@@ -1,70 +1,47 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import Logo from "../../assets/Images/main/codingMinutesLogo.png";
-import LoginButton from "../../assets/Images/main/loginButton.png";
-import hamburgerIcon from "../../assets/Images/main/hamburger.png";
-import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
-
+   const [active, setActive] = useState("nav__menu");
+   const [toggleicon, setToggleicon] = useState("nav__toggler");
+   const navToggle = () => {
+    active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
+    toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
+   }
+   const [navbar, setNavbar] = useState(false);
+  const changeBackground = () => {
+    if(window.scrollY >=50)
+    {
+      setNavbar(true);
+    }
+    else{
+      setNavbar(false);
+    }
+  }
+  window.addEventListener("scroll", changeBackground);
   return (
-    <div className="components-outer-container navbar-border">
-      <div className="navbar-outer-container">
-        <div className="navbar-internal-container" id="home">
-          <nav className="navigation">
-            <a href="/" className="brand-name">
-              <img src={Logo} alt="" />
-            </a>
-            <div
-              className="hamburger"
-              onClick={() => {
-                setIsNavExpanded(!isNavExpanded);
-              }}
-            >
-              <img src={hamburgerIcon} alt="" />
-            </div>
-            <div
-              className={
-                isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-              }
-            >
-              <ul>
-                {/* <li>
-                  <a href="/#home" >Home</a>
-                </li> */}
-                <li>
-                  <a href="/#courses">Courses</a>
-                </li>
-                <li>
-                  <a href="https://blog.codingminutes.com/">Blogs</a>
-                </li>
-                <li>
-                  <a href="/#campus-captains">Campus Captains</a>
-                </li>
-
-                <li>
-                  <a href="https://discord.gg/jwvtDtnkJv" target="_blank">Community</a>
-                </li>
-                <li>
-                  <a href="https://ide.codingminutes.com" target="_blank">Online IDE</a>
-                </li>
-               
-                <li>
-                  <a href="/#team">Team</a>
-                </li>
-                <li>
-                  <a href="/#contact">Contact us</a>
-                </li>
-              </ul>
+        <div className="outer">
+          <nav className={navbar ? 'nav sticky' : 'nav'}>
+            <a href="/#" className="nav__brand"><img src={Logo} alt="" /></a>
+            <ul className={active}>
+              <li className="nav__item"><a href="/#courses" className="nav__link">Course</a></li>
+              <li className="nav__item"><a href="/#blogss" className="nav__link">Blogs</a></li>
+              <li className="nav__item"><a href="/#campus-captains" className="nav__link">Campus Captains</a></li>
+              <li className="nav__item"><a href="https://discord.gg/jwvtDtnkJv" className="nav__link">Community</a></li>
+              <li className="nav__item"><a href="https://ide.codingminutes.com" className="nav__link">Online IDE</a></li>
+              <li className="nav__item"><a href="/#team" className="nav__link">Team</a></li>
+              <li className="nav__item"><a href="/#contact" className="nav__link">Contact us</a></li>
+            </ul>
+            <div onClick={navToggle} className={toggleicon}>
+              <div className="line1"></div>
+              <div className="line2"></div>
+              <div className="line3"></div>
             </div>
           </nav>
+        
         </div>
-        <div className="border-line">
-          
-        </div>
-      </div>
-    </div>
   );
 };
 

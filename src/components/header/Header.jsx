@@ -8,8 +8,13 @@ import cmYearFirst from '../../assets/Images/main/event-images/cm-year-first.svg
 
 const Header = () => {
   return (
-    <div className="components-outer-container">
+    <div className="components-outer-container" >
       <div className="header-outer-container">
+        <br />
+        <div className="border-line">
+        
+      </div>
+      <br />
         <div className="header-internal-container">
           <div className="header-left">
             <div className="header-left-tagline">

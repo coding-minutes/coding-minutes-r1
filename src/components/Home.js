@@ -11,6 +11,7 @@ import Newsletter from './newsletter/Newsletter'
 import FAQ from './faq/FAQ'
 import Footer from './footer/Footer'
 import DiscordDashboard from './discord/DiscordDashboard'
+import Blogs from './Blogs/Blogs'
 // import Advertisement from './advertisement/Advertisement'
 // import HeaderBanner from './header-banner/HeaderBanner'
 
@@ -23,6 +24,7 @@ const Home = () => {
             <Header />
             <Statistics />
             <LearningPath />
+            <Blogs />
             <WhyCM />
             <CampusCaptains />
             <DiscordDashboard />
