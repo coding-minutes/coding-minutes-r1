@@ -16,7 +16,7 @@ const Blogs = () => {
            Get a comprehensive guide of DSA concepts with programs, Web Development, Interview Tips and Tricks and progamming roadmaps.
             </p>
             <div className="blog-explore">
-              <a href="https://blog.codingminutes.com/">&nbsp; &nbsp;Explore Blogs in<img src={reading} alt="Explore button" /></a>
+              <a href="https://blog.codingminutes.com/">&nbsp; &nbsp;Explore Blogs in <img src={reading} alt="Explore button" /></a>
             </div> 
             
           </div>
