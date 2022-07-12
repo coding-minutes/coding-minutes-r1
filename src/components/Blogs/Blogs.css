@@ -112,7 +112,7 @@
 } */
 .blog-explore a
 {
-    width: max-content;
+    width: 100%;
     padding: 10px 15px;
 }
 .blog-explore a img
