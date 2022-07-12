@@ -6,6 +6,9 @@ const CourseTitle = () => {
   return (
     <div className="course-title-outer-container">
       <div className="components-outer-container">
+      <br />
+        <div class="navspace"></div>
+        <br />
         <div className="course-title-inner-container">
           <div className="course-title-left">
             <div className="title">
@@ -16,10 +19,11 @@ const CourseTitle = () => {
             Enter the world of programming, learn fundamental building blocks of programming & problem solving for beginners.
             </div>
             <div className="price-info">
-              <span className="first">₹ 420</span>
+              <span className="first">₹0</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : JULY420</span>
+              {/* <span className="last">Use code : JULY420</span> */}
             </div>
+            <br />
             <div className="udemy-info">
               <a href="https://www.udemy.com/course/learn-coding-for-beginners/?couponCode=JULY420" target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>

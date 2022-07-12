@@ -6,6 +6,9 @@ const CourseTitle = () => {
   return (
     <div className="course-title-outer-container">
       <div className="components-outer-container">
+        <br />
+        <div class="navspace"></div>
+        <br />
         <div className="course-title-inner-container">
           <div className="course-title-left">
             <div className="title">

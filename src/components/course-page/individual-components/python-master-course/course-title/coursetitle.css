@@ -1,7 +1,12 @@
 .course-title-outer-container {
     background: #F9F9F9;
+   
+}
+.navspace {
+    height: 6vh;
 }
 .course-title-inner-container {
+    
     padding: 40px 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
