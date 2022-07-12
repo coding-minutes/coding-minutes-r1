@@ -33,24 +33,25 @@
 {
   display: flex;
   flex-direction: row;
+  /* background-color: red; */
 }
 .blog-explore a
 {
- 
   border-radius: 50px;
     background: rgb(0, 0, 0,0.25);
+    width: max-content;
     color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     padding: 10px 20px;
     transition: 0.3s ease-in-out;
+    
 }
 .blog-explore a img
 {
-  height: 2.8vh;
-  margin-left: -48px;
-  margin-right: -40px;
-  
+ width: 100px;
+ padding: 0;
+ margin: 0;
 }
 .blog-explore a:hover
 {
@@ -103,16 +104,19 @@
   }
 }
 @media screen and (max-width: 430px) {
-  .blog-explore a
+  /* .blog-explore a
 {
     margin-top: 1vh;
     font-size: 16px;
     text-align: center;
+} */
+.blog-explore a
+{
+    width: max-content;
+    padding: 10px 15px;
 }
 .blog-explore a img
 {
-  height: 2.8vh;
-  margin-left: -35px;
-  margin-right: -40px
+ width: 80px;
 }
 }

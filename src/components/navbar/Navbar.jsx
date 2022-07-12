@@ -22,7 +22,8 @@ const Navbar = () => {
   }
   window.addEventListener("scroll", changeBackground);
   return (
-        <div className="outer">
+    <div className="components-outer-container" >
+   
           <nav className={navbar ? 'nav sticky' : 'nav'}>
             <a href="/#" className="nav__brand"><img src={Logo} alt="" /></a>
             <ul className={active}>
@@ -40,8 +41,8 @@ const Navbar = () => {
               <div className="line3"></div>
             </div>
           </nav>
-        
-        </div>
+          </div>
+         
   );
 };
 
