@@ -20,13 +20,7 @@
     .headerImagePhone {
         display: block;
         width: 90%;
-        height: 100px;
+        height: 80px;
         /* display: none; */
-    }
-}
-
-@media screen and (max-width:674px) {
-    .header-banner-container img{
-        /* height: 30px; */
     }
 }

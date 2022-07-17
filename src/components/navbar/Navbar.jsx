@@ -7,14 +7,18 @@ const Navbar = () => {
    const [active, setActive] = useState("nav__menu");
    const [toggleicon, setToggleicon] = useState("nav__toggler");
    const navToggle = () => {
+     
+    if(window.scrollY >=50){
     active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
     toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
    }
+  }
    const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
     if(window.scrollY >=50)
     {
       setNavbar(true);
+
     }
     else{
       setNavbar(false);
@@ -27,7 +31,7 @@ const Navbar = () => {
           <nav className={navbar ? 'nav sticky' : 'nav'}>
             <a href="/#" className="nav__brand"><img src={Logo} alt="" /></a>
             <ul className={active}>
-              <li className="nav__item"><a href="/#courses" className="nav__link">Courses</a></li>
+              <li className="nav__item"><a href="/#courses" className="nav__link">Course</a></li>
               <li className="nav__item"><a href="/#blogss" className="nav__link">Blogs</a></li>
               <li className="nav__item"><a href="/#campus-captains" className="nav__link">Campus Captains</a></li>
               <li className="nav__item"><a href="https://discord.gg/jwvtDtnkJv" className="nav__link">Community</a></li>

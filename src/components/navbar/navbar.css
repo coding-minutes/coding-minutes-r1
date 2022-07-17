@@ -15,8 +15,9 @@
 
 .nav{
   display: flex;
-  position: fixed;
+  position: static;
   align-items: center;
+  margin-top: 2vh;
   height: 12vh;
   width: 100%;
   max-width: 1600px;
@@ -130,4 +131,7 @@
 {
   box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
   background:#fff;
+  position: fixed;
+  top: 0vh;
+  margin-top: 0vh;
 }

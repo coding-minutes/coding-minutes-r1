@@ -88,7 +88,7 @@
 
 .header-right-image {
   margin-top: 40px;
-  animation: wave 4.6s infinite;
+  animation: wave 3.5s infinite;
   transition: smooth;
 }
 
@@ -106,7 +106,7 @@
 }
 .border-line {
   border-bottom: 1px solid #eaeaea;
-  margin-top: 9vh;
+  margin-top: -3vh;
 }
 /* ============ Media Query (Medium Devices) ============= */
 @media screen and (max-width: 1200px) {
