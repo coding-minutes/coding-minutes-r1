@@ -88,8 +88,19 @@
 
 .header-right-image {
   margin-top: 40px;
+  animation: wave 4.6s infinite;
+  transition: smooth;
 }
 
+@keyframes wave
+{
+    20%,to{
+      transform: translate3d(0);
+    }
+    40%{
+      transform: translateY(-12px);
+    }
+}
 .header-right-image img {
   width: 500px;
 }

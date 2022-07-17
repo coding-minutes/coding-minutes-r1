@@ -9,13 +9,7 @@ import worldIcon from "../../assets/Images/main/world.png";
 import youtubeIcon from "../../assets/Images/main/youtube-icon.png";
 import webDesignIcon from "../../assets/Images/main/web-design.png";
 import medalIcon from "../../assets/Images/main/medal.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
 const WhyCM = () => {
-  React.useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div className="components-outer-container">
       <div className="why-cm-outer-container">

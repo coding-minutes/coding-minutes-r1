@@ -1,16 +1,20 @@
 import React from 'react'
-
+import { useEffect } from 'react';
 import Home from './components/Home'
 import CampusCaptainForm from './components/campus-captains-form/CampusCaptainForm'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Discord from './components/discord/Discord'
 import CoursePage from './components/course-page/CoursePage'
 import { CodingEssentials, CompCoding, ComputerVision, CppEssentials, DeepLearning, DSAEssentials, DSALevelUp, DynamicProgramming, GameTheory, Git, GraphAlgorithm, MachineLearning, NaturalLanguage, PythonDataScience, PythonMasterCourse } from './components/course-page/individual-components/index'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
 
-
+      useEffect(() => {
+        AOS.init({startEvent : 'load'});
+        AOS.refreshHard();
+      },[]);
 
     return (
         <>

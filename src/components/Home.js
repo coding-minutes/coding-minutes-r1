@@ -16,6 +16,7 @@ import Blogs from './Blogs/Blogs'
 // import HeaderBanner from './header-banner/HeaderBanner'
 
 const Home = () => {
+ 
     return (
         <>
             {/* <Advertisement /> */}
