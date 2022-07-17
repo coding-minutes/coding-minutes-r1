@@ -57,7 +57,7 @@ const Newsletter = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div class="newsletter">
+    <div class="newsletter" data-aos="fade-up">
       <p>
         Hey Coder! <br/> <br/> Subscribe to our newsletter to never miss any updates about new course launch, discounts, blogs, giveaways and hiring opportunities!  
       </p>
@@ -68,7 +68,7 @@ const Newsletter = () => {
             type="name"
             placeholder="Enter Your Name"
             name="name"
-            autoComplete="off"
+            autoComplete="on"
             value={user.name}
             onChange={getUserData}
             required
@@ -78,7 +78,7 @@ const Newsletter = () => {
             type="email"
             placeholder="Enter Your Email"
             name="email"
-            autoComplete="off"
+            autoComplete="on"
             value={user.email}
             onChange={getUserData}
             required

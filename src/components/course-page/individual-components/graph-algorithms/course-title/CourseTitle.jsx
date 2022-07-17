@@ -19,9 +19,9 @@ const CourseTitle = () => {
             Learn Graphs Algorithms in Computer Science & Mathematics, theory + hands-on coding and ace Competitive Coding problems!
             </div>
             <div className="price-info">
-              <span className="first">₹ 420</span>
+            <span className="first">₹ 360+taxes</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : JULY420</span>
+              <span className="last">Use code : RAIN360</span>
             </div>
             <div className="udemy-info">
               <a href="https://www.udemy.com/course/graph-theory-algorithms-for-competitive-programming/?couponCode=JULY420"  target="_blank">Enroll now on Udemy</a>

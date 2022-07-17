@@ -19,9 +19,9 @@ const CourseTitle = () => {
             Master problem solving for Coding Interviews, ace Data Structures & Algorithms by solving over 150 important questions!
             </div>
             <div className="price-info">
-              <span className="first">₹ 420</span>
+            <span className="first">₹ 360+taxes</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : JULY420</span>
+              <span className="last">Use code : RAIN360</span>
             </div>
             <div className="udemy-info">
               <a href="https://www.udemy.com/course/cpp-data-structures-algorithms-levelup-prateek-narang/?couponCode=JULY420"  target="_blank">Enroll now on Udemy</a>

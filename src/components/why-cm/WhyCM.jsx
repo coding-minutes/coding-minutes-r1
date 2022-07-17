@@ -9,52 +9,57 @@ import worldIcon from "../../assets/Images/main/world.png";
 import youtubeIcon from "../../assets/Images/main/youtube-icon.png";
 import webDesignIcon from "../../assets/Images/main/web-design.png";
 import medalIcon from "../../assets/Images/main/medal.png";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyCM = () => {
+  React.useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="components-outer-container">
       <div className="why-cm-outer-container">
         <div className="why-cm-internal-container">
-          <div className="why-cm-title">
+          <div className="why-cm-title" data-aos="fade-up">
             <h2> <img src={udemyIcon} alt="" /> Udemy + Coding Minutes Advantage</h2>
             <p>Now spend less than a Pizza 🍕, Learn more than ever 💡</p>
           </div>
           <div className="why-cm-reasons">
             <div className="why-cm-reasons-outside-container">
               <div className="why-cm-reasons-inside-container">
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={moneyBagIcon} alt="" />
                   <p>Pocket friendly courses</p>
                 </div>
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={speechBubbleIcon} alt="" />
                   <p>Unlimited doubt support</p>
                 </div>
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={problemSolvingIcon} alt="" />
                   <p>Intuitive & Detailed Explanations</p>
                 </div>
 
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={dartIcon} alt="" />
                   <p>Industry vetted curriculum</p>
                 </div>
               {/* </div> */}
               {/* <div className="why-cm-reasons-inside-container"> */}
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={worldIcon} alt="" />
                   <p>Lifetime access, anytime anywhere</p>
                 </div>
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={youtubeIcon} alt="" />
                   <p>HD Videos & Crystal clear audios</p>
                 </div>
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={webDesignIcon} alt="" />
                   <p>Practice codes, real time feedback</p>
                 </div>
 
-                <div className="why-cm-items">
+                <div className="why-cm-items" data-aos="fade-up">
                   <img src={medalIcon} alt="" />
                   <p>Certificate of Completion</p>
                 </div>

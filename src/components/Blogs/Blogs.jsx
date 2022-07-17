@@ -3,12 +3,17 @@ import "./Blogs.css";
 import reading from "../../assets/Images/main/brandname.svg";
 
 import { Link } from 'react-router-dom';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Blogs = () => {
+  React.useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="components-outer-container" id="blogss">
-      <div className="blogs-outer-container"  >
+      <div className="blogs-outer-container" data-aos="fade-up" >
         <div className="blogs-inner-container">
           <div className="blogs-left">
             <h1>Introducing Coding Minutes Blogs!</h1>

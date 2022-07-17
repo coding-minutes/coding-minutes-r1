@@ -4,7 +4,7 @@ import "./faq.css";
 const FAQ = () => {
   return (
     <div className="components-outer-container">
-      <div className="faq-outer-container">
+      <div className="faq-outer-container" data-aos="fade-up"> 
         <div className="faq-internal-container">
           <div className="faq-title">Frequently asked questions🤔</div>
           <div className="faq-content">

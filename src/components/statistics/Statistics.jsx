@@ -5,7 +5,7 @@ import CMStatistics from "../../assets/Images/main/cm-statistics-updated.svg";
 
 const Statistics = () => {
   return (
-    <div className="statistics-container">
+    <div className="statistics-container" data-aos="fade-up">
       <div className="statistics-image">
         <img src={CMStatistics} alt="" />
       </div>

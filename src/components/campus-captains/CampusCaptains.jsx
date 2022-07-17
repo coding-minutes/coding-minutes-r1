@@ -6,9 +6,10 @@ import { Link } from 'react-router-dom';
 import campusCaptainImage from "../campus-captains-form/campus-captains.svg";
 
 const CampusCaptains = () => {
+ 
   return (
     <div className="components-outer-container">
-      <div className="campus-captain-outer-container">
+      <div className="campus-captain-outer-container" data-aos="fade-up" data-aos-offset="200">
         <div className="campus-captain-inner-container" id="campus-captains">
           <div className="campus-captain-left">
             <h1>Campus Captain 🏁 </h1>

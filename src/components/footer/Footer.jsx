@@ -4,10 +4,15 @@ import codingMinutesLogo from "../../assets/Images/main/codingMinutesLogo.png";
 import youtube from "../../assets/Images/main/youtube.png";
 import linkedin from "../../assets/Images/main/linkedin.png";
 import instagram from "../../assets/Images/main/instagram.png";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Footer = () => {
+  React.useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  },[]);
   return (
-    <div className="footer-outer-container">
+    <div className="footer-outer-container" data-aos="fade-up">
       <div className="components-outer-container" id="faq">
         <div className="footer-internal-container" id="contact">
           <div className="footer-items about-cm">

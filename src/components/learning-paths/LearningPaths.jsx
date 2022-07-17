@@ -8,8 +8,6 @@ import exploreNowImage from "../../assets/Images/main/explore-now.svg";
 import programmingLanguagesIcon from '../../assets/Images/main/programming-languages.png';
 import machineLearningIcon from '../../assets/Images/main/machine-learning.png'
 import softwareEngineeringIcon from '../../assets/Images/main/software-engineering.png'
-
-
 import { ProgrammingForBeginners } from "../../data/ProgrammingForBeginners";
 import {DataStructuresAndCompetitive} from "../../data/DataStructuresAndCompetitive";
 import {SpecialisationOnAlgorithms} from "../../data/SpecialisationOnAlgorithms"
@@ -20,12 +18,13 @@ import { Link } from "react-router-dom";
 
 const LearningPaths = () => {
   var c=0;
+ 
   return (
     <div className="learning-path-container">
       <div className="components-outer-container">
         <div className="learning-path-outer-container">
           <div className="learning-path-internal-container" id="courses">
-            <div className="learning-path-about">
+            <div className="learning-path-about" data-aos="fade-up">
               <h1>Explore learning paths 🔥</h1>
               <p>
                 Begin the journey for your dream job with these industry vetted
@@ -62,7 +61,7 @@ const LearningPaths = () => {
                 <div className="learning-path-course-row-group">
                   {ProgrammingForBeginners.map((data, key) => {
                     return (
-                      <div className="individual-course-items">
+                      <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
                         </div>
@@ -93,7 +92,7 @@ const LearningPaths = () => {
                 <div className="learning-path-course-row-group">
                 {DataStructuresAndCompetitive.map((data, key) => {
                     return (
-                      <div className="individual-course-items">
+                      <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
                         </div>
@@ -122,7 +121,7 @@ const LearningPaths = () => {
                 <div className="learning-path-course-row-group">
                 {SpecialisationOnAlgorithms.map((data, key) => {
                     return (
-                      <div className="individual-course-items">
+                      <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
                         </div>
@@ -154,7 +153,7 @@ const LearningPaths = () => {
                     if(c===0){
                     c++;
                       return (
-                      <div className="individual-course-items">
+                      <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
                         </div>
@@ -177,7 +176,7 @@ const LearningPaths = () => {
                   else
                   {
                     return (
-                      <div className="individual-course-items">
+                      <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
                         </div>
@@ -236,7 +235,7 @@ const LearningPaths = () => {
                 <div className="learning-path-course-row-group">
                 {SoftwareEngineeringAndOthers.map((data, key) => {
                     return (
-                      <div className="individual-course-items">
+                      <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
                           <img src={data.courseThumbnail} alt="" />
                         </div>
