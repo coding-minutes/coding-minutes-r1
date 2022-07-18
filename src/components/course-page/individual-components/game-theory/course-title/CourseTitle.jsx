@@ -21,7 +21,7 @@ const CourseTitle = () => {
               <span className="last">Use code : RAIN360</span>
             </div>
             <div className="udemy-info">
-              <a href="https://www.udemy.com/course/game-theory-algorithms-in-competitive-programming-course/?couponCode=JULY420"  target="_blank">Enroll now on Udemy</a>
+              <a href="https://www.udemy.com/course/game-theory-algorithms-in-competitive-programming-course/?couponCode=RAIN360"  target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
             </div>
           </div>
