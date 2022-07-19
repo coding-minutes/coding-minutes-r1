@@ -61,7 +61,6 @@
   .border-line {
     display: none;
   }
-
   .nav__brand
 {
   margin-left: 21px;
@@ -89,7 +88,7 @@
   }
   .nav__menu
   {
-    gap:0;
+    gap:0.5vh;
     position: fixed;
     justify-content: space-evenly;
     top: 11.8vh;
@@ -103,6 +102,7 @@
     transform: translateX(100%);
     transition: 0.5s ease-in-out;
   }
+
 }
 /*Navbar Activated*/
 .nav__active

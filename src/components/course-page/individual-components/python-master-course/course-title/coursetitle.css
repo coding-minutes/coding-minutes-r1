@@ -90,17 +90,34 @@ padding-top: 30px;
     .udemy-info {
         display: grid;
         grid-template-columns: 1fr;
+        text-align: center;
     }
     .price-info .middle {
         display: inline-block;
-        margin-bottom: 5px;
+        margin-bottom: 2vh;
     }
+    .price-info
+    {
+        text-align: center;
+    }
+
     .udemy-info a {
         width: max-content;
         margin-bottom: 10px;
+        margin: auto;
+        margin-top: 1vh;
     }
     iframe {
      width: 300px;   
      height: 200px;
+    }
+    .udemy-info span 
+    {
+        margin-top: 3vh;
+    }
+    .course-title-left
+    {
+        margin-top: -10vh;
+        text-align: center;
     }
 }
