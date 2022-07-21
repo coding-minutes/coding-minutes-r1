@@ -28,7 +28,7 @@ const Header = () => {
                 instructors, TA support, Projects & Assignments.
               </p>
               {/* <p>
-              Use code <span>RAIN360</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
+              Use code <span>JULY420</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
               </p> */}
             </div>
             <div className="header-left-buttons">
