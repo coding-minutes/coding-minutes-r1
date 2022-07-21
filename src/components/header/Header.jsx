@@ -19,17 +19,17 @@ const Header = () => {
         <div className="header-internal-container">
           <div className="header-left" data-aos="fade-right" aos_offset="5000">
             <div className="header-left-tagline">
-              <h1>It's Raining Discounts!</h1>
-              <h1 className="h3-second">Get All Courses at 90% Off!</h1>
+              <h1>Kickstart your</h1>
+              <h1 className="h3-second">Coding Career in Minutes</h1>
             </div>
             <div className="header-left-text">
-              {/* <p>
+              <p>
               <span className="header-breakPoint">   <span>Pocket friendly courses</span> with interactive content, top-notch </span>
                 instructors, TA support, Projects & Assignments.
-              </p> */}
-              <p>
-              Use code <span>RAIN360</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
               </p>
+              {/* <p>
+              Use code <span>RAIN360</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
+              </p> */}
             </div>
             <div className="header-left-buttons">
               <div className="explore-courses">

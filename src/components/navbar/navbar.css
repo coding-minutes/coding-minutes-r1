@@ -15,9 +15,9 @@
 
 .nav{
   display: flex;
-  position: static;
+  position: fixed;
   align-items: center;
-  margin-top: 2vh;
+  /* margin-top: 1vh; */
   height: 12vh;
   width: 100%;
   max-width: 1600px;
@@ -30,6 +30,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  /* margin-top: 1vh; */
   margin-left: auto;
   margin-right: 95px; 
 }
@@ -104,6 +105,35 @@
   }
 
 }
+@media screen and (max-width:354px) 
+{
+.nav__menu
+{
+  height: 100vh;
+}  
+}
+
+@media screen and (max-width:354px) 
+{
+.nav__menu
+{
+  height: 100vh;
+}  
+}
+@media screen and (max-width:330px) 
+{
+.nav__menu
+{
+  height: 110vh;
+}  
+}
+@media screen and (max-width:288px) 
+{
+.nav__menu
+{
+  height: 117vh;
+}  
+}
 /*Navbar Activated*/
 .nav__active
 {
@@ -131,7 +161,7 @@
 {
   box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
   background:#fff;
-  position: fixed;
+  /* position: fixed;
   top: 0vh;
-  margin-top: 0vh;
+  margin-top: 0vh; */
 }

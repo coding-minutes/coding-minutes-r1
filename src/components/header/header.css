@@ -1,5 +1,5 @@
 .header-outer-container {
-  margin: auto;
+  /* margin: auto; */
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -106,7 +106,7 @@
 }
 .border-line {
   border-bottom: 1px solid #eaeaea;
-  margin-top: -3vh;
+  margin-top: 8.8vh;
 }
 /* ============ Media Query (Medium Devices) ============= */
 @media screen and (max-width: 1200px) {
@@ -129,7 +129,10 @@
     margin-right: 20px;
   }
   .header-left {
-    margin-top: 58px;
+    margin-top:88px;
+  }
+  .header-left-text{
+    text-align: center;
   }
   .header-left h1 {
     font-size: 27px;
@@ -194,6 +197,6 @@
   }
   .h3-second
   {
-    font-size: 22px !important;
+    font-size: 24px !important;
   }
 }
