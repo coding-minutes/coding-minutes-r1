@@ -12,7 +12,7 @@ const Team = () => {
     <div className="components-outer-container">
       <div className="team-outer-container">
         <div className="team-internal-container" id="team">
-          <div className="team-title" data-aos="fade-up">Meet the team 😎</div>
+          <div className="team-title" data-aos="fade-up"><span>Meet the team</span> 😎</div>
           <div className="team-members">
             <div className="team-member-item" id="prateek-bhaiya" data-aos="fade-up" data-aos-offset="100">
               <img src={prateekBhaiya} alt="" />

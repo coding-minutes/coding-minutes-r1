@@ -12,13 +12,15 @@
 }
 
 .description-left .top .what-you-will-learn {
-  border: 1px solid #d8d8d8;
+  border: 1px solid var(--borders);
   padding: 20px;
   border-radius: 10px;
 }
-.what-you-will-learn h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
+.what-you-will-learn h2 {
+  
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .what-you-will-learn .learn-columns {
   display: grid;
@@ -26,25 +28,29 @@
   margin-left: 20px;
   margin-top: 10px;
   gap: 10px;
+
 }
 .learn-columns span {
   display: list-item;
   list-style: disc;
   font-size: 15px;
+  color: var(--headings);
 }
 .description-left .top .course-overview {
-  border: 1px solid #d8d8d8;
+  border: 1px solid var(--borders);
   padding: 20px;
   border-radius: 10px;
   margin-top: 50px;
 }
-.course-overview h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
+.course-overview h2 {
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .course-overview p {
   margin-bottom: 15px;
   font-size: 15px;
+  color: var(--headings);
 }
 .overview-columns {
   display: grid;
@@ -58,6 +64,9 @@
   list-style: disc;
   font-size: 15px;
 }
+.overview-columns span {
+  color: var(--headings);
+}
 
 .description-left .bottom {
   margin-top: 40px;
@@ -65,6 +74,9 @@
 .description-left .bottom h2 {
   font-size: 22px;
   margin-bottom: 20px;
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .description-left .bottom-children {
   display: grid;
@@ -82,16 +94,20 @@
 .description-left .bottom-child img {
   width: 40px;
 }
-
+.bottom-child span
+{
+  color: var(--headings);
+}
 .description-right .instructor {
   width: 350px;
 }
-.description-right h4 {
-  font-size: 22px;
-  margin-left: 20px;
+.description-right h2 {
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .description-right .instructor .instructor-info {
-  border: 1px solid #d8d8d8;
+  border: 1px solid var(--borders);
   border-top: none;
   padding-bottom: 30px;
   border-radius: 10px;
@@ -102,6 +118,7 @@
 .description-right .instructor p {
   padding: 20px;
   font-size: 15px;
+  color: var(--headings);
 }
 .description-right .instructor .social-links {
   margin-left: 20px;

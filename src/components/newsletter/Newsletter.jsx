@@ -1,6 +1,4 @@
 import React from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
-
 import "./newsletter.css";
 
 const Newsletter = () => {
@@ -57,7 +55,7 @@ const Newsletter = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div class="newsletter" data-aos="fade-up">
+    <div class="newsletter" data-aos="fade-up" id="sign-up">
       <p>
         Hey Coder! <br/> <br/> Subscribe to our newsletter to never miss any updates about new course launch, discounts, blogs, giveaways and hiring opportunities!  
       </p>

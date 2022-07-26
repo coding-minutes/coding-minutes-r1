@@ -17,6 +17,9 @@
   font-weight: 500;
   line-height: 50px;
 }
+.header-left-tagline h1 {
+  color: var(--headings);
+}
 .header-left .h3-second {
   background: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   -webkit-background-clip: text;
@@ -36,8 +39,9 @@
 
 .header-left-text {
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  color: var(--headings);
 }
 .header-left-text span {
   font-weight: 500;
@@ -45,6 +49,7 @@
   -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; */
   font-size: 20px;
+  
       /* background: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%); */
 }
 .header-left-buttons {
@@ -74,7 +79,6 @@
   font-size: 18px;
 
   background: linear-gradient(97.38deg, rgba(89, 72, 234, 0.99) 5.73%, rgba(147, 73, 235, 0.99) 94.27%);
-  color: white;
   font-weight: 500;
   /* border: 2px solid #5848ea; */
   transition: all 300ms ease;
@@ -88,7 +92,7 @@
 
 .header-right-image {
   margin-top: 40px;
-  animation: wave 2.5s infinite;
+  animation: wave 3s infinite;
   transition: smooth;
 }
 
@@ -98,15 +102,16 @@
       transform: translate3d(0);
     }
     40%{
-      transform: translateY(-12px);
+      transform: translateY(-25px);
     }
 }
 .header-right-image img {
   width: 500px;
 }
 .border-line {
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid var(--border);
   margin-top: 8.8vh;
+  
 }
 /* ============ Media Query (Medium Devices) ============= */
 @media screen and (max-width: 1200px) {
@@ -132,6 +137,10 @@
     margin-top:88px;
   }
   .header-left-text{
+    text-align: center;
+  }
+  .header-left h1 {
+    
     text-align: center;
   }
   .header-left h1 {
@@ -170,7 +179,7 @@
     background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
     color: white;
     font-weight: 500;
-    border: 2px solid white;
+    
     transition: all 300ms ease;
   }
   /* .header-left-buttons a span:hover {
@@ -198,5 +207,20 @@
   .h3-second
   {
     font-size: 24px !important;
+    margin: 0;;
   }
+  .header-left-tagline h1
+  {
+    font-size: 24px !important;
+   
+  }
+  .header-left-text p{
+    font-size: 18px !important;
+  }
+  .header-left-text span{
+    font-size: 18px !important;
+  }
+
 }
+
+  

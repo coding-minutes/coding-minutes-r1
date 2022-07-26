@@ -1,5 +1,6 @@
 .learning-path-container {
-  background-color: #f9f9f9 !important;
+  background-color: var(--gray-bg) !important;
+  transition: 0.3s linear;
 }
 .learning-path-outer-container {
   margin: auto;
@@ -14,11 +15,20 @@
   font-size: 40px;
   font-weight: 600;
   padding-top: 50px;
+
+}
+.learning-path-about h1 span
+{
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .learning-path-about p {
   font-size: 20px;
   font-weight: 300;
   margin-top: 5px;
+  color: var(--headings);
+
 }
 .course-types {
   display: grid;
@@ -47,16 +57,17 @@
 .course-type {
   padding: 16px 30px;
   margin: 0 10px;
-  border: 1px solid #e2e2e2;
+  border: 1px solid var(--borders);
   border-radius: 10px;
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: 0.3s linear;
 }
 .course-type a {
   display: flex;
   align-items: center;
-  color: #151518;
+  color: var(--headings);
 }
 .course-type a img {
   
@@ -73,6 +84,9 @@
   font-size: 18px;
   font-weight: 600;
   margin-top: 40px;
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .learning-path-course-row-group {
   display: grid;
@@ -87,7 +101,7 @@
 }
 .learning-path-course-items {
   width: 405px;
-  background-color: white;
+  background-color: var(--cards-color);
   padding: 20px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -128,11 +142,17 @@
   font-weight: 600;
   margin-top: 15px;
   font-size: 17px;
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .course-mentor {
   font-weight: 300;
   font-size: 14px;
   margin-top: 5px;
+  background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .explore-now {
   display: flex;
@@ -240,9 +260,14 @@
   .course-image img{
     width: 300px;
   }
+  .explore-now span {
+    color: white;
+  }
   .course-rating{
     font-size: 14px;
+
   }
+
   .explore-now img {
     width: 100px;
   }

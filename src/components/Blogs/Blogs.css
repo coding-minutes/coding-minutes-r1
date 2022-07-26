@@ -6,10 +6,11 @@
   margin-top: 15vh;
 }
 .blogs-inner-container {
-  background-color: #2962ff;
+  background: var(--blog);
   border-radius: 20px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  transition: 0.3s linear;
 }
 .blogs-left {
   line-height: 30px;
