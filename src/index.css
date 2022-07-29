@@ -39,6 +39,7 @@ body
   --discord: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   --mentors: #140229;
   --box-shadow: 0 8px 6px -6px rgb(72, 61, 94);
+  --foot-img: url("./assets/Images/main/cmlogo-white.png");
 }
 .light-theme {
   --nav-color:rgba(0, 0, 0, 0.8);
@@ -57,4 +58,5 @@ body
   --discord: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
   --mentors:#d8d8d8;
   --box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
+  --foot-img: "./assets/Images/main/codingMinutesLogo.png";
 }

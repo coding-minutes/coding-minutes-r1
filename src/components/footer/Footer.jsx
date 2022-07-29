@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="components-outer-container" id="faq">
         <div className="footer-internal-container" id="contact">
           <div className="footer-items about-cm">
-            <img src={codingMinutesLogo} alt="" />
+            <img src={codingMinutesLogo} alt="Coding-Minutes Logo" />
             <p className="about-cm-text">
               Coding Minutes was started with a mission to provide affordable &
               high quality education for everyone. With Udemy as our technology

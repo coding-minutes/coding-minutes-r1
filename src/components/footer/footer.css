@@ -20,6 +20,8 @@
 }
 .about-cm img{
 width: 360px;
+content: var(--foot-img); 
+
 }
 .about-cm .about-cm-text {
     margin-top: 10px;
