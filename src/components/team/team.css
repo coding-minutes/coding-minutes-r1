@@ -101,10 +101,7 @@
   .team-title {
     font-size: 25px;
   }
-  .team-members {
-    /* display: grid; */
-    /* align-items: flex-start; */
-  }
+  
   .team-member-item {
     /* display: flex; */
     /* flex-direction: column; */

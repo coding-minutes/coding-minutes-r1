@@ -39,7 +39,7 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div className="team-member-item" id="apaar-bhaiya" data-aos="fade-up" data-aos-offset="300">
+            {/* <div className="team-member-item" id="apaar-bhaiya" data-aos="fade-up" data-aos-offset="300">
               <img src={apaarBhaiya} alt="" />
               <div className="team-content">
                 <p>
@@ -50,7 +50,7 @@ const Team = () => {
                   <a href="https://www.instagram.com/apaargram/" target="_blank"><img src={instagram} alt="" /></a>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

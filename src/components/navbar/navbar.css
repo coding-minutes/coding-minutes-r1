@@ -214,9 +214,12 @@
     transform: translateX(100%);
     transition: 0.3s linear;
   }
-  .nav__item .nav__link
+  .nav__menu .nav__item .nav__link
   {
-   color: var(--headings);
+   color: var(--nav-color);
+  }
+  .nav__menu .nav__item .nav__link:hover {
+    color: var( --nav-color-hover);
   }
   .Theme-parent {
     display: flex;
