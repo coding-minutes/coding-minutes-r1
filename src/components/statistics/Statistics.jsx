@@ -13,7 +13,7 @@ const Statistics = () => {
           <h2 className="statistics-our-journey">Our journey so far</h2>
           <div className="statistics-sections">
             <div className="statistics-section">
-              <h2><CountUp start={0} end={4} duration={6} separator="," />.7⭐</h2>
+              <h2>4.7⭐</h2>
               <span>Course Ratings</span>
             </div>
             <div className="statistics-border"></div>
