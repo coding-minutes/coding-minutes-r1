@@ -12,7 +12,7 @@ const Team = () => {
     <div className="components-outer-container">
       <div className="team-outer-container">
         <div className="team-internal-container" id="team">
-          <div className="team-title" data-aos="fade-up">Meet the team 😎</div>
+          <div className="team-title" data-aos="fade-up"><span>Meet the team</span> 😎</div>
           <div className="team-members">
             <div className="team-member-item" id="prateek-bhaiya" data-aos="fade-up" data-aos-offset="100">
               <img src={prateekBhaiya} alt="" />
@@ -39,7 +39,7 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div className="team-member-item" id="apaar-bhaiya" data-aos="fade-up" data-aos-offset="300">
+            {/* <div className="team-member-item" id="apaar-bhaiya" data-aos="fade-up" data-aos-offset="300">
               <img src={apaarBhaiya} alt="" />
               <div className="team-content">
                 <p>
@@ -50,7 +50,7 @@ const Team = () => {
                   <a href="https://www.instagram.com/apaargram/" target="_blank"><img src={instagram} alt="" /></a>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

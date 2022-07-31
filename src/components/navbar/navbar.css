@@ -1,3 +1,4 @@
+
 .nav__menu li {
   list-style: none;
 }
@@ -5,12 +6,12 @@
 
   text-decoration: none;
   font-size: 15px;
-  color: #000;
+  color: var(--nav-color);
   transition: 0.1s ease-in-out;
+  font-weight: 600;
 }
 .nav__item .nav__link:hover {
-
-  font-weight: 600;
+  color: var( --nav-color-hover);
 }
 
 .nav{
@@ -31,8 +32,9 @@
   justify-content: space-between;
   gap: 2rem;
   /* margin-top: 1vh; */
-  margin-left: auto;
-  margin-right: 95px; 
+  margin-left: 13%;
+  /* margin-right: 95px;  */
+  margin-right: 0;
 }
 
 .nav__toggler div {
@@ -40,10 +42,13 @@
   height: 0.2rem;
   margin: 0.4rem;
   border-radius: 2px;
-  background: linear-gradient(90deg,#5848ea,#9549eb);;
+  background: linear-gradient(90deg,#5848ea,#9549eb);
   transition: 0.5s ease-in-out;
   
 }
+
+
+
 .nav__toggler {
   cursor: pointer;
   display: none;
@@ -58,6 +63,92 @@
 {
   width: 224px;
 }
+.nav__item .signup-button
+{
+  padding: 10px 12px;
+  background: linear-gradient(97.38deg, rgba(89, 72, 234, 0.99) 5.73%, rgba(147, 73, 235, 0.99) 94.27%);
+  color: white;
+  border-radius: 50px;
+  display:none;
+  font-weight: 600;
+}
+.signup-buttonnav
+{
+  padding: 10px 12px;
+  background: linear-gradient(97.38deg, rgba(89, 72, 234, 0.99) 5.73%, rgba(147, 73, 235, 0.99) 94.27%);
+  color: white;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 1vw;
+  font-weight: 600;
+}
+.Toggle-theme
+{
+  display: inline-flex;
+  margin: auto;
+  margin-right: 95px;
+}
+/*Switch Button*/
+.checkbox {
+	opacity: 0;
+	position: absolute;
+  width: 50px;
+}
+
+.label {
+	background: linear-gradient(97.38deg, rgba(89, 72, 234, 0.99) 5.73%, rgba(147, 73, 235, 0.99) 94.27%);
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+}
+/* .Theme
+{
+  display: -webkit-flex;
+  list-style-type:none;
+  padding:0;
+  display: flex;
+  justify-content: flex-end;
+
+} */
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+ 
+}
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #ffffff;
+}
+.Theme-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  gap: 1.5rem;
+}
+
+
 @media screen and (max-width: 674px) {
   .border-line {
     display: none;
@@ -80,30 +171,89 @@
   height: 0.2rem;
   margin: 0.4rem;
 }
+
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width:400px)
+{
+  .Theme-parent {
+    background-color: #f1c40f;
+    width: 0px;
+    margin-left: auto;
+    margin-right: -132px;
+    gap: 0rem;
+  }
+} */
+@media screen and (max-width: 1237px) {
   .nav__toggler {
     display: block;
     margin-right: 86px;
     margin-left: auto;
   }
+  .nav__item .signup-button
+  {
+    display: block;
+  }
+  .Toggle-theme .signup-buttonnav
+  {
+    display: none;
+    position: absolute;
+  }
   .nav__menu
   {
-    gap:0.5vh;
+    gap:0vh;
     position: fixed;
     justify-content: space-evenly;
     top: 11.8vh;
     right: 0;
     width:55%;
     height: 89vh;
-    background-color: #fff;
+    background-color: var(--whycm-color);
     margin-right: 0;
     z-index: 999;
     flex-direction: column;
     transform: translateX(100%);
-    transition: 0.5s ease-in-out;
+    transition: 0.3s linear;
   }
+  .nav__menu .nav__item .nav__link
+  {
+   color: var(--nav-color);
+  }
+  .nav__menu .nav__item .nav__link:hover {
+    color: var( --nav-color-hover);
+  }
+  .Theme-parent {
+    display: flex;
+    align-items: none;
+    background-color: aqua;
+    width: 0px;
+    justify-content: none;
+    /* margin-left: 50%; */
+    /* margin-right: 10px; */
+    gap: 1.5rem;
+    right: auto;
+  }
+  .Theme
+  {
+    
+    position: absolute;
+    right: 140px;
+  }
+}
+@media screen and (max-width: 675px) {
 
+   .Theme
+  {
+    position: absolute;
+    right: 85px;
+  }
+}
+@media screen and (max-width: 1308px)
+{
+  .nav__menu
+  {
+    margin-left: 6% ;
+    gap:1.8rem;
+  }
 }
 @media screen and (max-width:354px) 
 {
@@ -111,20 +261,23 @@
 {
   height: 100vh;
 }  
+.nav__brand img
+{
+  width: 140px;
+  height: 3.5vh;
 }
-
-@media screen and (max-width:354px) 
+.Theme
 {
-.nav__menu
-{
-  height: 100vh;
-}  
+  
+  position: absolute;
+  right: 75px;
+}
 }
 @media screen and (max-width:330px) 
 {
 .nav__menu
 {
-  height: 110vh;
+  height: 110vh; 
 }  
 }
 @media screen and (max-width:288px) 
@@ -159,8 +312,8 @@
 }
 .nav.sticky
 {
-  box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
-  background:#fff;
+  box-shadow: var(--box-shadow);
+  background: var(--bg-container);
   /* position: fixed;
   top: 0vh;
   margin-top: 0vh; */

@@ -16,7 +16,7 @@ const WhyCM = () => {
         <div className="why-cm-internal-container">
           <div className="why-cm-title" data-aos="fade-up">
             <h2> <img src={udemyIcon} alt="" /> Udemy + Coding Minutes Advantage</h2>
-            <p>Now spend less than a Pizza 🍕, Learn more than ever 💡</p>
+            <p><span>Now spend less than a Pizza </span>🍕, <span>Learn more than ever </span>💡</p>
           </div>
           <div className="why-cm-reasons">
             <div className="why-cm-reasons-outside-container">

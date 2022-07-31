@@ -12,7 +12,7 @@ const CampusCaptains = () => {
       <div className="campus-captain-outer-container" data-aos="fade-up" data-aos-offset="200">
         <div className="campus-captain-inner-container" id="campus-captains">
           <div className="campus-captain-left">
-            <h1>Campus Captain 🏁 </h1>
+            <h1><span>Campus Captain </span>🏁 </h1>
             <p>
               Become a Campus Captain for your campus. win swags, Coding
               T-Shirts & cash incentives!

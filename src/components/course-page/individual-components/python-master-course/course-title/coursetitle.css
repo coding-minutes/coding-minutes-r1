@@ -1,5 +1,5 @@
 .course-title-outer-container {
-    background: #F9F9F9;
+    background: var(--bg-container);
    
 }
 .navspace {
@@ -23,8 +23,17 @@
     gap: 1rem;
     padding-bottom: 30px;
 }
-.course-title-left .title h3 {
-    font-size: 25px;
+.course-title-left .title h1 {
+    background: var(--purple-headings);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.short-info {
+    color:var(--headings)
+}
+.stars
+{
+    color: var(--headings);
 }
 .course-title-left .price-info{
 padding-top: 30px;
@@ -33,6 +42,7 @@ padding-top: 30px;
     font-weight: 700;
     font-size: 28px;
     margin-right: 18px;
+    color: var(--headings);
 }
 .price-info .middle {
     font-weight: 600;
@@ -81,8 +91,12 @@ padding-top: 30px;
 }
 
 @media screen and (max-width:450px) {
+    .navspace {
+        height: 20vh;
+    }
     .course-title-inner-container {
-        padding: 20px 20px;
+        padding: 0;
+       margin-right: 5%;
     }
     .title img {
         display: none;
@@ -110,6 +124,7 @@ padding-top: 30px;
     iframe {
      width: 300px;   
      height: 200px;
+     margin-left:3%;
     }
     .udemy-info span 
     {

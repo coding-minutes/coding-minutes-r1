@@ -5,7 +5,7 @@
 }
 
 .discord-dashboard-internal-container {
-    background: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
+    background: var(--discord);
     padding: 40px;
     /* border-radius: 20px; */
     display: flex;

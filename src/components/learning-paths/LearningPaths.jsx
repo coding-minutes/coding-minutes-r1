@@ -25,7 +25,7 @@ const LearningPaths = () => {
         <div className="learning-path-outer-container">
           <div className="learning-path-internal-container" id="courses">
             <div className="learning-path-about" data-aos="fade-up">
-              <h1>Explore learning paths 🔥</h1>
+              <h1><span>Explore learning paths </span>🔥</h1>
               <p>
                 Begin the journey for your dream job with these industry vetted
                 learning paths..
@@ -72,7 +72,7 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating">
+                            <span className="course-rating" style={{color:`var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
                             <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
@@ -103,7 +103,7 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating">
+                            <span className="course-rating" style={{color:`var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
                             <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
@@ -132,7 +132,7 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating">
+                            <span className="course-rating" style={{color:`var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
                             <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
@@ -164,7 +164,7 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating">
+                            <span className="course-rating" style={{color:`var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
                             <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
@@ -188,7 +188,7 @@ const LearningPaths = () => {
                           </p>
                           <br />
                           <div className="explore-now">
-                            <span className="course-rating">
+                            <span className="course-rating" style={{color:`var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
                             {/* <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link> */}
@@ -246,7 +246,7 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating">
+                            <span className="course-rating" style={{color:`var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
                             <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>

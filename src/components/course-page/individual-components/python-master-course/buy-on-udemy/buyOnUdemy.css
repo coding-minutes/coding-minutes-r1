@@ -5,7 +5,7 @@
     margin-bottom: 100px;
   }
   .buy-on-udemy-internal-container {
-    background-color: #f9f9f9;
+    background: var(--cards-color);
     border-radius: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -16,13 +16,16 @@
     padding: 67px;
   }
   .buy-on-udemy-left h3 {
-    font-size: 30px;
+    background: var(--purple-headings);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   
   .buy-on-udemy-left p {
     margin: 30px 0;
     font-size: 18px;
     font-weight: 300;
+    color: var(--headings);
   }
   .buy-on-udemy-left a img {
     width: 223px;

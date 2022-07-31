@@ -6,7 +6,7 @@ const FAQ = () => {
     <div className="components-outer-container">
       <div className="faq-outer-container" data-aos="fade-up"> 
         <div className="faq-internal-container">
-          <div className="faq-title">Frequently asked questions🤔</div>
+          <div className="faq-title"><span>Frequently asked questions</span>🤔</div>
           <div className="faq-content">
             <div className="faq-content-group">
               <div className="faq-content-item">

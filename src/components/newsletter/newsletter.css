@@ -7,7 +7,7 @@
 }
 
 .newsletter {
-  background: linear-gradient(90deg, #5848ea, #9549eb);
+  background: var(--discord);
   padding: 40px 40px;
   max-width: 800px;
   margin: auto;
