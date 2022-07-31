@@ -52,9 +52,9 @@ const Navbar = () => {
         <ul className={active}>
           <li className="nav__item"><a href="/#courses" className="nav__link">Our Courses</a></li>
           <li className="nav__item"><a href="/#blogss" className="nav__link">Blogs</a></li>
-          <li className="nav__item"><a href="https://discord.gg/jwvtDtnkJv" className="nav__link">Community</a></li>
+          <li className="nav__item"><a href="https://discord.gg/jwvtDtnkJv" target="_blank" className="nav__link">Community</a></li>
           <li className="nav__item"><a href="/#campus-captains" className="nav__link">Be a Captain</a></li>
-          <li className="nav__item"><a href="https://ide.codingminutes.com" className="nav__link">CM IDE</a></li>
+          <li className="nav__item"><a href="https://ide.codingminutes.com" target="_blank" className="nav__link">CM IDE</a></li>
           <li className="nav__item"><a href="/#team" className="nav__link">Mentors</a></li>
           <li className="nav__item"><a href="/#contact" className="signup-button">Sign Up</a></li>
         </ul>

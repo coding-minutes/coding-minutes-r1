@@ -1,37 +1,79 @@
-.statistics-container {
-  /* margin-top: 40px !important; */
-  max-width: 1000px;
+.statistics-internal-container {
+  max-width:1000px;
   margin: auto;
-  background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
-  padding: 0px;
-  border-radius: 15px;
-  /* margin-top: 100px !important; */
+  color: white;
   position: relative;
-  top: 105px;
+  top: 70px;
 }
-.statistics-image {
+.statistics-main {
+  padding: 30px 10px;
+  background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+  border-radius: 15px !important;
+font-size: 20px;
+}
+.statistics-internal-container .statistics-our-journey {
+  width: 100%;
+  margin: auto;
   display: flex;
   justify-content: center;
-  padding: 0;
-  overflow-x: hidden;
+  margin-bottom: 1rem;
+  font-size: 24px;
+
 }
-.statistics-image img {
-  padding: 40px 0px;
-  height: 200px;
+.statistics-internal-container .statistics-sections {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.statistics-internal-container .statistics-sections .statistics-section {
+  /* border-right: 2px solid rgba(0, 0, 0, 0.184);
+  padding-right: 2rem; */
+}
+.statistics-internal-container .statistics-border {
+  height: 50px;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.184);
+
 }
 
-/* ============ Media Query (Medium Devices) ============== */
-@media screen and (max-width: 1200px) {
-  .statistics-image img {
-    height: 170px;
+@media screen and (max-width:1060px) {
+  .statistics-main {
+    padding: 30px 10px;
+  }
+  .statistics-internal-container {
+    max-width: 600px;
+  }
+  .statistics-main {
+    font-size: 16px;
+  }
+  .statistics-sections {
+    display: flex;
+    gap: 2rem;
   }
 }
 
-/*  ========== Media Query (Small Devices) ============ */
-@media screen and (max-width:676px) {
-    .statistics-image img {
-        padding: 40px 0px;
-        transform: scale(0.8);
-        margin-left: 4%;
+@media screen and (max-width:670px) {
+  .statistics-main {
+    padding: 30px 10px;
+  }
+    .statistics-internal-container {
+      max-width: 500px;
     }
+    .statistics-main {
+      font-size: 14px;
+    }
+    .statistics-sections {
+      gap: 1rem;
+    }
+}
+
+@media screen and (max-width:530px) {
+  .statistics-main {
+    padding: 30px 10px;
+  }
+  .statistics-our-journey {
+    font-size: 18px !important;
+    width: 100%;
+  }
 }
