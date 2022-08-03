@@ -26,10 +26,7 @@ font-size: 20px;
   padding-bottom: 1rem;
   text-align: center;
 }
-.statistics-internal-container .statistics-sections .statistics-section {
-  /* border-right: 2px solid rgba(0, 0, 0, 0.184);
-  padding-right: 2rem; */
-}
+
 .statistics-internal-container .statistics-border {
   height: 50px;
   width: 2px;
