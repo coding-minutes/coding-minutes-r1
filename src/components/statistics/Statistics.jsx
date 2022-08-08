@@ -9,7 +9,7 @@ const Statistics = () => {
   return (
     <div className="statistics-container">
       <div className="statistics-internal-container">
-        <div className="statistics-main">
+        <div className="statistics-main" data-aos="fade-up">
           <h2 className="statistics-our-journey">Our journey so far</h2>
           <div className="statistics-sections">
             <div className="statistics-section">
