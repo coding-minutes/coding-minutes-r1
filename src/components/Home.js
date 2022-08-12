@@ -30,7 +30,7 @@ const Home = () => {
             <CampusCaptains />
             <DiscordDashboard />
             <Team />
-            <Newsletter />
+            {/* <Newsletter /> */}
             <FAQ />
             <Footer />
         </>

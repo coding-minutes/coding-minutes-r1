@@ -23,6 +23,7 @@ body
   display: none;
 }
 .dark-theme {
+  --discord-bg:-webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   --bg-container: #0c0019;
   --headings: white ;
   --nav-color: rgba(246, 246, 246, 0.5);
@@ -32,7 +33,8 @@ body
   --gray-bg: #0c0019;
   --purple-headings : -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   --borders: rgb(93, 29, 196);
-  --rating: rgb(93, 29, 196);
+  --rating: #ffff;
+  --card-mentor:#F3F2FE;
   --blog: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   --whycm-bg:#140229;
   --whycm-color: #0c0019;
@@ -40,8 +42,10 @@ body
   --mentors: #140229;
   --box-shadow: 0 8px 6px -6px rgb(72, 61, 94);
   --foot-img: url("./assets/Images/main/cmlogo-white.png");
+  --hover: #200242;
 }
 .light-theme {
+  --discord-bg:#5865f2; 
   --nav-color:rgba(0, 0, 0, 0.8);
   --bg-container: #ffffff;
   --nav-color-hover: rgb(0, 0, 0);
@@ -49,6 +53,7 @@ body
   --border: #eaeaea;
   --cards-color: #fff;
   --purple-headings : black;
+  --card-mentor: black;
   --gray-bg: #f5f5f5;
   --borders: #e2e2e2;
   --rating: black;
@@ -59,4 +64,5 @@ body
   --mentors:#d8d8d8;
   --box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
   --foot-img: "./assets/Images/main/codingMinutesLogo.png";
+  --hover: #e0e0e0;
 }

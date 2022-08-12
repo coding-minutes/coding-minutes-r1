@@ -8,7 +8,7 @@
   font-size: 15px;
   color: var(--nav-color);
   transition: 0.1s ease-in-out;
-  font-weight: 600;
+  font-weight: 450;
 }
 .nav__item .nav__link:hover {
   color: var( --nav-color-hover);
@@ -74,7 +74,7 @@
 }
 .signup-buttonnav
 {
-  padding: 10px 12px;
+  padding: 10px 15px;
   background: linear-gradient(97.38deg, rgba(89, 72, 234, 0.99) 5.73%, rgba(147, 73, 235, 0.99) 94.27%);
   color: white;
   border-radius: 50px;
@@ -247,7 +247,7 @@
     right: 85px;
   }
 }
-@media screen and (max-width: 1308px)
+@media screen and (max-width: 1363px)
 {
   .nav__menu
   {

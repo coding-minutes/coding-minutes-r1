@@ -26,7 +26,7 @@ const FAQ3 = () => {
             </div>
             <div className="faq-content-group">
               <div className="faq-content-item">
-                <h4>What are the pre-requisties for this course?</h4>
+                <h4>What are the pre-requisites for this course?</h4>
                 <p>
                 Familiarity with any one programming language
 Ability to understand & write code (preferably C/C++).

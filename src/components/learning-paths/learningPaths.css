@@ -64,6 +64,10 @@
   cursor: pointer;
   transition: 0.3s linear;
 }
+.course-type:hover
+{
+  background:var(--hover);
+}
 .course-type a {
   display: flex;
   align-items: center;
@@ -84,7 +88,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-top: 40px;
-  background: var(--purple-headings);
+  background: var(--rating);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -142,15 +146,15 @@
   font-weight: 600;
   margin-top: 15px;
   font-size: 17px;
-  background: var(--purple-headings);
+  background: var(--rating);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .course-mentor {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   margin-top: 5px;
-  background: var(--purple-headings);
+  background: var(--card-mentor);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

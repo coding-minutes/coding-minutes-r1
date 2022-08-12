@@ -26,7 +26,7 @@ const FAQ = () => {
             </div>
             <div className="faq-content-group">
               <div className="faq-content-item">
-                <h4>What are the pre-requisties for this course?</h4>
+                <h4>What are the pre-requisites for this course?</h4>
                 <p>
                   Basics of C++, and basic idea of data structures is expected
                   for this course. I am planning to work on other Courses which
