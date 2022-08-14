@@ -12,6 +12,7 @@ import FAQ from './faq/FAQ'
 import Footer from './footer/Footer'
 import DiscordDashboard from './discord/DiscordDashboard'
 import Blogs from './Blogs/Blogs'
+import Carousel from './carousel/Carousel'
 // import Advertisement from './advertisement/Advertisement'
 // import HeaderBanner from './header-banner/HeaderBanner'
 
@@ -31,8 +32,10 @@ const Home = () => {
             <DiscordDashboard />
             <Team />
             {/* <Newsletter /> */}
+            <Carousel/>
             <FAQ />
             <Footer />
+            
         </>
     )
 }

@@ -73,16 +73,17 @@
 }
 .right-image1 img {
     
-    width: 450px;
+    width: 440px;
     position: inherit;
     opacity: 0.35; 
     overflow: hidden;
     /* object-fit:cover;
     object-position: 0px 80px; */
-    transform: scale(1.03);
-    margin-top: 0; 
-    margin-bottom: -6px;
+    transform: scale(1.0);
+    margin-top: -4vh; 
+    margin-bottom: -2px;
     margin-left: 10px; 
+    
 }
 @media screen and (max-width:1240px) {
   .right-image1 img {
