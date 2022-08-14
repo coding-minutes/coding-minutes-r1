@@ -4,6 +4,7 @@ const Carousel = () => {
   return (
    <div className="components-outer-container  Carousel-cover"  >
     <h1 data-aos="fade-up"><span>Our Testimonials</span>&nbsp;📋</h1>
+    <p data-aos="fade-up" className="carousel-subhead"><span>Our courses are loved by students worldwide!! </span>🌏</p>
    <div className="slider" data-aos="fade-up">
     <div className="slider-track">
     
@@ -21,7 +22,7 @@ const Carousel = () => {
     </div>
    </div>
    <div class="Outer-Container">
-    <p class="star-ratings">⭐⭐⭐⭐⭐</p>
+    <p class="star-ratings">⭐⭐⭐⭐</p>
     <p class="card-content">so far so good, except I have some doubts about some of the runtimes he is coming up with but I suppose he is the professional and not me, lol. Authentically Prateek is a professional Instructor and knows how things work, and his English is very pellucid and understandable.</p>
     <div class="personal-name">
         <div>
@@ -60,7 +61,7 @@ const Carousel = () => {
     </div>
    </div>
     <div class="Outer-Container">
-    <p class="star-ratings">⭐⭐⭐⭐⭐</p>
+    <p class="star-ratings">⭐⭐⭐⭐</p>
     <p class="card-content">I think this is perfect course for those who know the basics and wants to be a very good problem solver. Everything taught is really Amazing and in easy way....I can definitely recommend this course to you all who are planning to crack placements. Go for it definitely it is worth</p>
     <div class="personal-name">
         <div>

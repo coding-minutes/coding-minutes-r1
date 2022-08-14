@@ -123,6 +123,20 @@
     font-family: 'poppins' sans-serif;
     font-size: 40px;
 }
+.Carousel-cover .carousel-subhead
+{
+    text-align: center;
+    font-size: 20px;
+   
+    padding-top: 2vh;
+}
+.Carousel-cover .carousel-subhead span
+{
+    background: var(--purple-headings);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .Carousel-cover h1 span{
     background: var(--purple-headings);
     -webkit-text-fill-color: transparent;
