@@ -19,7 +19,7 @@ const CourseTitle = () => {
             Learn Graphs Algorithms in Computer Science & Mathematics, theory + hands-on coding and ace Competitive Coding problems!
             </div>
             <div className="price-info">
-            <span className="first">₹ 389+taxes</span>
+            <span className="first">₹ 389</span>
               <span className="middle">₹ 18,560</span>
               <span className="last">Use code : FREEDOM</span>
             </div>

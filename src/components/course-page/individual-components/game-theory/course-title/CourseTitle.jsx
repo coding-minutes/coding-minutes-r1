@@ -16,7 +16,7 @@ const CourseTitle = () => {
             Dive deep into game theory algorithms, learn & apply these techniques for Codeforces & Competitive Programming problems!
             </div>
             <div className="price-info">
-            <span className="first">₹ 389+taxes</span>
+            <span className="first">₹ 389</span>
               <span className="middle">₹ 18,560</span>
               <span className="last">Use code : FREEDOM</span>
             </div>
