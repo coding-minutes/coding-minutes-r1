@@ -7,7 +7,7 @@ const Advertisement = () => {
         <div className="advertisement-container">
             <div className="advertisement-internal-container">
                <div className="advertisement">
-                   <marquee scrollAmount="5">Celebrating Independence Day! Grab all courses at ₹ 389 using code FREEDOM (till 18 August)</marquee>
+                   <marquee>Celebrating 1 year of Coding Minutes! Grab all courses at ₹ 420 using code BDAY360 (till 19 May)</marquee>
                </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
   const [theme, setTheme] = useState("light-theme");
   const [image,setImage]=useState(Logo);
   
-const toggleTheme = () => {
+  const toggleTheme = () => {
      theme === "light-theme" ? setTheme("dark-theme") : setTheme("light-theme");
      image === Logo ? setImage(DarkLogo) : setImage(Logo);
   }

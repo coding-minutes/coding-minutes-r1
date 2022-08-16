@@ -18,7 +18,6 @@ font-size: 20px;
   justify-content: center;
   margin-bottom: 1rem;
   font-size: 24px;
-  text-align: center;
 
 }
 .statistics-internal-container .statistics-sections {
@@ -26,10 +25,6 @@ font-size: 20px;
   justify-content: space-evenly;
   padding-bottom: 1rem;
   text-align: center;
-
-}
-.statistics-sections .statistics-section {
-  
 }
 
 .statistics-internal-container .statistics-border {

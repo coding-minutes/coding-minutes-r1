@@ -79,10 +79,8 @@
   color: white;
   border-radius: 50px;
   width: 100%;
-  font-size: 0.9vw;
+  font-size: 1vw;
   font-weight: 600;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .Toggle-theme
 {
