@@ -1,9 +1,7 @@
 import React from "react";
 import "./header.css";
-import learnMoreImage from "../../assets/Images/main/learn-more.svg";
-import exploreCoursesImage from "../../assets/Images/main/explore-courses.svg";
 import headerImage from "../../assets/Images/main/header-image.png";
-import cmYearFirst from '../../assets/Images/main/event-images/cm-year-first.svg'
+
 //aos_offset
 
 const Header = () => {

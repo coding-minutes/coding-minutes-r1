@@ -91,9 +91,12 @@
 } */
 
 .header-right-image {
-  margin-top: 40px;
+  margin-top: 20vh;
   animation: wave 3s infinite;
   transition: smooth;
+  content:var(--freedom);
+  max-width: 500px;
+  
 }
 
 @keyframes wave
@@ -129,6 +132,10 @@
 
 /* ============ Media Query (Small Devices) ========= */
 @media screen and (max-width: 674px) {
+  .header-right-image{
+    width: 100%;
+    margin-top: 12vh;
+  }
   .header-outer-container {
     margin-left: 20px;
     margin-right: 20px;

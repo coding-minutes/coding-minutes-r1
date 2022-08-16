@@ -43,6 +43,7 @@ body
   --box-shadow: 0 8px 6px -6px rgb(72, 61, 94);
   --foot-img: url("./assets/Images/main/cmlogo-white.png");
   --hover: #200242;
+  --freedom: url("./assets/Images/main/Freedom.svg");
 }
 .light-theme {
   --discord-bg:#5865f2; 
@@ -65,4 +66,5 @@ body
   --box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
   --foot-img: "./assets/Images/main/codingMinutesLogo.png";
   --hover: #e0e0e0;
+  --freedom: url("./assets/Images/main/Freedom2.svg");
 }
