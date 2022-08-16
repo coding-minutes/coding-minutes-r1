@@ -9,7 +9,7 @@ const Blogs = () => {
           <div className="blogs-left">
             <h1>Introducing Coding Minutes Blogs!</h1>
             <p>
-           Get a comprehensive guide of DSA concepts with programs, Web Development, Interview Tips and Tricks and progamming roadmaps.
+           Get a comprehensive guide of DSA concepts with programs, Web Development, Interview Tips and Tricks and programming roadmaps.
             </p>
             <div className="blog-explore">
               <a href="https://blog.codingminutes.com/">&nbsp; &nbsp;Explore Blogs in&nbsp;<img src={reading} alt="Explore button" />&nbsp;&nbsp;</a>

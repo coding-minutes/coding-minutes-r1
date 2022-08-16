@@ -2,20 +2,24 @@ import React from "react";
 import "./header.css";
 import learnMoreImage from "../../assets/Images/main/learn-more.svg";
 import exploreCoursesImage from "../../assets/Images/main/explore-courses.svg";
-import headerImage from "../../assets/Images/main/header-image.png";
+// import headerImage from "../../assets/Images/main/header-image.png";
+import freedomSaleLightImage from "../../assets/Images/main/freedom-sale-light.png"
+import freedomSaleDarkImage from "../../assets/Images/main/freedom-sale-dark.png"
 import cmYearFirst from '../../assets/Images/main/event-images/cm-year-first.svg'
 //aos_offset
 
+import Navbar from '../navbar/Navbar'
+
 const Header = () => {
-  
+
   return (
     <div className="components-outer-container" >
       <div className="header-outer-container">
         <br />
         <div className="border-line">
-        
-      </div>
-      <br />
+
+        </div>
+        <br />
         <div className="header-internal-container">
           <div className="header-left" data-aos="fade-right" aos_offset="5000">
             <div className="header-left-tagline">
@@ -24,11 +28,11 @@ const Header = () => {
             </div>
             <div className="header-left-text">
               <p>
-              <span className="header-breakPoint">   <span>Pocket friendly courses</span> with interactive content, top-notch </span>
+                <span className="header-breakPoint">   <span>Pocket friendly courses</span> with interactive content, top-notch </span>
                 instructors, TA support, Projects & Assignments.
               </p>
               {/* <p>
-              Use code <span>AUG440</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
+              Use code <span>FREEDOM</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
               </p> */}
             </div>
             <div className="header-left-buttons">
@@ -39,20 +43,23 @@ const Header = () => {
                 </a>
               </div>
               {/* <div className="learn-more"> */}
-                {/* <a href="#courses"> */}
-                  {/* ▶ Learn more */}
-                  {/* <img src={learnMoreImage} alt="" /> */}
-                {/* </a> */}
+              {/* <a href="#courses"> */}
+              {/* ▶ Learn more */}
+              {/* <img src={learnMoreImage} alt="" /> */}
+              {/* </a> */}
               {/* </div> */}
             </div>
           </div>
           <div className="header-right" data-aos="fade-left">
             <div className="header-right-image">
-              <img src={headerImage} alt="Landing Image" />
+              {/* <img src={freedomSaleImage} alt="Landing Image" /> */}
+            </div>
+            <div className="header-right-image freedom-sale-image">
+              <img src={freedomSaleLightImage} alt="Landing Image" />
             </div>
           </div>
         </div>
-      
+
       </div>
 
     </div>

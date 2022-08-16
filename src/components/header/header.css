@@ -96,6 +96,11 @@
   transition: smooth;
 }
 
+.freedom-sale-image {
+  margin-top: 140px;
+}
+
+
 @keyframes wave
 {
     20%,to{
@@ -139,6 +144,10 @@
   .header-left-text{
     text-align: center;
   }
+  .freedom-sale-image {
+    margin-top: 100px;
+  }
+  
   .header-left h1 {
     
     text-align: center;
