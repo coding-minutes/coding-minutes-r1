@@ -16,7 +16,7 @@ const CourseTitle = () => {
               Natural Language Processing Course is now on #Udemy!
             </div>
             <div className="price-info">
-              <span className="first">₹ 420</span>
+              <span className="first">₹ 389</span>
               <span className="middle">₹ 18,560</span>
               <span className="last">Use code : FREEDOM</span>
             </div>

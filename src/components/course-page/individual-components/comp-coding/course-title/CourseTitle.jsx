@@ -19,7 +19,11 @@ const CourseTitle = () => {
             Master competitive coding techniques - maths, number theory, dynamic programming, advanced data structures & algorithms
             </div>
             <div className="price-info">
+<<<<<<< HEAD
             <span className="first">₹ 389</span>
+=======
+            <span className="first">₹ 389+taxes</span>
+>>>>>>> 7b3f7bfa18e908562da489996cd5836871ce3714
               <span className="middle">₹ 18,560</span>
               <span className="last">Use code : FREEDOM</span>
             </div>

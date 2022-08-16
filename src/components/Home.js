@@ -12,8 +12,12 @@ import FAQ from './faq/FAQ'
 import Footer from './footer/Footer'
 import DiscordDashboard from './discord/DiscordDashboard'
 import Blogs from './Blogs/Blogs'
+<<<<<<< HEAD
 import Carousel from './carousel/Carousel'
 // import Advertisement from './advertisement/Advertisement'
+=======
+import Advertisement from './advertisement/Advertisement'
+>>>>>>> 7b3f7bfa18e908562da489996cd5836871ce3714
 // import HeaderBanner from './header-banner/HeaderBanner'
 
 const Home = () => {
