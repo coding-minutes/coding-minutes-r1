@@ -19,23 +19,23 @@ const Navbar = () => {
     document.body.className = theme;
   },[theme]);
   const navToggle = () => {
-    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
-    toggleicon === 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
-    // if(window.scrollY >=50)
-    // {
-    // active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
-    // toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
-    // }
-    // else if( window.innerWidth < 1200 && window.innerWidth > 460)
-    // {
-    //   active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
-    //   toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler'); 
-    // }
+    // active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
+    // toggleicon === 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
+    if(window.scrollY >=50)
+    {
+    active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
+    toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
+    }
+    else if( window.innerWidth < 1200 && window.innerWidth > 460)
+    {
+      active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
+      toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler'); 
+    }
   }
 
   const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 10) {
       setNavbar(true);
 
     }

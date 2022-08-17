@@ -314,7 +314,8 @@
 {
   box-shadow: var(--box-shadow);
   background: var(--bg-container);
-  /* position: fixed;
+  position: fixed;
   top: 0vh;
-  margin-top: 0vh; */
+  margin-top: 0vh;
+  transition: 0.4s;
 }
