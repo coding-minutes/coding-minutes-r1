@@ -3,10 +3,11 @@
     justify-content: center;
     /* margin-left: 80px;
     margin-right: 80px; */
+    background: #f65b48;
 }
 .header-banner-container img {
-    width: 100%;
-    height: 12vh;
+    width: 80%;
+    height: 9vh;
     /* margin-left: 80px;
     margin-right: 80px; */
 }
@@ -27,10 +28,9 @@
 }
 @media screen and (max-width:480px)
 {
-    .headerImagePhone {
-        display: block;
-      width:180px;
-      height:120px;
-        /* display: none; */
+    .header-banner-container img
+    {
+        width: 100%;
+        
     }
 }
