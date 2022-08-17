@@ -22,6 +22,7 @@
 }
 .header-left .h3-second {
   background: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -132,9 +133,10 @@
 
 /* ============ Media Query (Small Devices) ========= */
 @media screen and (max-width: 674px) {
+   /*Updated freedom*/
   .header-right-image{
     width: 100%;
-    margin-top: 12vh;
+    margin-top: 18vh;
   }
   .header-outer-container {
     margin-left: 20px;
