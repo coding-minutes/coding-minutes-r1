@@ -19,12 +19,12 @@ const CourseTitle = () => {
             Master the most essential tools for software development, everything about Git, Github & Version Control.
             </div>
             <div className="price-info">
-            <span className="first">₹ 389</span>
+            <span className="first">₹ 440+taxes</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : FREEDOM</span>
+              <span className="last">Use code : AUG440</span>
             </div>
             <div className="udemy-info">
-              <a href="https://www.udemy.com/course/git-github-master-course/?couponCode=FREEDOM"  target="_blank">Enroll now on Udemy</a>
+              <a href="https://www.udemy.com/course/git-github-master-course/?couponCode=AUG440"  target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
             </div>
           </div>
