@@ -92,10 +92,11 @@
 } */
 
 .header-right-image {
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
+  margin-top: 40px;
   animation: wave 3s infinite;
   transition: smooth;
-  content:var(--freedom);
+  /* content:var(--freedom); */
   max-width: 500px;
   
 }
