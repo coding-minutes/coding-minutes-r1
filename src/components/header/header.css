@@ -123,12 +123,42 @@
   .header-internal-container {
     display: grid;
     grid-template-columns: 1fr;
+
+  }
+  .header-right-image{
+    width: 100%;
+    margin-top: 18vh;
   }
   .header-right-image img {
     margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-right {
+    display: flex;
+    justify-content: center;
+  }
+  .header-left-text{
+    text-align: center;
+  }
+  .header-left h1 {
+    
+    text-align: center;
+  }
+  .header-left h1 {
+    font-size: 35px;
+    /* font-size: 30px; */
+    line-height: initial;
   }
   .header-left {
     margin-top: 85px;
+  }
+  .header-left-buttons {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
