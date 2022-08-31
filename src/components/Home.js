@@ -31,7 +31,7 @@ const Home = () => {
             <CampusCaptains />
             <DiscordDashboard />
             <Team />
-            {/* <Newsletter /> */}
+            <Newsletter />
             <Carousel/>
             <FAQ />
             <Footer />
