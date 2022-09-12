@@ -46,7 +46,7 @@ const Header = () => {
           </div>
           <div className="header-right" data-aos="fade-left">
             <div className="header-right-image">
-              <img src={headerImage} alt="Landing Image" />
+              <img  loading="lazy"  src={headerImage} alt="Landing Image" />
             </div>
           </div>
         </div>

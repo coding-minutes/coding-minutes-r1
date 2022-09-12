@@ -19,7 +19,7 @@ const BuyOnUdemy = () => {
           </div>
           <div className="buy-on-udemy-right">
             <div className="buy-on-udemy-right-image">
-              <img src={rocketMan} alt="" />
+              <img loading="lazy" src={rocketMan} alt="" />
             </div>
           </div>
         </div>

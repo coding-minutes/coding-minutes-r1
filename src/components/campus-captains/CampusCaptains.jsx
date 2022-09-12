@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import campusCaptainImage from "../campus-captains-form/campus-captains.svg";
 
 const CampusCaptains = () => {
- 
+
   return (
     <div className="components-outer-container">
       <div className="campus-captain-outer-container" data-aos="fade-up" data-aos-offset="200">
@@ -18,12 +18,12 @@ const CampusCaptains = () => {
               T-Shirts & cash incentives!
             </p>
             <Link to="/campus-captains">
-              <img src={campusCaptainButton} alt="" />
+              <img loading="lazy" src={campusCaptainButton} alt="" />
             </Link>
           </div>
           <div className="campus-captain-right">
             <div className="right-image">
-              <img src={rocketMan} alt="" />
+              <img loading="lazy" src={rocketMan} alt="" />
             </div>
           </div>
         </div>

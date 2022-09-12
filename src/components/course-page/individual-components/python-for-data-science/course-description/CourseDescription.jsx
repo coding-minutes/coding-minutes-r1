@@ -34,19 +34,19 @@ const CourseDescription = () => {
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                Are you ready to take the next leap in your journey to become a Data Scientist?
+                  Are you ready to take the next leap in your journey to become a Data Scientist?
                 </p>
                 <p>
-                This hands-on course is designed for <span>absolute beginners as well as for proficient programmers</span> who want to use the Python for solving real life problems. You will learn how analyse data, make interesting data visualisations, drive insights, scrape web, automate boring tasks and working with databases using SQL.
+                  This hands-on course is designed for <span>absolute beginners as well as for proficient programmers</span> who want to use the Python for solving real life problems. You will learn how analyse data, make interesting data visualisations, drive insights, scrape web, automate boring tasks and working with databases using SQL.
                 </p>
                 <p>
-                Data Science has one of the most rewarding jobs of the 21st century and fortune-500 tech companies are spending heavily on data scientists! Data Science as a career is very rewarding and offers one of the highest salaries in the world. This course is designed for both beginners with some programming experience or experienced developers looking to enter the world of Data Science!
+                  Data Science has one of the most rewarding jobs of the 21st century and fortune-500 tech companies are spending heavily on data scientists! Data Science as a career is very rewarding and offers one of the highest salaries in the world. This course is designed for both beginners with some programming experience or experienced developers looking to enter the world of Data Science!
                 </p>
                 <p>
-                This comprehensive course is taught by <span>Mohit Uniyal,</span> who is a popular Data Science Bootcamp instructor in India and has taught thousands of students in several online and in-person courses over <span>last 3+ years.</span> This course is worth thousands of dollars, but <span>Coding Minutes</span> is providing you this course to you at a <span>fraction of its original cost!</span>  This is <span>action oriented course,</span> we not just delve into theory but focus on the practical aspects by building 5 projects. With over <span>150+ High Quality video lectures, easy to understand explanations</span> and <span>complete code repository</span> this is one of the most detailed and robust course for learning data science.
+                  This comprehensive course is taught by <span>Mohit Uniyal,</span> who is a popular Data Science Bootcamp instructor in India and has taught thousands of students in several online and in-person courses over <span>last 3+ years.</span> This course is worth thousands of dollars, but <span>Coding Minutes</span> is providing you this course to you at a <span>fraction of its original cost!</span>  This is <span>action oriented course,</span> we not just delve into theory but focus on the practical aspects by building 5 projects. With over <span>150+ High Quality video lectures, easy to understand explanations</span> and <span>complete code repository</span> this is one of the most detailed and robust course for learning data science.
                 </p>
                 <p>
-                The course starts with basics of Python and then diving deeper into data science topics! Here are some of the topics that you will learn in this course.
+                  The course starts with basics of Python and then diving deeper into data science topics! Here are some of the topics that you will learn in this course.
                 </p>
                 <div className="overview-columns">
                   <span>Programming with Python</span>
@@ -91,18 +91,18 @@ const CourseDescription = () => {
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
-                <img src={mohitBhaiyaImage} alt="" />
+                <img loading="lazy" src={mohitBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
-                  Mohit is a Data Scientist programming instructor and co-creator at Coding Minutes. He has trained over 10000+ students in Machine Learning, and AI over the last 2 years of his teaching experience. His expertise lies in Python, data science, machine learning and AI, and he has won many competitions. <br/> He has been doing AI-based projects for the last 4 years. He also leads the ML and Data Science Domain of Coding Minutes.
+                    Mohit is a Data Scientist programming instructor and co-creator at Coding Minutes. He has trained over 10000+ students in Machine Learning, and AI over the last 2 years of his teaching experience. His expertise lies in Python, data science, machine learning and AI, and he has won many competitions. <br /> He has been doing AI-based projects for the last 4 years. He also leads the ML and Data Science Domain of Coding Minutes.
                   </p>
                   <div className="social-links">
-                  <a href="https://www.linkedin.com/in/mohituniyal/" target="_blank"><img src={linkedin} alt="" /></a>
-                  <a href="https://www.instagram.com/mohituniyal2010/" target="_blank"><img src={instagram} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/mohituniyal/" target="_blank"><img src={linkedin} alt="" /></a>
+                    <a href="https://www.instagram.com/mohituniyal2010/" target="_blank"><img src={instagram} alt="" /></a>
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>

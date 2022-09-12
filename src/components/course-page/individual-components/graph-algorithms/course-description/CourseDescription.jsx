@@ -36,20 +36,20 @@ const CourseDescription = () => {
                 </div>
               </div>
               <div className="course-overview">
-               
+
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                Welcome to Graph Algorithms for Competitive Coding - the most detailed <span>Specialisation in Graph Theory</span> for Competitive Programmers, Software Engineers & Computer Science students!
+                  Welcome to Graph Algorithms for Competitive Coding - the most detailed <span>Specialisation in Graph Theory</span> for Competitive Programmers, Software Engineers & Computer Science students!
                 </p>
                 <p>
-                Graphs is quite an <span>important topic</span> for software engineers, both for academics & online competitions and for solving real life challenges. Graph algorithms form the very fundamentals of many popular applications like - Google Maps, social media apps like Facebook, Instagram, Quora, LinkedIn, Computer Vision applications such as image segmentation, resolving dependencies while compile time, vehicle routing problems in supply chain and many more. This course provides a detailed overview of Graph Theory algorithms in computer science, along with <span>hands on implementation</span> of all the algorithms in <span>C++</span>. Not just that you will get 80+ competitive coding questions, to practice & test your skills! 
+                  Graphs is quite an <span>important topic</span> for software engineers, both for academics & online competitions and for solving real life challenges. Graph algorithms form the very fundamentals of many popular applications like - Google Maps, social media apps like Facebook, Instagram, Quora, LinkedIn, Computer Vision applications such as image segmentation, resolving dependencies while compile time, vehicle routing problems in supply chain and many more. This course provides a detailed overview of Graph Theory algorithms in computer science, along with <span>hands on implementation</span> of all the algorithms in <span>C++</span>. Not just that you will get 80+ competitive coding questions, to practice & test your skills!
                 </p>
                 <p>
-                This comprehensive course is taught by <span>Prateek Narang & Apaar Kamal,</span> who are <span>Software Engineers at Google</span> and have taught over <span>thousands of students</span> in competitive programming over <span>last 5+ years.</span> This course is worth thousands of dollars, but <span>Coding Minutes</span> is providing you this course to you at a <span>fraction of its original cost!</span> This is action oriented course, we not just delve into theory but focus on the practical aspects by building implementing algorithms & solving problems. With over <span>95+ high quality video lectures, easy to understand explanations</span> this is one of the most detailed and robust course for Graph Algorithms ever created.
+                  This comprehensive course is taught by <span>Prateek Narang & Apaar Kamal,</span> who are <span>Software Engineers at Google</span> and have taught over <span>thousands of students</span> in competitive programming over <span>last 5+ years.</span> This course is worth thousands of dollars, but <span>Coding Minutes</span> is providing you this course to you at a <span>fraction of its original cost!</span> This is action oriented course, we not just delve into theory but focus on the practical aspects by building implementing algorithms & solving problems. With over <span>95+ high quality video lectures, easy to understand explanations</span> this is one of the most detailed and robust course for Graph Algorithms ever created.
                 </p>
-                <p>           
-Course starts very basics with how to store and represent graphs on a computer, and then dives into popular algorithms & techniques for problem solving. The course is divided into two parts.
+                <p>
+                  Course starts very basics with how to store and represent graphs on a computer, and then dives into popular algorithms & techniques for problem solving. The course is divided into two parts.
                 </p>
                 <div className="overview-columns">
                   <span>Graph Representations</span>
@@ -100,7 +100,7 @@ Course starts very basics with how to store and represent graphs on a computer, 
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
-                <img src={prateekBhaiyaImage} alt="" />
+                <img loading="lazy" src={prateekBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
                     Prateek is a popular programming instructor and an ace
@@ -137,11 +137,11 @@ Course starts very basics with how to store and represent graphs on a computer, 
                 <img src={apaarBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
-                  Apaar is an ace Competitive Programmer and upcoming Google Software Engineer. He is rated 6 stars on Codechef & master on Codeforces, and has worked with companies like Zomato and Samsung. He loves to solve challenging problems and teach students. <br/> He has been to ACM-ICPC and has won many hackathons. In the past 2 years, he has mentored thousands in Competitive Coding. Dynamic Programming & Graphs are his favorite topics.
+                    Apaar is an ace Competitive Programmer and upcoming Google Software Engineer. He is rated 6 stars on Codechef & master on Codeforces, and has worked with companies like Zomato and Samsung. He loves to solve challenging problems and teach students. <br /> He has been to ACM-ICPC and has won many hackathons. In the past 2 years, he has mentored thousands in Competitive Coding. Dynamic Programming & Graphs are his favorite topics.
                   </p>
                   <div className="social-links">
-                  <a href="https://www.linkedin.com/in/apaarkamal/" target="_blank"><img src={linkedin} alt="" /></a>
-                  <a href="https://www.instagram.com/apaargram/" target="_blank"><img src={instagram} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/apaarkamal/" target="_blank"><img src={linkedin} alt="" /></a>
+                    <a href="https://www.instagram.com/apaargram/" target="_blank"><img src={instagram} alt="" /></a>
                   </div>
                 </div>
               </div>

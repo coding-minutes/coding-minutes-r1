@@ -9,16 +9,16 @@ import programmingLanguagesIcon from '../../assets/Images/main/programming-langu
 import machineLearningIcon from '../../assets/Images/main/machine-learning.png'
 import softwareEngineeringIcon from '../../assets/Images/main/software-engineering.png'
 import { ProgrammingForBeginners } from "../../data/ProgrammingForBeginners";
-import {DataStructuresAndCompetitive} from "../../data/DataStructuresAndCompetitive";
-import {SpecialisationOnAlgorithms} from "../../data/SpecialisationOnAlgorithms"
-import {MachineLearningDataScience} from "../../data/MachineLearningDataScience"
-import {DeepLearning} from "../../data/DeepLearning"
-import {SoftwareEngineeringAndOthers} from "../../data/SoftwareEngineeringAndOthers"
+import { DataStructuresAndCompetitive } from "../../data/DataStructuresAndCompetitive";
+import { SpecialisationOnAlgorithms } from "../../data/SpecialisationOnAlgorithms"
+import { MachineLearningDataScience } from "../../data/MachineLearningDataScience"
+import { DeepLearning } from "../../data/DeepLearning"
+import { SoftwareEngineeringAndOthers } from "../../data/SoftwareEngineeringAndOthers"
 import { Link } from "react-router-dom";
 
 const LearningPaths = () => {
-  var c=0;
- 
+  var c = 0;
+
   return (
     <div className="learning-path-container">
       <div className="components-outer-container">
@@ -31,39 +31,39 @@ const LearningPaths = () => {
                 learning paths..
               </p>
               <div className="course-types">
-                
+
                 <div className="course-type">
-                 <a href="#programming-languages" id="rocket-image"> <img src={programmingLanguagesIcon} alt="" /> Programming Languages</a>
+                  <a href="#programming-languages" id="rocket-image"> <img loading="lazy" src={programmingLanguagesIcon} alt="" /> Programming Languages</a>
                 </div>
                 <div className="course-type">
-                 <a href="#data-structures-and-algorithms"> <img src={dartIcon} alt="" /> Data Structure & Algorithms</a>
+                  <a href="#data-structures-and-algorithms"> <img loading="lazy" src={dartIcon} alt="" /> Data Structure & Algorithms</a>
                 </div>
                 <div className="course-type">
-                 <a href="#data-structures-and-algorithms"> <img src={locationIcon} alt="" /> Competitive Programming</a>
+                  <a href="#data-structures-and-algorithms"> <img loading="lazy" src={locationIcon} alt="" /> Competitive Programming</a>
                 </div>
                 <div className="course-type">
-                  <a href="#specialisation"><img src={presentationIcon} alt="" /> Specialisation</a>
+                  <a href="#specialisation"><img loading="lazy" src={presentationIcon} alt="" /> Specialisation</a>
                 </div>
                 <div className="course-type">
-                  <a href="#machine-learning"><img src={machineLearningIcon} alt="" /> Machine Learning</a>
+                  <a href="#machine-learning"><img loading="lazy" src={machineLearningIcon} alt="" /> Machine Learning</a>
                 </div>
-                
+
                 <div className="course-type">
-                  <a href="#software-engineering"><img src={softwareEngineeringIcon} alt="" />Software Engineering</a>
+                  <a href="#software-engineering"><img loading="lazy" src={softwareEngineeringIcon} alt="" />Software Engineering</a>
                 </div>
               </div>
             </div>
             <div className="learning-path-course-types">
               <div className="learning-path-course first-row">
                 <div className="learning-path-course-title" id="programming-languages">
-                Programming Languages
+                  Programming Languages
                 </div>
                 <div className="learning-path-course-row-group">
                   {ProgrammingForBeginners.map((data, key) => {
                     return (
                       <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
+                          <img loading="lazy" src={data.courseThumbnail} alt="" />
                         </div>
                         <div className="learning-path-course-items">
                           <p className={`course-difficulty-level ${data.courseDifficultyColor} `} >{data.courseDifficulty}</p>
@@ -72,29 +72,29 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating" style={{color:`var(--rating)` }}>
+                            <span className="course-rating" style={{ color: `var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
+                            <Link to={data.udemyLink}><img loading="lazy" src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
                     );
                   })}
-                 
+
                 </div>
               </div>
 
               <div className="learning-path-course second-row">
                 <div className="learning-path-course-title" id="data-structures-and-algorithms">
-                Data Structures & Algorithms
+                  Data Structures & Algorithms
                 </div>
                 <div className="learning-path-course-row-group">
-                {DataStructuresAndCompetitive.map((data, key) => {
+                  {DataStructuresAndCompetitive.map((data, key) => {
                     return (
                       <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
+                          <img loading="lazy" src={data.courseThumbnail} alt="" />
                         </div>
                         <div className="learning-path-course-items">
                           <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
@@ -103,27 +103,27 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating" style={{color:`var(--rating)` }}>
+                            <span className="course-rating" style={{ color: `var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
+                            <Link to={data.udemyLink}><img loading="lazy" src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
                     );
                   })}
-                  
+
                 </div>
               </div>
 
               <div className="learning-path-course third-row">
                 <div className="learning-path-course-title" id="specialisation">Specialisations</div>
                 <div className="learning-path-course-row-group">
-                {SpecialisationOnAlgorithms.map((data, key) => {
+                  {SpecialisationOnAlgorithms.map((data, key) => {
                     return (
                       <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
+                          <img loading="lazy" src={data.courseThumbnail} alt="" />
                         </div>
                         <div className="learning-path-course-items">
                           <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
@@ -132,10 +132,10 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating" style={{color:`var(--rating)` }}>
+                            <span className="course-rating" style={{ color: `var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
+                            <Link to={data.udemyLink}><img loading="lazy" src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>
@@ -147,57 +147,56 @@ const LearningPaths = () => {
               <div className="learning-path-course fourth-row">
                 <div className="learning-path-course-title" id="machine-learning">Machine Learning</div>
                 <div className="learning-path-course-row-group">
-                {
-                 
-                MachineLearningDataScience.map((data, key) => {
-                    if(c===0){
-                    c++;
-                      return (
-                      <div className="individual-course-items" data-aos="zoom-in" >
-                        <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
-                        </div>
-                        <div className="learning-path-course-items">
-                          <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
-                          <p className="course-title">{data.courseTitle}</p>
-                          <p className="course-mentor">
-                            Mentor : {data.courseMentor}
-                          </p>
-                          <div className="explore-now">
-                            <span className="course-rating" style={{color:`var(--rating)` }}>
-                              {data.courseRatingStars} {data.courseRatingNumber}
-                            </span>
-                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  }
-                  else
                   {
-                    return (
-                      <div className="individual-course-items" data-aos="zoom-in" >
-                        <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
-                        </div>
-                        <div className="learning-path-course-items">
-                          <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
-                          <p className="course-title">{data.courseTitle}</p>
-                          <p className="course-mentor">
-                            Mentor : {data.courseMentor}
-                          </p>
-                          <br />
-                          <div className="explore-now">
-                            <span className="course-rating" style={{color:`var(--rating)` }}>
-                              {data.courseRatingStars} {data.courseRatingNumber}
-                            </span>
-                            {/* <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link> */}
+
+                    MachineLearningDataScience.map((data, key) => {
+                      if (c === 0) {
+                        c++;
+                        return (
+                          <div className="individual-course-items" data-aos="zoom-in" >
+                            <div className="course-image">
+                              <img loading="lazy" src={data.courseThumbnail} alt="" />
+                            </div>
+                            <div className="learning-path-course-items">
+                              <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
+                              <p className="course-title">{data.courseTitle}</p>
+                              <p className="course-mentor">
+                                Mentor : {data.courseMentor}
+                              </p>
+                              <div className="explore-now">
+                                <span className="course-rating" style={{ color: `var(--rating)` }}>
+                                  {data.courseRatingStars} {data.courseRatingNumber}
+                                </span>
+                                <Link to={data.udemyLink}><img loading="lazy" src={exploreNowImage} alt="" /></Link>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                    );
-                  }
-                  })
+                        );
+                      }
+                      else {
+                        return (
+                          <div className="individual-course-items" data-aos="zoom-in" >
+                            <div className="course-image">
+                              <img loading="lazy" src={data.courseThumbnail} alt="" />
+                            </div>
+                            <div className="learning-path-course-items">
+                              <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
+                              <p className="course-title">{data.courseTitle}</p>
+                              <p className="course-mentor">
+                                Mentor : {data.courseMentor}
+                              </p>
+                              <br />
+                              <div className="explore-now">
+                                <span className="course-rating" style={{ color: `var(--rating)` }}>
+                                  {data.courseRatingStars} {data.courseRatingNumber}
+                                </span>
+                                {/* <Link to={data.udemyLink}><img  loading="lazy"  src={exploreNowImage} alt="" /></Link> */}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      }
+                    })
                   }
                 </div>
               </div>
@@ -209,7 +208,7 @@ const LearningPaths = () => {
                     return (
                       <div className="individual-course-items">
                         <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
+                          <img  loading="lazy"  src={data.courseThumbnail} alt="" />
                         </div>
                         <div className="learning-path-course-items">
                           <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
@@ -221,7 +220,7 @@ const LearningPaths = () => {
                             <span className="course-rating">
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <a href={data.udemyLink} target="_blank"><img src={exploreNowImage} alt="" /></a>
+                            <a href={data.udemyLink} target="_blank"><img  loading="lazy"  src={exploreNowImage} alt="" /></a>
                           </div>
                         </div>
                       </div>
@@ -233,11 +232,11 @@ const LearningPaths = () => {
               <div className="learning-path-course sixth-row">
                 <div className="learning-path-course-title" id="software-engineering">Software Engineering </div>
                 <div className="learning-path-course-row-group">
-                {SoftwareEngineeringAndOthers.map((data, key) => {
+                  {SoftwareEngineeringAndOthers.map((data, key) => {
                     return (
                       <div className="individual-course-items" data-aos="zoom-in" >
                         <div className="course-image">
-                          <img src={data.courseThumbnail} alt="" />
+                          <img loading="lazy" src={data.courseThumbnail} alt="" />
                         </div>
                         <div className="learning-path-course-items">
                           <p className={`course-difficulty-level ${data.courseDifficultyColor} `}>{data.courseDifficulty}</p>
@@ -246,10 +245,10 @@ const LearningPaths = () => {
                             Mentor : {data.courseMentor}
                           </p>
                           <div className="explore-now">
-                            <span className="course-rating" style={{color:`var(--rating)` }}>
+                            <span className="course-rating" style={{ color: `var(--rating)` }}>
                               {data.courseRatingStars} {data.courseRatingNumber}
                             </span>
-                            <Link to={data.udemyLink}><img src={exploreNowImage} alt="" /></Link>
+                            <Link to={data.udemyLink}><img loading="lazy" src={exploreNowImage} alt="" /></Link>
                           </div>
                         </div>
                       </div>

@@ -14,12 +14,12 @@ const BuyOnUdemy = () => {
             <h3>Coding Skills to Next Level?</h3>
             <p>Join the Course Now!</p>
             <a href="#">
-             Coming Soon
+              Coming Soon
             </a>
           </div>
           <div className="buy-on-udemy-right">
             <div className="buy-on-udemy-right-image">
-              <img src={rocketMan} alt="" />
+              <img loading="lazy" src={rocketMan} alt="" />
             </div>
           </div>
         </div>

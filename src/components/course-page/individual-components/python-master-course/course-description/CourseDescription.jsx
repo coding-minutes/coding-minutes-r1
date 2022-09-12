@@ -36,19 +36,19 @@ const CourseDescription = () => {
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                Welcome to <span>Python Programming Master Course (2021) -</span> <span>the most comprehensive & robust Python3 Course</span> by <span>Coding Minutes</span> designed for absolute beginners & developers!
+                  Welcome to <span>Python Programming Master Course (2021) -</span> <span>the most comprehensive & robust Python3 Course</span> by <span>Coding Minutes</span> designed for absolute beginners & developers!
                 </p>
                 <p>
-                Python is the hottest programming language of the 21st century. It is widely in <span>Machine Learning & Data Science.</span> Many top companies like <span>Instagram, Spotify, Netflix, Google, Dropbox</span> use python extensively for their projects which includes building <span>web apps, data pipelines, data analysis & visualisation, deep learning</span> at scale and large scale distributed systems.
+                  Python is the hottest programming language of the 21st century. It is widely in <span>Machine Learning & Data Science.</span> Many top companies like <span>Instagram, Spotify, Netflix, Google, Dropbox</span> use python extensively for their projects which includes building <span>web apps, data pipelines, data analysis & visualisation, deep learning</span> at scale and large scale distributed systems.
                 </p>
                 <p>
-                This is the <span>most comprehensive and detailed course</span> for the Python programming language taught by <span>Mohit Uniyal who is a data scientist turned instructor & Prateek Narang, a Google Engineer & algorithms instructor!</span> Both the instructors have taught thousands of students in the last few years and have received amazing reviews. Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you!
+                  This is the <span>most comprehensive and detailed course</span> for the Python programming language taught by <span>Mohit Uniyal who is a data scientist turned instructor & Prateek Narang, a Google Engineer & algorithms instructor!</span> Both the instructors have taught thousands of students in the last few years and have received amazing reviews. Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you!
                 </p>
                 <p>
-                With <span>over 200+ lectures</span> and more than 18 hours of video, this course ensures you build a solid foundation in Python. This course includes quizzes, mock tests, coding exercises and <span>practical projects</span> - URL Shortener & Text Generation.
+                  With <span>over 200+ lectures</span> and more than 18 hours of video, this course ensures you build a solid foundation in Python. This course includes quizzes, mock tests, coding exercises and <span>practical projects</span> - URL Shortener & Text Generation.
                 </p>
                 <p>
-                This is a completely hands-on course, with interactive videos & coding in <span>Jupyter Notebooks</span>. You get the <span>complete code repository</span> to practice & revise on your machine.
+                  This is a completely hands-on course, with interactive videos & coding in <span>Jupyter Notebooks</span>. You get the <span>complete code repository</span> to practice & revise on your machine.
                 </p>
                 <div className="overview-columns">
                   <span>Installing Python</span>
@@ -129,7 +129,7 @@ const CourseDescription = () => {
                 </div>
               </div>
               <div className="instructor-two instructor">
-                <img src={prateekBhaiyaImage} alt="" />
+                <img loading="lazy" src={prateekBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
                     Prateek is a popular programming instructor and an ace

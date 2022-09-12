@@ -31,19 +31,19 @@ const CourseDescription = () => {
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                Equip yourself with essential programming techniques required for <span>ACM-ICPC, Google CodeJam, Kickstart, Facebook HackerCup</span> & more. Welcome to <span>Competitive Programming Essentials -</span> the ultimate specialisation on <span>Algorithms</span>  for Competitive Coders!
+                  Equip yourself with essential programming techniques required for <span>ACM-ICPC, Google CodeJam, Kickstart, Facebook HackerCup</span> & more. Welcome to <span>Competitive Programming Essentials -</span> the ultimate specialisation on <span>Algorithms</span>  for Competitive Coders!
                 </p>
                 <p>
-                The online Competitive Programming Essentials by <span>Coding Minutes</span> is a highly exhaustive & rigorous course on Competitive Programming. The 50+ hours course covers the breadth & depth of algorithmic programming starting from a recap of common data structures, and diving deep into essential and advanced algorithms.
+                  The online Competitive Programming Essentials by <span>Coding Minutes</span> is a highly exhaustive & rigorous course on Competitive Programming. The 50+ hours course covers the breadth & depth of algorithmic programming starting from a recap of common data structures, and diving deep into essential and advanced algorithms.
                 </p>
                 <p>
-                The course structure is well-researched by instructors who not only Competitive Coders but have worked with companies like <span>Google & Scaler.</span> This course will help you to get a solid grip of fundamental concepts & comes with practice questions so that you sail through online coding challenges and code-athons with ease. The course is divided into 10 modules and 50 sections covering topics like Mathematics, Number Theory, Bitmasking, Inclusion-Exclusion, Meet in the Middle Techniques, Segment Trees, Fenwick Trees, Square Root Decomposition, Graph Algorithms, Shortest Paths, Game Theory, Pattern Matching, Binary Search, Greedy Techniques, Dynamic Programming and even more.
+                  The course structure is well-researched by instructors who not only Competitive Coders but have worked with companies like <span>Google & Scaler.</span> This course will help you to get a solid grip of fundamental concepts & comes with practice questions so that you sail through online coding challenges and code-athons with ease. The course is divided into 10 modules and 50 sections covering topics like Mathematics, Number Theory, Bitmasking, Inclusion-Exclusion, Meet in the Middle Techniques, Segment Trees, Fenwick Trees, Square Root Decomposition, Graph Algorithms, Shortest Paths, Game Theory, Pattern Matching, Binary Search, Greedy Techniques, Dynamic Programming and even more.
                 </p>
                 <p>
-                The problem setters of the course are <span>Siddharth Singhal</span> and <span>Rajdeep Singh.</span> Both are upcoming software developers at Microsoft and Razorpay respectively. They both exhibit excellent knowledge of Data Structures and Algorithms and are avid competitive programmers.
+                  The problem setters of the course are <span>Siddharth Singhal</span> and <span>Rajdeep Singh.</span> Both are upcoming software developers at Microsoft and Razorpay respectively. They both exhibit excellent knowledge of Data Structures and Algorithms and are avid competitive programmers.
                 </p>
                 <p>
-                Many top companies like <span>Google, Facebook, Amazon, Directi, CodeNation, Goldman Sachs</span> etc encourage Competitive Programming and conduct coding competitions to hire smart people who can solve problems.
+                  Many top companies like <span>Google, Facebook, Amazon, Directi, CodeNation, Goldman Sachs</span> etc encourage Competitive Programming and conduct coding competitions to hire smart people who can solve problems.
                 </p>
                 <p><span>Course Highlights</span></p>
                 <div className="overview-columns">
@@ -82,7 +82,7 @@ const CourseDescription = () => {
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
-                <img src={prateekBhaiyaImage} alt="" />
+                <img loading="lazy" src={prateekBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
                     Prateek is a popular programming instructor and an ace

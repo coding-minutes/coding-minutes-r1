@@ -37,13 +37,13 @@ const CourseDescription = () => {
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                If you are curious to know how big tech giants manage multiple versions of their projects? In this course, you will learn everything related to version control systems.
+                  If you are curious to know how big tech giants manage multiple versions of their projects? In this course, you will learn everything related to version control systems.
                 </p>
                 <p>
-                Welcome to the <span>Git & Github Master course (2021).</span> This course is designed for absolute beginners who have no experience in project building and developers who already are working on projects, but want to upskill with the advanced features of git.
+                  Welcome to the <span>Git & Github Master course (2021).</span> This course is designed for absolute beginners who have no experience in project building and developers who already are working on projects, but want to upskill with the advanced features of git.
                 </p>
                 <p>
-                Hi, My name is <span>Mohit Uniyal,</span> I'm a data scientist and a programming instructor. I co-created <span>Coding Minutes</span> to help students & developers like you to build a solid foundation & become great programmers.
+                  Hi, My name is <span>Mohit Uniyal,</span> I'm a data scientist and a programming instructor. I co-created <span>Coding Minutes</span> to help students & developers like you to build a solid foundation & become great programmers.
                 </p>
                 <div className="overview-columns">
                   <span>Version Control Systems</span>
@@ -89,16 +89,16 @@ const CourseDescription = () => {
           <div className="description-right">
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
-      
+
               <div className="instructor-two instructor">
-                <img src={mohitBhaiyaImage} alt="" />
+                <img loading="lazy" src={mohitBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
-                  Mohit is a Data Scientist programming instructor and co-creator at Coding Minutes. He has trained over 10000+ students in Machine Learning, and AI over the last 2 years of his teaching experience. His expertise lies in Python, data science, machine learning and AI, and he has won many competitions. <br/> He has been doing AI-based projects for the last 4 years. He also leads the ML and Data Science Domain of Coding Minutes.
+                    Mohit is a Data Scientist programming instructor and co-creator at Coding Minutes. He has trained over 10000+ students in Machine Learning, and AI over the last 2 years of his teaching experience. His expertise lies in Python, data science, machine learning and AI, and he has won many competitions. <br /> He has been doing AI-based projects for the last 4 years. He also leads the ML and Data Science Domain of Coding Minutes.
                   </p>
                   <div className="social-links">
-                  <a href="https://www.linkedin.com/in/mohituniyal/" target="_blank"><img src={linkedin} alt="" /></a>
-                  <a href="https://www.instagram.com/mohituniyal2010/" target="_blank"><img src={instagram} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/mohituniyal/" target="_blank"><img src={linkedin} alt="" /></a>
+                    <a href="https://www.instagram.com/mohituniyal2010/" target="_blank"><img src={instagram} alt="" /></a>
                   </div>
                 </div>
               </div>

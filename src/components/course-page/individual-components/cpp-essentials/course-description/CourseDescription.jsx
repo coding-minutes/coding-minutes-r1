@@ -32,11 +32,11 @@ const CourseDescription = () => {
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                Are you an absolute beginner looking forward to kickstart your journey in the programming domain. Coding can be hard skill learn to learn for many but no more. Welcome to <span>C++ Programming Essentials</span>, the most fundamental course that every aspiring programmer should take to kickstart their journey in the world of programming. The course teaches you the fundamental building blocks of programming and builds a logical thinking mindset using C++ as our programming language. Many concepts taught in the course are also relevant to other languages like Java, Python, JavaScript etc with few changes in the coding syntax.
+                  Are you an absolute beginner looking forward to kickstart your journey in the programming domain. Coding can be hard skill learn to learn for many but no more. Welcome to <span>C++ Programming Essentials</span>, the most fundamental course that every aspiring programmer should take to kickstart their journey in the world of programming. The course teaches you the fundamental building blocks of programming and builds a logical thinking mindset using C++ as our programming language. Many concepts taught in the course are also relevant to other languages like Java, Python, JavaScript etc with few changes in the coding syntax.
                 </p>
                 <p>
-                You will understand the basic concepts and techniques to break down a given problem into smaller parts by drawing flowcharts, write pseudocode, and then diving deep into C++  topics like -
-variables, datatypes, flow control using branching & loops, functions, arrays, character arrays & strings, recursion, bitmasking & OOPs concepts.
+                  You will understand the basic concepts and techniques to break down a given problem into smaller parts by drawing flowcharts, write pseudocode, and then diving deep into C++  topics like -
+                  variables, datatypes, flow control using branching & loops, functions, arrays, character arrays & strings, recursion, bitmasking & OOPs concepts.
                 </p>
                 <p><span>Course Features</span></p>
                 <div className="overview-columns">
@@ -49,7 +49,7 @@ variables, datatypes, flow control using branching & loops, functions, arrays, c
                 </div>
                 <br />
                 <p>The course is your first step towards problem solving, and will help you to get your basics right. After this course, you can easily pursue a course on learning a programming language of your choice, followed by Data Structures, Algorithms & Competitive Programming. Many top companies like <span>Google, Facebook, Amazon, Directi, CodeNation, Goldman Sachs</span> etc encourage algorithmic programming and conduct coding competitions to hire smart people who can solve problems.</p>
-               <p>This course is taught by <span>Prateek Narang</span>, who is not just a software engineer but a teacher by heart and many bestseller courses on Udemy in Algorithms category! He has worked with companies like <span>Google</span>, and has co-founded two startups including <span>Coding Minutes</span>, which is now a part of Scaler Academy.</p>
+                <p>This course is taught by <span>Prateek Narang</span>, who is not just a software engineer but a teacher by heart and many bestseller courses on Udemy in Algorithms category! He has worked with companies like <span>Google</span>, and has co-founded two startups including <span>Coding Minutes</span>, which is now a part of Scaler Academy.</p>
               </div>
             </div>
             <div className="bottom">
@@ -78,7 +78,7 @@ variables, datatypes, flow control using branching & loops, functions, arrays, c
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
-                <img src={prateekBhaiyaImage} alt="" />
+                <img loading="lazy" src={prateekBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
                     Prateek is a popular programming instructor and an ace
@@ -111,7 +111,7 @@ variables, datatypes, flow control using branching & loops, functions, arrays, c
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>

@@ -39,10 +39,10 @@ const CourseDescription = () => {
                   Do you find yourself feeling like you get "stuck" everytime you get a coding question?
                 </p>
                 <p>
-                Welcome to <span>Data Structures & Algorithms, Level up Course</span> the only course that provides you an <span>ultimate practice on problem solving process</span> and helping you to take your data structures & algorithms to the next level.  The course is taught by an expert instructor <span>Prateek Narang</span> from <span>Google,</span> who is not just a software engineer but also has mentored thousands of students in becoming great programmers & developers.
+                  Welcome to <span>Data Structures & Algorithms, Level up Course</span> the only course that provides you an <span>ultimate practice on problem solving process</span> and helping you to take your data structures & algorithms to the next level.  The course is taught by an expert instructor <span>Prateek Narang</span> from <span>Google,</span> who is not just a software engineer but also has mentored thousands of students in becoming great programmers & developers.
                 </p>
                 <p>
-                The Course contains <span>25+ hours</span> of interactive video content & dozens of <span>coding exercises,</span> teaching you the right tips & tricks in problem solving in a most concise way. Every problem discussion starts with a <span>brute force approach, optimisations</span> and ends with hands-on-<span>coding video</span> in <span>C++</span> as well.
+                  The Course contains <span>25+ hours</span> of interactive video content & dozens of <span>coding exercises,</span> teaching you the right tips & tricks in problem solving in a most concise way. Every problem discussion starts with a <span>brute force approach, optimisations</span> and ends with hands-on-<span>coding video</span> in <span>C++</span> as well.
                 </p>
                 <div className="overview-columns">
                   <span>Arrays and Vectors</span>
@@ -59,8 +59,8 @@ const CourseDescription = () => {
                   <span>Shortest Paths</span>
                 </div>
                 <br />
-               <p>Course exercises are in C++ but programmers having experience in one or more languages (C++/Java/Python/JavaScript) can definitely do this course, provided they have fundamental understanding of data structures. The course covers both <span>breadth & depth of topics,</span> diving deep where-ever needed. You will also learn how to apply techniques involving like - <span>sorting & searching algorithms, sliding window, binary search, hashing</span> which are very important for problem solving. For advanced topics like <span>Dynamic Programming</span> & <span>Graphs,</span> the course starts from the basics & helps you master these topics from the very fundamentals.
-</p>
+                <p>Course exercises are in C++ but programmers having experience in one or more languages (C++/Java/Python/JavaScript) can definitely do this course, provided they have fundamental understanding of data structures. The course covers both <span>breadth & depth of topics,</span> diving deep where-ever needed. You will also learn how to apply techniques involving like - <span>sorting & searching algorithms, sliding window, binary search, hashing</span> which are very important for problem solving. For advanced topics like <span>Dynamic Programming</span> & <span>Graphs,</span> the course starts from the basics & helps you master these topics from the very fundamentals.
+                </p>
               </div>
             </div>
             <div className="bottom">
@@ -89,7 +89,7 @@ const CourseDescription = () => {
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
-                <img src={prateekBhaiyaImage} alt="" />
+                <img loading="lazy" src={prateekBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
                     Prateek is a popular programming instructor and an ace
@@ -122,7 +122,7 @@ const CourseDescription = () => {
                   </div>
                 </div>
               </div>
-             
+
             </div>
           </div>
         </div>

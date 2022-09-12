@@ -19,7 +19,7 @@ const CourseDescription = () => {
             <div className="top">
               <div className="what-you-will-learn">
                 <h2>What you'll learn</h2>
-                
+
                 <div className="learn-columns">
                   <span>Core concepts & internals of Data Structures</span>
                   <span>Trees, Linked Lists, Heaps, Graphs</span>
@@ -40,16 +40,16 @@ const CourseDescription = () => {
                 <h2>Course Overview</h2>
                 <br />
                 <p>
-                Are you a <span>beginner</span> looking to enter the world of Data Structures or <span>intermediate</span> programmer wondering what happens behind a Hash-table?
+                  Are you a <span>beginner</span> looking to enter the world of Data Structures or <span>intermediate</span> programmer wondering what happens behind a Hash-table?
                 </p>
                 <p>
-                Welcome to <span>Data Structures & Algorithms, Essentials Course</span> - the only course you need to understand the core concepts behind Data Structures & build a solid programming foundations using C++ . The course is taught by an expert instructor <span>Prateek Narang</span> from <span>Google</span>, who is not just a <span>software engineer</span> but also has mentored thousands of students in becoming great programmers & developers and is <span>top rated on Udemy</span> for his amazing teaching skills.
+                  Welcome to <span>Data Structures & Algorithms, Essentials Course</span> - the only course you need to understand the core concepts behind Data Structures & build a solid programming foundations using C++ . The course is taught by an expert instructor <span>Prateek Narang</span> from <span>Google</span>, who is not just a <span>software engineer</span> but also has mentored thousands of students in becoming great programmers & developers and is <span>top rated on Udemy</span> for his amazing teaching skills.
                 </p>
                 <p>
-                Every software application revolves around data, performing different operations like Insert, Delete, Update & Search. To be a great software developer, understanding of Data Structures & Algorithms is must and this course provides you a deep understanding of the topic by covering both the theory and <span>hands-on-implementation of each data structure from scratch.</span>
+                  Every software application revolves around data, performing different operations like Insert, Delete, Update & Search. To be a great software developer, understanding of Data Structures & Algorithms is must and this course provides you a deep understanding of the topic by covering both the theory and <span>hands-on-implementation of each data structure from scratch.</span>
                 </p>
                 <p>
-                The Course contains <span>20+ hours</span> of interactive video content & dozens of <span>coding exercises,</span> teaching you all essential concepts starting from ground zero. Each section covers data structure in great detail, with <span>Coding Exercises</span> & <span>real life examples</span>. 
+                  The Course contains <span>20+ hours</span> of interactive video content & dozens of <span>coding exercises,</span> teaching you all essential concepts starting from ground zero. Each section covers data structure in great detail, with <span>Coding Exercises</span> & <span>real life examples</span>.
                 </p>
                 <p>
                   <span>Here is what you will learn :</span>
@@ -72,7 +72,7 @@ const CourseDescription = () => {
                 </div>
                 <br />
                 <p>
-The course is designed for <span>beginner & intermediate programmers.</span> We try to make not so easy topics look easy with intuitive explanations & interactive video lectures with dozens of memes ;) The course finishes with a final mini project - a command line app for an online shopping cart combining principles from Object Oriented Programming & Data Structures.</p>
+                  The course is designed for <span>beginner & intermediate programmers.</span> We try to make not so easy topics look easy with intuitive explanations & interactive video lectures with dozens of memes ;) The course finishes with a final mini project - a command line app for an online shopping cart combining principles from Object Oriented Programming & Data Structures.</p>
               </div>
             </div>
             <div className="bottom">
@@ -101,7 +101,7 @@ The course is designed for <span>beginner & intermediate programmers.</span> We 
             <h2>Meet the Instructor</h2>
             <div className="instructor-group">
               <div className="instructor-one instructor">
-                <img src={prateekBhaiyaImage} alt="" />
+                <img loading="lazy" src={prateekBhaiyaImage} alt="" />
                 <div className="instructor-info">
                   <p>
                     Prateek is a popular programming instructor and an ace
@@ -134,7 +134,7 @@ The course is designed for <span>beginner & intermediate programmers.</span> We 
                   </div>
                 </div>
               </div>
-             
+
             </div>
           </div>
         </div>
