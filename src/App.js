@@ -6,15 +6,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Discord from './components/discord/Discord'
 import CoursePage from './components/course-page/CoursePage'
 import { CodingEssentials, CompCoding, ComputerVision, CppEssentials, DeepLearning, DSAEssentials, DSALevelUp, DynamicProgramming, GameTheory, Git, GraphAlgorithm, MachineLearning, NaturalLanguage, PythonDataScience, PythonMasterCourse } from './components/course-page/individual-components/index'
+import SignupHome from './components/signup/SignupHome'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
 
-      useEffect(() => {
-        AOS.init({startEvent : 'load'});
+    useEffect(() => {
+        AOS.init({ startEvent: 'load' });
         AOS.refreshHard();
-      },[]);
+    }, []);
 
     return (
         <>
@@ -38,6 +39,7 @@ const App = () => {
                 <Route exact path="/natural-language"><NaturalLanguage /></Route>
                 <Route exact path="/python-data-science"><PythonDataScience /></Route>
                 <Route exact path="/python-master-course"><PythonMasterCourse /></Route>
+                <Route exact path="/signup"><SignupHome /></Route>
 
             </Router>
         </>

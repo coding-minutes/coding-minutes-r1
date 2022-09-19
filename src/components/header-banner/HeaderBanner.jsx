@@ -8,10 +8,12 @@ import headerBannerPhoneImage from '../../assets/Images/main/headerbannerphone.p
 const HeaderBanner = () => {
     return (
         <div className="components-outer-container">
-            <div className="header-banner-container">
-            <img className="headerImage" src={freedombanner} alt="" />
-            <img className="headerImagePhone" src={freedombanner} alt="" />
-            </div>
+            <a href="#courses">
+                <div className="header-banner-container">
+                    <img className="headerImage" src={freedombanner} alt="" />
+                    <img className="headerImagePhone" src={freedombanner} alt="" />
+                </div>
+            </a>
         </div>
     )
 }

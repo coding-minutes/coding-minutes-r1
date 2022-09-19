@@ -3,7 +3,7 @@ import "./Blogs.css";
 import hashnode from "../../assets/Images/main/Hashnode.png";
 const Blogs = () => {
   return (
-    <div className="components-outer-container" id="blogss">
+    <div className="components-outer-container" id="blogs">
       <div className="blogs-outer-container" data-aos="fade-up" >
         <div className="blogs-inner-container">
           <div className="blogs-left">

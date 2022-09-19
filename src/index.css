@@ -25,6 +25,7 @@ body
 .dark-theme {
   --discord-bg:-webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
   --bg-container: #0c0019;
+  --bg-container2: #0c0019;
   --headings: white ;
   --nav-color: rgba(246, 246, 246, 0.5);
   --nav-color-hover: white;
@@ -49,6 +50,7 @@ body
   --discord-bg:#5865f2; 
   --nav-color:rgba(0, 0, 0, 0.8);
   --bg-container: #ffffff;
+  --bg-container2: #f9f4ff; 
   --nav-color-hover: rgb(0, 0, 0);
   --headings: black;
   --border: #eaeaea;
