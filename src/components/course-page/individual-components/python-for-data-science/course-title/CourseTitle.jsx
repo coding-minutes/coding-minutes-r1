@@ -19,12 +19,12 @@ const CourseTitle = () => {
             Level up in Data Science using Python, master Numpy, Pandas, Data Visualisation, Web Scraping, Automation, SQL & more.!
             </div>
             <div className="price-info">
-            <span className="first">₹ 389</span>
+            <span className="first">₹ 440+taxes</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : ENGINEER</span>
+              <span className="last">Use code : SEPT440</span>
             </div>
             <div className="udemy-info">
-              <a href="https://www.udemy.com/course/python-data-science-master-course/?couponCode=ENGINEER"  target="_blank">Enroll now on Udemy</a>
+              <a href="https://www.udemy.com/course/python-data-science-master-course/?couponCode=SEPT440"  target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
             </div>
           </div>
