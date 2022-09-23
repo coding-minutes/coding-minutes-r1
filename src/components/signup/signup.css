@@ -57,6 +57,7 @@
 @media screen and (max-width: 560px) {
   .signup-outer-container {
     min-height: 100vh;
+    background-color: red;
   }
   .signup-inner-container {
     align-items: center;
@@ -81,6 +82,6 @@
   .signup-inner-container iframe {
     margin-top: 0 !important;
     width: 350px !important;
-    height: 800px !important;
+    height: 1000px !important;
   }
 }
