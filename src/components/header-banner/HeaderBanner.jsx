@@ -14,7 +14,7 @@ const HeaderBanner = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImage(banners[Math.floor(Math.random() * banners.length)])
-        }, 5000)
+        }, 1000)
         return () => clearInterval(intervalId);
     }, []);
 
