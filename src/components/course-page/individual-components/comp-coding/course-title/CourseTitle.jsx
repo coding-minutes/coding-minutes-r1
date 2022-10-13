@@ -19,12 +19,12 @@ const CourseTitle = () => {
             Master competitive coding techniques - maths, number theory, dynamic programming, advanced data structures & algorithms
             </div>
             <div className="price-info">
-            <span className="first">₹ 440+taxes</span>
+            <span className="first">₹ 3499</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : SEPT440</span>
+              <span className="last">Sale starts soon!!</span>
             </div>
             <div className="udemy-info">
-              <a href="https://www.udemy.com/course/competitive-programming-algorithms-coding-minutes/?couponCode=SEPT440"  target="_blank">Enroll now on Udemy</a>
+              <a href="https://www.udemy.com/course/competitive-programming-algorithms-coding-minutes/?couponCode="  target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
             </div>
           </div>

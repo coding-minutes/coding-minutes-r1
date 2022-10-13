@@ -19,7 +19,7 @@ const CourseTitle = () => {
             <div className="price-info">
               <span className="first">₹ 420</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use code : SEPT440</span>
+              <span className="last">Sale starts soon!!</span>
             </div>
             <div className="udemy-info">
               <a href="#">Enroll now on Udemy</a>
