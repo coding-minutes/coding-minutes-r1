@@ -7,7 +7,7 @@ const Advertisement = () => {
         <div className="advertisement-container">
             <div className="advertisement-internal-container">
                <div className="advertisement">
-                   <marquee>Celebrating 1 year of Coding Minutes! Grab all courses at ₹ 420 using code BDAY360 (till 19 May)</marquee>
+                   <marquee>90% OFF on all the Coding Minutes Courses</marquee>
                </div>
             </div>
         </div>

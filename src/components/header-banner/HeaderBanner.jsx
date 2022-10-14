@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import './headerBanner.css'
-import freedombanner from '../../assets/Images/main/sept440-banner.png'
-import freedombannerphone from '../../assets/Images/main/freedombannerphone.png'
-import headerBannerImage from '../../assets/Images/main/headerBanner.svg'
 import headerBannerPhoneImage from '../../assets/Images/main/headerbannerphone.png'
 // import headerBanner1 from '../../assets/Images/main/sept440-banner-bg-orange.svg'
 // import headerBanner2 from '../../assets/Images/main/sept440-banner-bg-purple.svg'
