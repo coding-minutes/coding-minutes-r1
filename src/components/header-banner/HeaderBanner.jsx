@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import './headerBanner.css'
-import freedombanner from '../../assets/Images/main/sept440-banner.png'
-import freedombannerphone from '../../assets/Images/main/freedombannerphone.png'
-import headerBannerImage from '../../assets/Images/main/headerBanner.svg'
 import headerBannerPhoneImage from '../../assets/Images/main/headerbannerphone.png'
 import headerBanner1 from '../../assets/Images/main/sept440-banner-bg-orange.svg'
 import headerBanner2 from '../../assets/Images/main/sept440-banner-bg-purple.svg'
+import headerImage from '../../assets/Images/main/diwali-sale-banner.png'
+import headerImagePhone from '../../assets/Images/main/diwali-sale-banner-phone.png'
 
 const banners = [headerBanner1, headerBanner2];
 const HeaderBanner = () => {
@@ -18,12 +17,13 @@ const HeaderBanner = () => {
         return () => clearInterval(intervalId);
     }, []);
 
+
     return (
         <div className="components-outer-container">
             <a href="#courses">
                 <div className="header-banner-container">
-                    <img className="headerImage header-banner-img" src={currentImage} alt="" />
-                    {/* <img className="headerImagePhone" src={headerBannerPhoneImage} alt="" /> */}
+                    <img className="headerImage header-banner-img" src={headerImage} alt="" />
+                    <img className="headerImagePhone" src={headerImagePhone} alt="" />
 
                 </div>
             </a>
