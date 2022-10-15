@@ -5,7 +5,11 @@ import youtube from "../../assets/Images/main/youtube.png";
 import linkedin from "../../assets/Images/main/linkedin.png";
 import instagram from "../../assets/Images/main/instagram.png";
 const Footer = () => {
- 
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="footer-outer-container" data-aos="fade-up">
       <div className="components-outer-container" id="faq">
