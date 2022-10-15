@@ -43,7 +43,7 @@ const Popup = ({show , Close}) => {
         <div className='popup'>
         <div className="popup-heading">
             <h1>Hurry Up!</h1>
-            <p>Engineer's Week Sale is Ending Tonight!</p>
+            <p>Diwali's Week Sale is Ending Tonight!</p>
         </div>
         <GrClose className="close" onClick={Close}/>
         <div className="timer-container">
