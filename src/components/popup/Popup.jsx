@@ -38,7 +38,7 @@ const Popup = ({show , Close}) => {
 
   
     return (
-    <div className='top'>
+    <div className='Top'>
         
         <div className='popup'>
         <div className="popup-heading">

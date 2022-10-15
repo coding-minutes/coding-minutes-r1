@@ -34,9 +34,11 @@ const Home = () => {
         <>
             {/* <Advertisement /> */}
             <HeaderBanner/>
+            
             <Navbar />
-            <Popup  show={show} Close={() => {setShow(false)}}/>
+          
             <Header />
+            <Popup  show={show} Close={() => {setShow(false)}}/>
             <Statistics />
             <LearningPath />
             <Blogs />

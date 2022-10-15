@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import Home from './components/Home'
 import CampusCaptainForm from './components/campus-captains-form/CampusCaptainForm'
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route,Redirect } from "react-router-dom";
 import Discord from './components/discord/Discord'
 import CoursePage from './components/course-page/CoursePage'
 import { CodingEssentials, CompCoding, ComputerVision, CppEssentials, DeepLearning, DSAEssentials, DSALevelUp, DynamicProgramming, GameTheory, Git, GraphAlgorithm, MachineLearning, NaturalLanguage, PythonDataScience, PythonMasterCourse } from './components/course-page/individual-components/index'
@@ -20,7 +20,8 @@ const App = () => {
     return (
         <>
             <Router>
-                <Route exact path="/"> <Home /></Route>
+                
+                <Route exact path="/"> <Home /> </Route>
                 <Route exact path="/campus-captains"><CampusCaptainForm /></Route>
                 <Route exact path="/discord"> <Discord /> </Route>
                 <Route exact path="/explore-courses"><CoursePage /></Route>
