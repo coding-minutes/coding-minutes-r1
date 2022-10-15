@@ -98,3 +98,10 @@ margin-top: 1vh;
     margin-top: 2vh;
     margin-bottom: 1vh;
 }
+  @media screen and (max-width:600px) {
+    .popup
+    {
+        min-width: 300px;
+        min-height: 350px;   
+    }
+  }
