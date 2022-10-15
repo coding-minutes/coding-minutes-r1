@@ -7,7 +7,7 @@ const Popup = ({show , Close}) => {
   const [timerSeconds, setTimerSeconds] = React.useState('00');
   let Interval = React.useRef();
   const startTimer = () => {
-    const countdownDate = new Date('October 16, 2022 00:00:00').getTime();
+    const countdownDate = new Date('October 17, 2022 00:00:00').getTime();
      Interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;

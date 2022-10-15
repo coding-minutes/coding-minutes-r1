@@ -21,7 +21,7 @@ small
     background: rgba(154, 164, 238, 0.336);
     font-size: 3em;
     font-weight: 700;
-    color: #fff;
+    color: rgb(124, 46, 240);
     padding: 0.2em;
     margin: 0 0.4em;
     border-radius: 10px;
@@ -51,7 +51,7 @@ small
 {
     min-width: 500px;
     min-height: 350px;
-    background: #ffffff;
+    background: #b5b0b077;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@ margin-top: 1vh;
 .popup-footer a {
     background: linear-gradient(90deg, #F77B26 0%, #F55A47 100%);
     color: white;
-    padding: 5px 10px;
+    padding: 14px 15px;
     border-radius: 5px;
     display: inline-block;
     margin-top: 2vh;
