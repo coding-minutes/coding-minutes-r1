@@ -18,30 +18,30 @@ import HeaderBanner from './header-banner/HeaderBanner'
 import Popup from './popup/Popup'
 const Home = () => {
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
-  const [show, setShow] = React.useState(false);
-  React.useEffect(() => {
-    setTimeout(() => {
-      setShow(true);
-    }, 400);
-  }, []);
-  React.useEffect(() => {
-    if (show) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-  }, [show]);
+  // const [show, setShow] = React.useState(false);
+  // React.useEffect(() => {
+  //   setTimeout(() => {
+  //     setShow(true);
+  //   }, 400);
+  // }, []);
+  // React.useEffect(() => {
+  //   if (show) {
+  //     document.body.style.overflow = 'hidden';
+  //   } else {
+  //     document.body.style.overflow = 'unset';
+  //   }
+  // }, [show]);
   return (
     <>
       {/* <Advertisement /> */}
       <HeaderBanner />
       <Navbar />
       <Header />
-      <Popup show={show} Close={() => { setShow(false) }} />
+      {/* <Popup show={show} Close={() => { setShow(false) }} /> */}
       <Statistics />
       <LearningPath />
       <Blogs />
