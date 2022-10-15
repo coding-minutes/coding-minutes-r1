@@ -1,5 +1,5 @@
 import React from "react";
-import "./Popup.css"
+import "./popup.css"
 import { GrClose } from 'react-icons/gr';
 const Popup = ({show , Close}) => {
   const [timerHours, setTimerHours] = React.useState('00');
