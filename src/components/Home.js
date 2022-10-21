@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <>
       {/* <Advertisement /> */}
-      <HeaderBanner />
+      {/* <HeaderBanner /> */}
       <Navbar />
       <Header />
       {/* <Popup show={show} Close={() => { setShow(false) }} /> */}
