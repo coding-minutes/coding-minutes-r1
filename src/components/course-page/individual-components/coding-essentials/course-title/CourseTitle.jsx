@@ -21,11 +21,11 @@ const CourseTitle = () => {
             <div className="price-info">
               <span className="first">₹0</span>
               <span className="middle">₹ 18,560</span>
-              {/* <span className="last">Use Code: HAPPYDIWALI</span> */}
+              {/* <span className="last">Use Code: DIWALI22</span> */}
             </div>
             <br />
             <div className="udemy-info">
-              <a href="https://www.udemy.com/course/learn-coding-for-beginners/?couponCode=HAPPYDIWALI" target="_blank">Enroll now on Udemy</a>
+              <a href="https://www.udemy.com/course/learn-coding-for-beginners/?couponCode=DIWALI22" target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
             </div>
           </div>
