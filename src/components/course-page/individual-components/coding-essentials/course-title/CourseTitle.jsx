@@ -21,7 +21,7 @@ const CourseTitle = () => {
             <div className="price-info">
               <span className="first">₹0</span>
               <span className="middle">₹ 18,560</span>
-              {/* <span className="last">Use Code: DIWALI22</span> */}
+              {/* <span className="last">Sale starts soon!</span> */}
             </div>
             <br />
             <div className="udemy-info">
