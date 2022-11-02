@@ -4,7 +4,7 @@ import dartIcon from "../../../../../assets/Images/main/dart.png";
 
 const CourseTitle = () => {
   return (
-    <div className="course-title-outer-container">
+    <div className="course-title-outer-container" style={{'paddingTop':'12vh'}}>
       <div className="components-outer-container">
         <div className="course-title-inner-container">
           <div className="course-title-left">
