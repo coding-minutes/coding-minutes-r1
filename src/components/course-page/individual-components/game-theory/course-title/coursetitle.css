@@ -1,5 +1,6 @@
 .course-title-outer-container {
     background: #F9F9F9;
+    /* padding-top: 12vh; */
 }
 .course-title-inner-container {
     padding: 40px 80px;
@@ -7,9 +8,11 @@
     grid-template-columns: 1fr 1fr;
     /* gap: 140px; */
     justify-content: space-between;
+   
 }
 .course-title-left {
     padding-left: 20px;
+    /* margin-top: 10vh; */
 }
 .course-title-inner-container .course-title-left .title {
     display: flex;
@@ -57,6 +60,7 @@ padding-top: 30px;
 }
 .course-title-right {
     margin-left: auto;
+    /* margin-top: 10vh; */
 }
 
 
@@ -77,6 +81,7 @@ padding-top: 30px;
 @media screen and (max-width:450px) {
     .course-title-inner-container {
         padding: 20px 20px;
+        
     }
     .title img {
         display: none;
