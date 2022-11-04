@@ -13,7 +13,7 @@ const BuyOnUdemy = () => {
             <h3>Ready to take your</h3>
             <h3>Coding Skills to Next Level?</h3>
             <p>Join the Course Now!</p>
-            <a href="https://www.udemy.com/course/cpp-data-structures-algorithms-levelup-prateek-narang/?couponCode=DIWALI22" target="_blank">
+            <a href="https://www.udemy.com/course/cpp-data-structures-algorithms-levelup-prateek-narang/?couponCode=NOV440" target="_blank">
               Enroll now on Udemy
             </a>
           </div>
