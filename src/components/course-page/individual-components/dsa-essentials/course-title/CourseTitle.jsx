@@ -20,7 +20,7 @@ const CourseTitle = () => {
 
             </div>
             <div className="price-info">
-            <span className="first">₹ 499</span>
+            <span className="first">₹ 389</span>
               <span className="middle">₹ 18,560</span>
               <span className="last">Use Code: BLACKFRIDAY360</span>
             </div>

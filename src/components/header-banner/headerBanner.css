@@ -6,14 +6,6 @@
     margin-right: 80px; */
   /* background: linear-gradient(180deg, #5848ea 0%, #9549eb 100%); */
 }
-.header-banner-container img {
-  /* width: 80%; */
-  /* height: 12vh; */
-  /* margin-left: 80px;
-  margin-right: 80px; */
-  /* width: 100vw; */
-
-}
 .headerImagePhone {
   display: none;
 }
@@ -34,7 +26,8 @@
 @media screen and (max-width: 840px) {
   .headerImage {
     /* display: none; */
-    content: url("../../assets/Images/main/DiwaliSalemob.png");
+    content: url("../../assets/Images/main/blackfridaymed.jpg");
+    width: 100%;
   }
   .headerImagePhone {
     display: block;
@@ -42,16 +35,22 @@
     /* height: 80px; */
     /* display: none; */
   }
-  .header-banner-container img {
-    /* width: 100%; */
-  }
    .header-banner-img {
-    height: 110px;
+    height: 70px;
    }
 }
 @media screen and (max-width: 720px) {
   .header-banner-img {
     height: 70px;
     width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  
+  .headerImage
+  {
+    content: url("../../assets/Images/main/BlackFridayphonebanner.svg");
+    zoom: 1.1;
+    height: auto;
   }
 }

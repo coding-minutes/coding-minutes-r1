@@ -3,7 +3,8 @@ import './headerBanner.css'
 import headerBannerPhoneImage from '../../assets/Images/main/headerbannerphone.png'
 // import headerBanner1 from '../../assets/Images/main/sept440-banner-bg-orange.svg'
 // import headerBanner2 from '../../assets/Images/main/sept440-banner-bg-purple.svg'
-import Diwali from '../../assets/Images/main/DiwaliSale.png'
+// import Diwali from '../../assets/Images/main/DiwaliSale.png'
+import Friday from '../../assets/Images/main/Blackfridaypcbanner.svg'
 
 // const banners = [headerBanner1, headerBanner2];
 const HeaderBanner = () => {
@@ -20,7 +21,7 @@ const HeaderBanner = () => {
         <div className="components-outer-container">
             <a href="#courses">
                 <div className="header-banner-container">
-                    <img className="headerImage header-banner-img" src={Diwali} alt="" />
+                    <img className="headerImage header-banner-img" src={Friday} alt="" />
                     {/* <img className="headerImagePhone" src={headerBannerPhoneImage} alt="" /> */}
 
                 </div>
