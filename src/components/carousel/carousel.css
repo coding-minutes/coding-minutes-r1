@@ -3,7 +3,7 @@
     flex-direction: column;
     background: var(--bg-container);
     max-width:400px;
-
+    cursor: pointer;
     border-radius: 10px;
     perspective: 100px;
     transition: 0.3s;
