@@ -18,7 +18,7 @@ const Statistics = () => {
             </div>
             <div className="statistics-border"></div>
             <div className="statistics-section">
-              <h2><CountUp start={0} end={75000} duration={6} separator="," />+</h2>
+              <h2><CountUp start={0} end={100000} duration={6} separator="," />+</h2>
               <span>Enrollments</span>
             </div>
             <div className="statistics-border"></div>
