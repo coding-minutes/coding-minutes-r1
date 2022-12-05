@@ -17,8 +17,8 @@ const Header = () => {
         <div className="header-internal-container">
           <div className="header-left" data-aos="fade-right" aos_offset="5000">
             <div className="header-left-tagline">
-              <h1>Black Friday Sale is extended!</h1>
-              <h1 className="h3-second">Get all courses at 90% off</h1>
+              <h1>Kickstart your</h1>
+              <h1 className="h3-second">Coding Career in Minutes</h1>
             </div>
             <div className="header-left-text">
               <p>
