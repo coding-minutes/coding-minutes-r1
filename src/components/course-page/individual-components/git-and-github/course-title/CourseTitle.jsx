@@ -19,7 +19,7 @@ const CourseTitle = () => {
             Master the most essential tools for software development, everything about Git, Github & Version Control.
             </div>
             <div className="price-info">
-            <span className="first">₹ 3,499</span>
+            <span className="first">₹ 499</span>
               <span className="middle">₹ 18,560</span>
               <span className="last">Use Code : DEC440</span>
             </div>

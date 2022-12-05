@@ -19,7 +19,7 @@ const CourseTitle = () => {
             Hone your programming skills by learning Python3 - master data structures, OOPS, problem solving and project building!
             </div>
             <div className="price-info">
-            <span className="first">₹ 3,499</span>
+            <span className="first">₹ 499</span>
               <span className="middle">₹ 18,560</span>
               <span className="last">Use Code : DEC440</span>
             </div>
