@@ -19,12 +19,12 @@ const CourseTitle = () => {
             Hone your programming skills by learning Python3 - master data structures, OOPS, problem solving and project building!
             </div>
             <div className="price-info">
-            <span className="first">₹ 499</span>
+            <span className="first">₹ 389</span>
               <span className="middle">₹ 18,560</span>
-              <span className="last">Use Code : DEC440</span>
+              <span className="last">Use Code : SANTA22</span>
             </div>
             <div className="udemy-info">
-              <a href="https://www.udemy.com/course/python-programming-beginners-bootcamp/?couponCode=DEC440"  target="_blank">Enroll now on Udemy</a>
+              <a href="https://www.udemy.com/course/python-programming-beginners-bootcamp/?couponCode=SANTA22"  target="_blank">Enroll now on Udemy</a>
               <span className="stars">⭐⭐⭐⭐⭐ 4.88/5.0</span>
             </div>
           </div>
