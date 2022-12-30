@@ -201,9 +201,11 @@
   left: 2px;
   height: 22px;
   width: 22px;
-  transform: translateX(0px);
   transition: transform 0.2s linear;
 }
-.checkbox:checked + label .ball {
+label .ball-left {
+  transform: translateX(0px);
+}
+label .ball-right {
   transform: translateX(24px);
 }

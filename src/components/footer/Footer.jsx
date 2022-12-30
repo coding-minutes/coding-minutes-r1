@@ -13,7 +13,6 @@ const Footer = () => {
   console.log(initialThemeState)
   const [logo, setLogo] = useState(initialThemeState === 'light-theme' ? logoBlack : logoWhite);
   useEffect(() => {
-  
     setLogo(initialThemeState === 'light-theme' ? logoBlack : logoWhite);
   }, [theme]);
   
@@ -21,7 +20,7 @@ const Footer = () => {
 
   const linkedin = "https://www.linkedin.com/company/codingminutes"
   const instagram = "https://www.instagram.com/codingminutes/"
-  const youtube = "https://www.youtube.com";
+  const youtube = "https://www.youtube.com/@CodingMinutes";
 
 
 
@@ -42,7 +41,7 @@ const Footer = () => {
             <ul>
               {navData.map((item) => (
                 <li key={item.id}>
-                  <a href={item.link}>{item.name}</a>
+                  <a href={item.link} className="footer-nav">{item.name}</a>
                 </li>
               ))}
             </ul>

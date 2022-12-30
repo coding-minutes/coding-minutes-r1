@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai'
 
 import './FAQs.css'
 import { FAQData } from '../../data/FAQData'
@@ -38,7 +37,7 @@ const FAQs = () => {
                 <div className="questions faq" key={id} onClick={handleClick(id)}>
                   <div className="question">
                     <p className="ques">{question}</p>
-                    <button onClick={handleButtonClick}>{clickedArray.includes(id) ? " " : <AiOutlinePlus />}</button>
+                    <button onClick={handleButtonClick}>{clickedArray.includes(id) ? " " :" "}</button>
                   </div>
                   {clickedArray.includes(id) && <p className="ans">{answer}</p>}
                 </div>

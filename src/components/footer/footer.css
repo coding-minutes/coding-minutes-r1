@@ -48,6 +48,14 @@
   color: var(--primary-color);
   transition: all 0.3s ease;
 }
+.footer-container .footer-nav:hover {
+  background: -webkit-linear-gradient(0deg, #5848ea 0%, #9549eb 100%);
+  color: var(--secondary-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 .footer-container .third {
   width: 30%;
   /* background-color: rgb(198, 202, 198); */

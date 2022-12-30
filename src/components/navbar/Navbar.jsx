@@ -57,8 +57,6 @@ const Navbar = () => {
   }
   const currentStatus = 'active';
 
-
-
   return (
     <div className='components-no-outer-container'>
       <div className="nav-container">
@@ -76,9 +74,10 @@ const Navbar = () => {
         </div>
         <div className="third">
           <div className="theme-control">
-            <input type="checkbox" className="checkbox" name="check" id="check" />
+            <input type="checkbox" className="checkbox" name="check" id="check"/>
+          
             <label htmlFor="check" onClick={toggleTheme}><span className='first'>{<FaSun />}</span><span className='second'>{<FaMoon />}</span>
-              <div className="ball"></div></label>
+              <div className={`ball ${theme==='light-theme' ? 'ball-left' : 'ball-right'}`}></div></label>
           </div>
           <button className='cm-gradient-button'><Link to="/signup" className='signup-button'>Sign Up</Link></button>
           <span className='menu-btn' onClick={toggleMenu} style={isMobile===true ? mobileNav===true ? { display: 'block' } : { display: 'none' }: null}>{<RiMenu2Line />}</span>
