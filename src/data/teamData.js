@@ -25,8 +25,8 @@ export const teamData = [
         image: apaarBhaiya,
         description1: "Apaar is an ace Competitive Programmer and upcoming Google Software Engineer. He is rated 6 stars on Codechef & master on Codeforces, and has worked with companies like Zomato and Samsung. He loves to solve challenging problems and teach students.",
         description2: "He has been to ACM-ICPC and has won many hackathons. In the past 2 years, he has mentored thousands in Competitive Coding. Dynamic Programming & Graphs are his favorite topics.",
-        linkedin: 'https://github.com',
-        instagram: 'https://www.instagram',
-        youtube: 'https://www.youtube',
+        linkedin: 'https://www.linkedin.com/in/apaarkamal/',
+        instagram: 'https://www.instagram.com/apaargram/',
+        youtube: 'https://www.youtube.com/@CodingMinutes/',
     }
 ]
