@@ -1,30 +1,29 @@
-import React from "react";
-import "./statistics.css";
-// import CMStatistics from "../../assets/Images/main/cm-statistics.svg";
-import CMStatistics from "../../assets/Images/main/cm-statistics-updated.svg";
+import React from 'react'
 import CountUp from 'react-countup';
 
+import './statistics.css';
 
 const Statistics = () => {
   return (
-    <div className="statistics-container">
-      <div className="statistics-internal-container">
-        <div className="statistics-main" data-aos="fade-up">
-          <h2 className="statistics-our-journey">Our journey so far</h2>
-          <div className="statistics-sections">
-            <div className="statistics-section">
+    <div className="normal-outer-container">
+
+      <div className="components-outer-container">
+        <div className="statistics-container cm-gradient" data-aos="fade-up">
+          <div className="top"><h2>Our journey so far</h2></div>
+          <div className="bottom">
+            <div className="first item">
               <h2>4.7⭐</h2>
-              <span>Course Ratings</span>
+              <span className="span-class">Course Ratings</span>
             </div>
-            <div className="statistics-border"></div>
-            <div className="statistics-section">
+            <div className="border"></div>
+            <div className="second item">
               <h2><CountUp start={0} end={100000} duration={6} separator="," />+</h2>
-              <span>Enrollments</span>
+              <span className="span-class">Enrollments</span>
             </div>
-            <div className="statistics-border"></div>
-            <div className="statistics-section">
+            <div className="border"></div>
+            <div className="third item">
               <h2><CountUp start={0} end={150} duration={6} separator="," />+</h2>
-              <span>Countries</span>
+              <span className="span-class">Countries</span>
             </div>
           </div>
         </div>
@@ -33,4 +32,4 @@ const Statistics = () => {
   )
 }
 
-export default Statistics;
+export default Statistics

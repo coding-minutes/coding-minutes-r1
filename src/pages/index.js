@@ -1,0 +1,5 @@
+export {default as HomePage} from './homepage/HomePage'
+export {default as CoursePage} from './coursePage/CoursePage'
+export {default as JoinCampusCaptain} from './joinAsCampusCaptains/JoinCampusCaptain'
+export {default as SignUp} from './signup/SignUp'
+export {default as PageNotFound} from './pageNotFound/PageNotFound'

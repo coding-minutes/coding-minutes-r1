@@ -1,60 +1,35 @@
-import React from "react";
-import "./header.css";
-import headerImage from "../../assets/Images/main/header-image.png";
+import React from 'react'
 
-//aos_offset
+import './header.css'
+import { headerImage } from '../../assets'
 
 const Header = () => {
-  
   return (
-    <div className="components-outer-container" >
-      <div className="header-outer-container">
-        <br />
-        <div className="border-line">
-        
-      </div>
-      <br />
-        <div className="header-internal-container">
-          <div className="header-left" data-aos="fade-right" aos_offset="5000">
-            <div className="header-left-tagline">
+    <div className="normal-outer-container">
+      <div className="components-outer-container">
+        <div className="header-container">
+          <div className="left" data-aos="fade-right">
+            <div className="first">
               <h1>Kickstart your</h1>
-              <h1 className="h3-second">Coding Career in Minutes</h1>
+              <h1 className="cm-gradient-text">Coding Career in Minutes</h1>
             </div>
-            <div className="header-left-text">
-              <p>
-              <span className="header-breakPoint">   <span>Pocket friendly courses</span> with interactive content, top-notch </span>
-                instructors, TA support, Projects & Assignments.
-              </p>
-              {/* <p>
-              Use code <span>JULY420</span> to avail all courses at <span>₹360</span>+taxes. This offer is valid till 21st July.  
-              </p> */}
+            <div className="second">
+              <p><strong>Pocket friendly courses</strong> with interactive content, top-notch
+                instructors, TA support, Projects & Assignments.</p>
             </div>
-            <div className="header-left-buttons">
-              <div className="explore-courses">
-                <a href="#courses">
-                  {/* <img src={exploreCoursesImage} alt="" /> */}
-                  <span>Explore courses</span>
-                </a>
-              </div>
-              {/* <div className="learn-more"> */}
-                {/* <a href="#courses"> */}
-                  {/* ▶ Learn more */}
-                  {/* <img src={learnMoreImage} alt="" /> */}
-                {/* </a> */}
-              {/* </div> */}
+            <div className="third">
+              <button className="cm-gradient-button"><a href="#courses">Explore Courses</a></button>
             </div>
           </div>
-          <div className="header-right" data-aos="fade-left">
-            <div className="header-right-image">
-              <img  loading="lazy"  src={headerImage} alt="Landing Image" />
+          <div className="right" data-aos="fade-left">
+            <div className="header-image">
+              <img src={headerImage} alt="header" />
             </div>
           </div>
         </div>
-      
       </div>
-
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

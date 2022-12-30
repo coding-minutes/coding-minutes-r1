@@ -1,8 +1,110 @@
+.discord-outer-container {
+  width: 100vw;
+  background: var(--primary-bg);
+  padding-bottom: 100px;
+  color: var(--primary-color);
+  padding-top: 100px;
+}
+
 .discord-container {
-    background-color: red;
-    padding: 60px;
-    display: flex;
+  background: var(--discord-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  border-radius: 1.8rem;
+}
+.discord-container .left {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 2rem;
+  width: 60%;
+  margin-left: 40px;
+ color: white;
+}
+.discord-container h1 {
+  font-size: 2.5rem;
+}
+.discord-container .left p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.discord-container .left button {
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-weight: 500;
+  width: max-content;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  background: rgb(0, 0, 0, 0.25);
+}
+.discord-container .left button:hover {
+  background: rgb(0, 0, 0, 0.32);
+  /* color: var(--primary-bg); */
+  transform: scale(1.05);
+}
+.discord-container .left button a {
+  color: white;
+}
+.discord-container .right {
+  width: 40%;
+}
+.discord-container .right img {
+  opacity: 0.35;
+}
+
+/* media query (small laptop devices) */
+@media screen and (max-width: 1200px) {
+  .discord-container {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .discord-container .left {
+    margin-left: 0;
+    width: 100%;
+  }
+  .discord-container .left h1 {
+    font-size: 2rem;
+  }
+  .discord-container .left p {
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+  }
+  .discord-container .left button {
+    font-size: 1.2rem;
+    padding: 0.8rem 2.5rem;
+    margin: auto;
+    margin-top: 1.3rem;
+  }
+  .discord-container .right {
+    width: 70%;
+    /* background-color: red; */
+    margin-top: 2rem;
+  }
+  .discord-container .right img {
+    margin: auto;
+  }
+}
+/* media query (small devices) */
+@media screen and (max-width:600px) {
+  .discord-container .left h1 {
+      font-size: 1.8rem;
+  }
+  .discord-container .left p {
+      font-size: 1rem;
+  }
+  .discord-container .left button {
+      padding: 0.7rem 1.5rem;
+      font-size: 1.1rem;
+  }
 }

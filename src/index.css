@@ -1,72 +1,91 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
+  border: 0;
+  outline: 0;
   list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth !important;
 }
-body
-{
-  background: var(--bg-container);
-  transition: 0.3s linear;
+
+.light-theme {
+  --primary-bg: #ffffff;
+  --secondary-bg: #f5f5f5;
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(255, 255, 255);
+  --blog-bg: #2962ff;
+  --discord-bg:#5865f2; 
+}
+.dark-theme {
+  --primary-bg: #1E0738;
+  --secondary-bg: #310C5B;
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(0, 0, 0);
+  --blog-bg: #2962ff;
+  --discord-bg:#5865f2; 
 }
 
-.components-outer-container {
-  max-width: 1600px;
-  margin: auto;
-}
+
 ::-webkit-scrollbar {
   display: none;
 }
-.dark-theme {
-  --discord-bg:-webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
-  --bg-container: #0c0019;
-  --bg-container2: #0c0019;
-  --headings: white ;
-  --nav-color: rgba(246, 246, 246, 0.5);
-  --nav-color-hover: white;
-  --border:rgba(149, 73, 235, 0.1);
-  --cards-color:#140229;
-  --gray-bg: #0c0019;
-  --purple-headings : -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
-  --borders: rgb(93, 29, 196);
-  --rating: #ffff;
-  --card-mentor:#F3F2FE;
-  --blog: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
-  --whycm-bg:#140229;
-  --whycm-color: #0c0019;
-  --discord: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
-  --mentors: #140229;
-  --box-shadow: 0 8px 6px -6px rgb(72, 61, 94);
-  --foot-img: url("./assets/Images/main/cmlogo-white.png");
-  --hover: #200242;
-  --freedom: url("./assets/Images/main/Freedom.svg");
+
+.components-outer-container{
+  max-width: 1500px;
+  margin: auto;
+  /* background: red; */
 }
-.light-theme {
-  --discord-bg:#5865f2; 
-  --nav-color:rgba(0, 0, 0, 0.8);
-  --bg-container: #ffffff;
-  --bg-container2: #f9f4ff; 
-  --nav-color-hover: rgb(0, 0, 0);
-  --headings: black;
-  --border: #eaeaea;
-  --cards-color: #fff;
-  --purple-headings : black;
-  --card-mentor: black;
-  --gray-bg: #f5f5f5;
-  --borders: #e2e2e2;
-  --rating: black;
-  --blog: #2962ff;
-  --whycm-bg:#f5f5f5;
-  --whycm-color: white;
-  --discord: linear-gradient(90deg, #5848EA 0%, #9549EB 100%);
-  --mentors:#d8d8d8;
-  --box-shadow: 0 8px 6px -6px rgb(243, 240, 240);
-  --foot-img: "./assets/Images/main/codingMinutesLogo.png";
-  --hover: #e0e0e0;
-  --freedom: url("./assets/Images/main/Freedom2.svg");
+
+.cm-gradient {
+  background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+}
+
+.cm-gradient-text {
+  background: -webkit-linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: var(--primary-bg);
+}
+
+.header-image {
+  animation: wave 3s infinite;
+}
+
+@keyframes wave {
+  20%,
+  to {
+    transform: translate3d(0);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+.cm-gradient-button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: -webkit-linear-gradient(0deg, #5848ea 0%, #9549eb 100%);
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
 }

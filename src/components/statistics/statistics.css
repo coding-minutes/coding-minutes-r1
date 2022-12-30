@@ -1,77 +1,89 @@
-.statistics-internal-container {
-  max-width:1000px;
+.statistics-container {
+  max-width: 1000px;
   margin: auto;
-  color: white;
   position: relative;
   top: 100px;
-}
-.statistics-main {
-  padding: 30px 10px;
-  background: linear-gradient(90deg, #5848ea 0%, #9549eb 100%);
-  border-radius: 15px !important;
-font-size: 20px;
-}
-.statistics-internal-container .statistics-our-journey {
-  width: 100%;
-  margin: auto;
   display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-  font-size: 24px;
-
+  flex-direction: column;
+  color: white;
+  padding: 50px 0;
+  border-radius: 1.5rem;
+  z-index: 5;
 }
-.statistics-internal-container .statistics-sections {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 1rem;
+.statistics-container .top h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
   text-align: center;
-  width: 97%;
+}
+.statistics-container .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.statistics-container .bottom .item {
+  font-size: 1.4rem;
+  text-align: center;
 }
 
-.statistics-internal-container .statistics-border {
+.statistics-container .bottom .border {
   height: 50px;
   width: 2px;
   background-color: rgba(0, 0, 0, 0.184);
-
 }
 
-@media screen and (max-width:1060px) {
-  .statistics-main {
-    padding: 30px 10px;
+/* media query (small laptop devices) */
+@media screen and (max-width: 1150px) {
+  .statistics-container {
+    max-width: 800px;
   }
-  .statistics-internal-container {
+  .statistics-container .top h2 {
+    font-size: 2rem;
+  }
+  .statistics-container h2 {
+    font-size: 2rem;
+  }
+  .statistics-container .span-class {
+    font-size: 1.4rem;
+  }
+  .statistics-container .bottom {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+/* media query (small devices) */
+@media screen and (max-width: 700px) {
+  .statistics-container {
     max-width: 600px;
   }
-  .statistics-main {
-    font-size: 16px;
+  .statistics-container .top h2 {
+    font-size: 1.6rem;
   }
-  .statistics-sections {
-    display: flex;
-    gap: 2rem;
+  .statistics-container h2 {
+    font-size: 1.6rem;
+  }
+  .statistics-container .bottom {
+    margin-right: 30px;
+    margin-left: 30px;
   }
 }
 
-@media screen and (max-width:670px) {
-  .statistics-main {
-    padding: 30px 10px;
+/* media query (extra small devices) */
+@media screen and (max-width: 500px) {
+  .statistics-container .top h2 {
+    font-size: 1.4rem;
   }
-    .statistics-internal-container {
-      max-width: 500px;
-    }
-    .statistics-main {
-      font-size: 14px;
-    }
-    .statistics-sections {
-      gap: 1rem;
-    }
-}
-
-@media screen and (max-width:530px) {
-  .statistics-main {
-    padding: 30px 10px;
+  .statistics-container h2 {
+    font-size: 1.4rem;
   }
-  .statistics-our-journey {
-    font-size: 18px !important;
-    width: 100%;
+  .statistics-container .bottom {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .statistics-container .span-class {
+    font-size: 1.2rem;
   }
 }

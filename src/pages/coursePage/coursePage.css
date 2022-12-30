@@ -1,0 +1,312 @@
+.coursepage-outer-container {
+  background: var(--primary-bg);
+  letter-spacing: 0.1px;
+  color: var(--primary-color);
+}
+
+.coursepage-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 120px;
+}
+.coursepage-container .top {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.coursepage-container .top .left {
+  max-width: 600px;
+}
+.coursepage-container .top .left .left-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.coursepage-container .title-image {
+  width: 80px;
+}
+.coursepage-container .title-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursepage-container .top .course-descriptionTop {
+  font-size: 1.05rem;
+  line-height: 24px;
+  margin-top: 2rem;
+}
+.coursepage-container .top .left-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+.coursepage-container .top .left-bottom .left-bottom-first {
+  display: flex;
+  gap: 1rem;
+}
+.coursepage-container .top .left-bottom .left-bottom-first .price-div    {
+  display: flex;
+  gap: 1rem;
+}
+.coursepage-container .top .price-span {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.coursepage-container .top .price-span2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #b9b9c0;
+  text-decoration: line-through;
+}
+.coursepage-container .top .left-bottom .coupon-code {
+  background: linear-gradient(90deg, #f77b26 0%, #f55a47 100%);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  margin-left: 1rem;
+}
+.coursepage-container .top .left-bottom .left-bottom-second {
+  display: flex;
+  align-items: center;
+  margin-top: 1.8rem;
+  gap: 1rem;
+}
+.coursepage-container .top .left-bottom .left-bottom-second button {
+  padding: 0.8rem 2.5rem;
+  border-radius: 50px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  font-weight: 500;
+  width: max-content;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.coursepage-container .top .left-bottom .left-bottom-second button a {
+  color: white;
+}
+
+/* ===============mid page css here================= */
+.coursepage-container .bottom {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.coursepage-container .bottom .bottom-left {
+  display: flex;
+  flex-direction: column;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-top {
+  padding: 1rem 2rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-top ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+  column-gap: 1rem;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-top ul li {
+  margin: 0.35rem 0;
+  list-style: inside;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom .first {
+  margin-top: 1rem;
+  line-height: 25px;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom .first p {
+  margin: 0.7rem 0;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom .second {
+  margin-top: 1.5rem;
+
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom .second ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 0.5rem;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom .second ul li {
+  margin: 0.35rem 0;
+  list-style: inside;
+}
+.coursepage-container .bottom .bottom-left .bottom-left-bottom .third {
+  margin-top: 1.5rem;
+  line-height: 25px;
+
+}
+
+.coursepage-container .bottom .bottom-right {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 350px;
+}
+
+.coursepage-container .bottom .bottom-right .instructor .data-container {
+  border: 1px solid #b3aeae;
+  height: max-content;
+  border-top: none;
+  padding-top: 20px;
+  line-height: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.coursepage-container .bottom .bottom-right .instructor .social-icons {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.coursepage-container .bottom .bottom-right .instructor .social-icons a {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+/* bottommost css here */
+.coursepage-second-outer-container {
+    background: var(--primary-bg);
+    color: var(--primary-color);
+}
+.coursepage-second-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-bg);
+    color: var(--primary-color)
+}
+.coursepage-second-container .left {
+    /* margin-right: 2rem; */
+    margin-left: 2rem;
+}
+.coursepage-second-container .left h1 {
+    font-size: 2.5rem;
+}
+.coursepage-second-container .left p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 28px;
+}
+.coursepage-second-container .left button {
+    margin-top: 1rem;
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    font-weight: 500;
+    width: max-content;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+}
+.coursepage-second-container .left button a {
+    color: white;
+}
+.coursepage-second-container .right {
+    width: 400px;
+    animation: wind 3s infinite;
+}
+
+/* media query (medium devices) */
+@media screen and (max-width:1200px) {
+    .coursepage-container .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .coursepage-container .top .course-descriptionTop {
+       text-align: center;
+    }
+    .coursepage-container .top .left-bottom .left-bottom-first {
+        align-items: center;
+        justify-content: center;
+    }
+    .coursepage-container .top .left-bottom .left-bottom-second { 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coursepage-container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .coursepage-container .bottom .bottom-left .bottom-left-top ul {
+        grid-template-columns: 1fr;
+    }
+    .coursepage-container .bottom .bottom-left .bottom-left-bottom .second ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .coursepage-container .top .left .left-top h1 {
+        font-size: 1.8rem;
+    }
+    .coursepage-second-container {
+        flex-direction: column;
+    }
+    .coursepage-second-container .left h1 {
+        font-size: 2rem;
+    }
+    .coursepage-second-container .left p {
+        font-size: 1.1rem;
+    }
+    .coursepage-second-container .left button {
+        font-size: 0.9rem;
+    }
+    .coursepage-second-container .right {
+        width: 300px;
+    }
+    
+}
+
+/* media query (small devices) */
+@media screen and (max-width:500px) {
+    .coursepage-container .top .left-bottom {
+        margin-top: 0.7rem;
+    }
+    .coursepage-container .top .left-bottom .left-bottom-first {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        /* margin-top: 0   ; */
+      }
+    .coursepage-container .top .left-bottom .coupon-code {
+        /* padding: 0.2rem 0.5rem; */
+        margin-left: 0;
+    }
+    .coursepage-container .top .left-bottom .left-bottom-second {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .coursepage-container iframe {
+        width: 330px;
+        height: 220px;
+      }
+      .coursepage-container .bottom .bottom-right {
+        margin-top: 2rem;
+      }
+}

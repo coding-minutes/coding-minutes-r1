@@ -1,90 +1,104 @@
-import React, { useState,useEffect } from "react";
-import "./navbar.css";
-import Logo from "../../assets/Images/main/codingMinutesLogo.png";
-import DarkLogo from "../../assets/Images/main/cmlogo-white.png"
-import { FaMoon } from 'react-icons/fa';
-import { FaSun } from 'react-icons/fa';
-import SignupHome from "../signup/SignupHome";
-import {Link} from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
-const signupLink = "https://706a22f4.sibforms.com/serve/MUIEAPhmUpgeGKQqKov3fS8iq0Pp5gQ9CMHrAASGXXqyTxCOJndh_1J0oGQhxiXJZnb5sJvqxF5tUMC1aTmVtTw4qPIrU8R_QIUeKxrTv01corxD8DBfZpXQVKCoSCqNBOmXA-HyjbUDSHmJzClv2L9qoslwYWvHXw493HKPnl0LEpdFtc_x1m3XWnhuMV4TqUQjQW5-2Dk3UQHf";
+import './navbar.css'
+import { logoBlack, logoWhite } from '../../assets'
+import { FaSun, FaMoon } from 'react-icons/fa'
+import { RiMenu2Line } from 'react-icons/ri'
+import { MdClose } from 'react-icons/md';
+
+export const navData = [
+  { id: 1, name: "Our Courses", link: "/#courses" },
+  { id: 2, name: "Blogs", link: "/#blogs" },
+  { id: 3, name: "Community", link: "https://discord.gg/jwvtDtnkJv" },
+  { id: 4, name: "Be a Captain", link: "/#campus-captains" },
+  { id: 5, name: "CM IDE", link: "https://ide.codingminutes.com/" },
+  { id: 6, name: "Mentors", link: "/#mentors" },
+]
 
 const Navbar = () => {
-  const [active, setActive] = useState("nav__menu");
-  const [toggleicon, setToggleicon] = useState("nav__toggler");
-  const [theme, setTheme] = useState("light-theme");
-  const [image,setImage]=useState(Logo);
-  
-  const toggleTheme = () => {
-     theme === "light-theme" ? setTheme("dark-theme") : setTheme("light-theme");
-     image === Logo ? setImage(DarkLogo) : setImage(Logo);
+  const initialThemeState = JSON.parse(localStorage.getItem('themeSettings')) || 'dark-theme';
+  const [toggleIcon, setToggleIcon] = useState(initialThemeState === 'light-theme' ? <FaMoon /> : <FaSun />);
+  const [theme, setTheme] = useState(initialThemeState);
+  const [logo, setLogo] = useState(initialThemeState === 'light-theme' ? logoBlack : logoWhite);
+  const [mobileNav, setMobileNav] = useState(true);
+  const [width, setWidth] = useState(window.innerWidth);
+
+  const isMobile = width <=1000 ? true : false;
+
+  const updateDimensions = () => {
+    const { innerWidth: width } = window;
+    setWidth(width);
   }
+
   useEffect(() => {
-    document.body.className = theme;
-  },[theme]);
-  const navToggle = () => {
-    active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
-    toggleicon === 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
-    // if(window.scrollY >=50)
-    // {
-    // active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
-    // toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler');
-    // }
-    // else if( window.innerWidth < 1200 && window.innerWidth > 460)
-    // {
-    //   active=== 'nav__menu' ? setActive('nav__menu nav__active') : setActive('nav__menu');
-    //   toggleicon=== 'nav__toggler' ? setToggleicon('nav__toggler toggle') : setToggleicon('nav__toggler'); 
-    // }
-  }
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, []);
 
-  const [navbar, setNavbar] = useState(false);
-  const changeBackground = () => {
-    if (window.scrollY >= 10) {
-      setNavbar(true);
 
-    }
-    else {
-      setNavbar(false);
+  useEffect(() => {
+    document.documentElement.className = theme;
+    localStorage.setItem('themeSettings', JSON.stringify(theme));
+    setLogo(theme === 'light-theme' ? logoBlack : logoWhite);
+    setToggleIcon(theme === 'light-theme' ? <FaMoon /> : <FaSun />);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+    } else {
+      setTheme("light-theme");
     }
   }
-  window.addEventListener("scroll", changeBackground);
+  const toggleMenu = () => {
+    console.log(mobileNav)
+    setMobileNav(prev => !prev)
+  }
+  const currentStatus = 'active';
+
+
+
   return (
-    <div className="components-outer-container" >
-
-      <nav className={navbar ? 'nav sticky' : 'nav'}>
-        <a href="/#" className="nav__brand"><img src={image} alt="" /></a>
-        <ul className={active}>
-          <li className="nav__item"><a href="/#courses" className="nav__link">Our Courses</a></li>
-          <li className="nav__item"><a href="/#blogs" className="nav__link">Blogs</a></li>
-          <li className="nav__item"><a href="https://discord.gg/jwvtDtnkJv" target="_blank" className="nav__link">Community</a></li>
-          <li className="nav__item"><a href="/#campus-captains" className="nav__link">Be a Captain</a></li>
-          <li className="nav__item"><a href="https://ide.codingminutes.com" target="_blank" className="nav__link">CM IDE</a></li>
-          <li className="nav__item"><a href="/#team" className="nav__link">Mentors</a></li>
-          <li className="nav__item"><Link to="/signup" className="signup-button">Sign Up</Link></li>
-        </ul>
-        <div className="Theme-parent">
-          <div className="Theme">
-            <input type="checkbox" class="checkbox" id="chk"/>
-            <label class="label" for="chk" onClick={toggleTheme}>
-              <FaMoon class="fas fa-moon" />
-              <FaSun class="fas fa-sun" />
-              <div class="ball"></div>
-            </label>
-          </div>
-          <div className="Toggle-theme">
-          <Link to="/signup" className="signup-buttonnav">Sign Up</Link>
-          </div>
+    <div className='components-no-outer-container'>
+      <div className="nav-container">
+        <div className="first">
+          <a href="/#"> <img src={logo} alt="" /></a>
         </div>
-
-        <div onClick={navToggle} className={toggleicon}>
-          <div className="line1"></div>
-          <div className="line2"></div>
-          <div className="line3"></div>
+        <div className="second">
+          <ul>
+            {navData.map((item) => (
+              <li key={item.id}>
+                <a href={item.link}>{item.name}</a>
+              </li>
+            ))}
+          </ul>
         </div>
-      </nav>
+        <div className="third">
+          <div className="theme-control">
+            <input type="checkbox" className="checkbox" name="check" id="check" />
+            <label htmlFor="check" onClick={toggleTheme}><span className='first'>{<FaSun />}</span><span className='second'>{<FaMoon />}</span>
+              <div className="ball"></div></label>
+          </div>
+          <button className='cm-gradient-button'><Link to="/signup" className='signup-button'>Sign Up</Link></button>
+          <span className='menu-btn' onClick={toggleMenu} style={isMobile===true ? mobileNav===true ? { display: 'block' } : { display: 'none' }: null}>{<RiMenu2Line />}</span>
+        </div>
+        <div className={`mobile-nav`} style={isMobile===true ? mobileNav===true ? { display: 'none' } : { display: 'block' }: null}>
+
+          <a href="/#"> <img src={logo} alt="" onClick={toggleMenu} /></a>
+          <span className="close-btn" onClick={toggleMenu}><MdClose /></span>
+          <ul>
+            {navData.map((item) => (
+              <li key={item.id}>
+                <a href={item.link} onClick={toggleMenu}>{item.name}</a>
+              </li>
+            ))}
+          </ul>
+          <button className='cm-gradient-button'><Link to="/signup" className='signup-button'>Sign Up</Link></button>
+        </div>
+      </div>
     </div>
+  )
+}
 
-  );
-};
-
-export default Navbar;
+export default Navbar

@@ -1,31 +1,26 @@
-import React from "react";
-import "./Blogs.css";
-import hashnode from "../../assets/Images/main/Hashnode.png";
+import React from 'react'
+import { hashnodeLogo } from '../../assets';
+import './blogs.css'
+
 const Blogs = () => {
   return (
-    <div className="components-outer-container" id="blogs">
-      <div className="blogs-outer-container" data-aos="fade-up" >
-        <div className="blogs-inner-container">
-          <div className="blogs-left">
+    <div className="blogs-outer-container">
+      <div className="components-outer-container">
+        <div className="blogs-container" data-aos="fade-up" id="blogs">
+          <div className="left">
             <h1>Introducing Coding Minutes Blogs!</h1>
-            <p>
-              Get a comprehensive guide of DSA concepts with programs, Web Development, Interview Tips and Tricks and progamming roadmaps.
+            <p>Get a comprehensive guide of DSA concepts with programs, Web Development, Interview Tips and Tricks and progamming roadmaps.
             </p>
-            <div className="blog-explore">
-              <a href="https://blog.codingminutes.com/">Explore Blogs</a>
-            </div>
-
+            <button><a href="https://blog.codingminutes.com">Explore Blogs</a></button>
           </div>
-          <div className="blogs-right">
-            <div className="right-image1">
-              <img loading="lazy" style={{ width: '450px', height: '415px' }} src={hashnode} alt="" />
-
-            </div>
+          <div className="right">
+            <img src={hashnodeLogo} alt="" />
           </div>
         </div>
       </div>
     </div>
-  );
-};
 
-export default Blogs;
+  )
+}
+
+export default Blogs
