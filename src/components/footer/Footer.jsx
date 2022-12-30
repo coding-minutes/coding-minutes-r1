@@ -10,7 +10,6 @@ const Footer = () => {
 
   const initialThemeState = JSON.parse(localStorage.getItem('themeSettings'))
   const [theme, setTheme] = useState(initialThemeState)
-  console.log(initialThemeState)
   const [logo, setLogo] = useState(initialThemeState === 'light-theme' ? logoBlack : logoWhite);
   useEffect(() => {
     setLogo(initialThemeState === 'light-theme' ? logoBlack : logoWhite);

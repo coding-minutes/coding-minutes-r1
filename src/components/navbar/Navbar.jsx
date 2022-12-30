@@ -52,7 +52,6 @@ const Navbar = () => {
     }
   }
   const toggleMenu = () => {
-    console.log(mobileNav)
     setMobileNav(prev => !prev)
   }
   const currentStatus = 'active';
