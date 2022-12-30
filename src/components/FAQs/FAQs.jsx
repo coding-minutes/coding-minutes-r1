@@ -9,11 +9,9 @@ const FAQs = () => {
   const handleClick = (id) => () => {
     if (clickedArray.includes(id)) {
       setWhichClicked(id);
-      console.log("first", clickedArray)
     } else {
       setClickedArray([...clickedArray, id]);
       setWhichClicked(id);
-      console.log("second", clickedArray)
     }
   };
   const handleButtonClick = (id) => () => {
