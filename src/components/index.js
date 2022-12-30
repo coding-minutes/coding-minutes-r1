@@ -3,7 +3,7 @@ export {default as Navbar} from './navbar/Navbar';
 export {default as Header} from './header/Header';
 export {default as Statistics} from './statistics/Statistics';
 export {default as ExploreCourses} from './exploreCourses/ExploreCourses';
-// export {default as Blogs} from './blogs/Blogs';
+export {default as Blog} from './blog/Blog';
 export {default as WhyCM} from './whyCM/WhyCM';
 export {default as CampusCaptains} from './campusCaptains/CampusCaptains';
 export {default as Discord} from './discord/Discord';

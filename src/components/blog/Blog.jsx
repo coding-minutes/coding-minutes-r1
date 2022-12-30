@@ -1,8 +1,8 @@
 import React from 'react'
 import { hashnodeLogo } from '../../assets';
-import './blogs.css'
+import './blog.css'
 
-const Blogs = () => {
+const Blog = () => {
   return (
     <div className="blogs-outer-container">
       <div className="components-outer-container">
@@ -23,4 +23,4 @@ const Blogs = () => {
   )
 }
 
-export default Blogs
+export default Blog

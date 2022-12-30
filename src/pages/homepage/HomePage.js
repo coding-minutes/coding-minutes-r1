@@ -1,8 +1,7 @@
 import React from 'react'
 
 import { NavContainer } from '../../containers'
-import { Header, Statistics, ExploreCourses, WhyCM, CampusCaptains, Discord, MeetTeam, Testimonials, FAQs, Footer } from '../../components'
-import Blogs from '../../components/blogs/Blogs'
+import { Header, Statistics, ExploreCourses, Blog, WhyCM, CampusCaptains, Discord, MeetTeam, Testimonials, FAQs, Footer } from '../../components'
 
 const HomePage = () => {
   return (
@@ -11,7 +10,7 @@ const HomePage = () => {
       <Header />
       <Statistics />
       <ExploreCourses />
-      <Blogs />
+      <Blog />
       <WhyCM />
       <CampusCaptains />
       <Discord />
