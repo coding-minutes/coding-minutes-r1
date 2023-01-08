@@ -3,7 +3,7 @@ import { teamData } from "./teamData"
 import { whyCMData } from './whyCMData'
 
 export const couponCode = "JAN445";
-const currentPrice = "₹389";
+const currentPrice = "₹445 + Taxes";
 
 export const courseData = [
     {
