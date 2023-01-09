@@ -2,16 +2,16 @@ import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 
 import { HomePage, CoursePage, JoinCampusCaptain, SignUp, PageNotFound } from './pages';
 
 const App = () => {
 
-  useEffect(() => {
-    AOS.init({ startEvent: 'load' });
-    AOS.refreshHard();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ startEvent: 'load' });
+  //   AOS.refreshHard();
+  // }, []);
 
   return (
     <main>
