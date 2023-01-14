@@ -122,17 +122,15 @@ const CoursePage = () => {
                       </div>
                     </div>
                   </div>
-
                 ))}
-
-
-
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <WhyCM />
+      
       <div className="coursepage-second-outer-container">
       <div className="coursepage-second-container" data-aos="fade-up">
         <div className="left">

@@ -13,7 +13,8 @@
   min-height: 100vh;
   margin: 50px 40px 0 40px;
   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); */
-  color: var(--primary-color)
+  color: var(--primary-color);
+  margin-top: 120px; /*remove after removing advertisement*/
 }
 .header-container .left {
   display: flex;
@@ -56,6 +57,7 @@
     align-items: center;
     padding-top: 180px;
     margin: 0px 20px 0 20px;
+    margin-top: 100px; /*remove after removing advertisement*/
   }
   .header-container .left {
     text-align: center;
@@ -80,6 +82,7 @@
 .header-container {
     margin-top: 75px;
     padding-top: 0;
+    margin-top: 150px; /*remove after removing advertisement*/
 }
 
     .header-container .left .first {

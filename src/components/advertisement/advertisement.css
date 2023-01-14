@@ -1,0 +1,12 @@
+.advertisement-desktop {
+height: 80%;
+}
+.advertisement-desktop img {
+width: 100%;
+}
+.advertisement-mobile {
+height: 60px;
+}
+.advertisement-mobile img {
+height: 100%;
+}
