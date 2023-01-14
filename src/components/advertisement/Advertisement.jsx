@@ -25,7 +25,6 @@ const Advertisement = () => {
     }
   }, [width]);
 
-  console.log(width);
 
   return (
     <div className="components-outer-container" >
