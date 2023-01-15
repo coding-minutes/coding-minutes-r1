@@ -29,7 +29,7 @@
 .header-container .left .second {
   font-size: 1.2rem;
   font-weight: 400;
-  max-width: 500px;
+  max-width: 600px;
 }
 .header-container .third button {
   padding: 1rem 2rem;
@@ -67,7 +67,8 @@
   }
   .header-container .left .second {
     font-size: 1.1rem;
-    /* max-width: 300px; */
+    max-width: 400px;
+    
   }
   .header-container .third button {
     padding: 0.8rem 1.5rem;
