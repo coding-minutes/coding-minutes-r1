@@ -1,7 +1,6 @@
 .normal-outer-container {
   background: var(--primary-bg);
   z-index: -2;
-
 }
 .header-container {
   display: flex;
