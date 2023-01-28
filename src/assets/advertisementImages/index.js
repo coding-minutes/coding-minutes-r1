@@ -1,2 +1,2 @@
-export {default as desktopAdvertisement} from './jan445Desktop.svg'
-export {default as mobileAdvertisement} from './jan445Mobile.svg'
+export {default as desktopAdvertisement} from './REPUBLIC95Deskop.svg'
+export {default as mobileAdvertisement} from './REPUBLIC95Phonr.svg'
