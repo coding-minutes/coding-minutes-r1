@@ -6,7 +6,7 @@ import './navContainer.css'
 const NavContainer = () => {
   return (
     <div className="fixed-nav">
-      <Advertisement />
+      {/* <Advertisement /> */}
       <Navbar />
     </div>
   )

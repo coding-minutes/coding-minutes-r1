@@ -2,7 +2,7 @@
   background: var(--primary-bg);
   letter-spacing: 0.1px;
   color: var(--primary-color);
-  margin-top: 14vh;    /*Temporary addition reomove after removing advertisement*/
+  /* margin-top: 14vh;    Temporary addition reomove after removing advertisement */
 }
 
 .coursepage-container {
@@ -283,9 +283,9 @@
 
 /* media query (small devices) */
 @media screen and (max-width:500px) {
-  .coursepage-outer-container {
-    margin-top: 6vh;    /*Temporary addition reomove after removing advertisement*/
-  }  
+  /* .coursepage-outer-container {
+    margin-top: 6vh;    Temporary addition reomove after removing advertisement
+  }   */
   .coursepage-container .top .left-bottom {
         margin-top: 0.7rem;
     }
