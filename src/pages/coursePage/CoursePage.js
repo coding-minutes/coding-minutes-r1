@@ -29,6 +29,8 @@ const CoursePage = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const couponTemp = currentCourse?.title === 'Machine Learning Essentials (2023)' ? 'EARLYBIRD95' : couponCode;
+
   return (
     <div >
       <NavContainer />
@@ -36,7 +38,7 @@ const CoursePage = () => {
         <div className="components-outer-container">
           <div className="coursepage-container">
             <div className="top">
-              <div className="left"  data-aos="fade-right">
+              <div className="left" data-aos="fade-right">
                 <div className="left-top">
                   <div className="title-image">
                     <img src={industryCurriculum} alt="" />
@@ -50,7 +52,7 @@ const CoursePage = () => {
                       <span className='price-span'>{currentCourse?.priceInfo.current}</span>
                       <span className='price-span2'>{currentCourse?.priceInfo.original}</span>
                     </div>
-                    <span className='coupon-code'>Use Code : {couponCode}</span>
+                    <span className='coupon-code'>Use Code : {couponTemp}</span>
                   </div>
                   <div className='left-bottom-second'>
                     <button className="cm-gradient"><a href={currentCourse?.udemyLink} target="_blank">Enroll now on Udemy</a></button>
@@ -130,20 +132,20 @@ const CoursePage = () => {
       </div>
 
       <WhyCM />
-      
+
       <div className="coursepage-second-outer-container">
-      <div className="coursepage-second-container" data-aos="fade-up">
-        <div className="left">
-          <h1>Ready to take your</h1>
-          <h1>Coding Skills to Next Level?</h1>
-          <p>Join the Course Now!
-          </p>
-          <button className="cm-gradient"><a href={currentCourse?.udemyLink} target="_blank">Enroll now on Udemy</a></button>
+        <div className="coursepage-second-container" data-aos="fade-up">
+          <div className="left">
+            <h1>Ready to take your</h1>
+            <h1>Coding Skills to Next Level?</h1>
+            <p>Join the Course Now!
+            </p>
+            <button className="cm-gradient"><a href={currentCourse?.udemyLink} target="_blank">Enroll now on Udemy</a></button>
+          </div>
+          <div className="right">
+            <img src={campusCaptainImage} alt="" />
+          </div>
         </div>
-        <div className="right">
-          <img src={campusCaptainImage} alt="" />
-        </div>
-      </div>
       </div>
       <FAQs />
       <Footer />

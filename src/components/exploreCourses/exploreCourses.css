@@ -167,6 +167,7 @@
   align-items: center;
   /* background-color: red; */
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .explore-courses-container
   .bottom
@@ -243,6 +244,14 @@
   .course { 
     height: 400px;
     width: 300px;
+  }
+  .explore-courses-container
+  .bottom
+  .course-container
+  .course-internal-container
+  .course
+  .course-info {
+    padding: 1rem;
   }
   .explore-courses-container
   .bottom
