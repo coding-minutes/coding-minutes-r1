@@ -30,6 +30,7 @@ const CoursePage = () => {
   }, []);
 
   const couponTemp = currentCourse?.title === 'Machine Learning Essentials (2023)' ? 'EARLYBIRD95' : couponCode;
+  const ratingsTemp = currentCourse?.title === 'Machine Learning Essentials (2023)' ? true : false;
 
   return (
     <div >
@@ -56,7 +57,7 @@ const CoursePage = () => {
                   </div>
                   <div className='left-bottom-second'>
                     <button className="cm-gradient"><a href={currentCourse?.udemyLink} target="_blank">Enroll now on Udemy</a></button>
-                    <span>{currentCourse?.starRating}/5</span>
+                    <span>{currentCourse?.starRating}{ratingsTemp ? '' : '/5'}</span>
                   </div>
                 </div>
               </div>

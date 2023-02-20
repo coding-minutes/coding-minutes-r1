@@ -574,7 +574,7 @@ export const courseData = [
         title: "Machine Learning Essentials (2023)",
         mentors: "Mentor : Mohit Uniyal, Prateek Narang",
         isAvailable: true,
-        starRating: "⭐⭐⭐⭐⭐ 4.8",
+        starRating: "No Ratings Yet",
         slug: 'machine-learning-essentials',
         courseDetail: {
           title: "Machine Learning Essentials (2023)",
@@ -584,7 +584,7 @@ export const courseData = [
             original: "₹18,560",
           },
           udemyLink: `https://www.udemy.com/course/machine-learning-artificial-intelligence-essentials/?couponCode=EARLYBIRD95`,
-          starRating: "⭐⭐⭐⭐⭐ 4.8",
+          starRating: "No Ratings Yet",
           youtubeIntro: "https://www.youtube.com/embed/ILXTx4nlbJk",
           learningOutcomes: [
             "Jumpstart the world of AI & ML",
