@@ -580,10 +580,10 @@ export const courseData = [
           title: "Machine Learning Essentials (2023)",
           descriptionTop: "Kickstart Machine Learning, understand maths behind essential algorithms, implement them in python & build 8+ projects!",
           priceInfo: {
-            current: "₹389",
+            current: currentPrice,
             original: "₹18,560",
           },
-          udemyLink: `https://www.udemy.com/course/machine-learning-artificial-intelligence-essentials/?couponCode=EARLYBIRD95`,
+          udemyLink: `https://www.udemy.com/course/machine-learning-artificial-intelligence-essentials/?couponCode=${couponCode}`,
           starRating: "No Ratings Yet",
           youtubeIntro: "https://www.youtube.com/embed/ILXTx4nlbJk",
           learningOutcomes: [

@@ -29,7 +29,6 @@ const CoursePage = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const couponTemp = currentCourse?.title === 'Machine Learning Essentials (2023)' ? 'EARLYBIRD95' : couponCode;
   const ratingsTemp = currentCourse?.title === 'Machine Learning Essentials (2023)' ? true : false;
 
   return (
@@ -53,7 +52,7 @@ const CoursePage = () => {
                       <span className='price-span'>{currentCourse?.priceInfo.current}</span>
                       <span className='price-span2'>{currentCourse?.priceInfo.original}</span>
                     </div>
-                    <span className='coupon-code'>Use Code : {couponTemp}</span>
+                    <span className='coupon-code'>Use Code : {couponCode}</span>
                   </div>
                   <div className='left-bottom-second'>
                     <button className="cm-gradient"><a href={currentCourse?.udemyLink} target="_blank">Enroll now on Udemy</a></button>
