@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import AOS from "aos";
 // import "aos/dist/aos.css";
 
-import { HomePage, CoursePage, JoinCampusCaptain, SignUp, PageNotFound } from './pages';
+import { HomePage, CoursePage, JoinCampusCaptain, SignUp, PageNotFound, DiscordPage } from './pages';
 
 const App = () => {
 
@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/courses/:courseName" element={<CoursePage />} />
         <Route path="/join-campus-captain" element={<JoinCampusCaptain />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/discord" element={<DiscordPage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
 
