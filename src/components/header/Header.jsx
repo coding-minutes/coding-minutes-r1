@@ -10,14 +10,14 @@ const Header = () => {
         <div className="header-container">
           <div className="left" data-aos="fade-right">
             <div className="first">
-              <h1>It's raining Discounts🌧️!</h1>
+              <h1>It's Raining Discounts🌧️!</h1>
               {/* <h2 className="newly-launched">🔥NEW COURSE LAUNCH🔥</h2> */}
               {/* <h1>Machine Learning Essentials</h1> */}
-              <h1 className="cm-gradient-text">Our Monsoon Sale is Live till 5th July, everything at 95% OFF</h1>
+              <h1 className="cm-gradient-text">Our Monsoon Sale is Live!</h1>
               {/* <h1 className="cm-gradient-text">Get earlybird 90% off!</h1> */}
             </div>
             <div className="second">
-              <p><strong>Pocket friendly courses</strong> with interactive content, top-notch
+              <p><strong>Top-notch courses</strong> with interactive content, Ex-google
                 instructors, TA support, Projects & Assignments.</p>
             </div>
             {/* <div className="second">
