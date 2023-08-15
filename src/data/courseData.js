@@ -3,7 +3,7 @@ import { teamData } from "./teamData"
 import { whyCMData } from './whyCMData'
 
 export const couponCode = "LEARNWITHFREEDOM";
-const currentPrice = "₹389/- "; 
+const currentPrice = "₹389/- ";
 
 export const courseData = [
   {
@@ -574,7 +574,7 @@ export const courseData = [
         title: "Machine Learning Essentials (2023)",
         mentors: "Mentor : Mohit Uniyal, Prateek Narang",
         isAvailable: true,
-        starRating: "No Ratings Yet",
+        starRating: "⭐⭐⭐⭐⭐ 4.5",
         slug: 'machine-learning-essentials',
         courseDetail: {
           title: "Machine Learning Essentials (2023)",
@@ -584,7 +584,7 @@ export const courseData = [
             original: "₹18,560",
           },
           udemyLink: `https://www.udemy.com/course/machine-learning-artificial-intelligence-essentials/?couponCode=${couponCode}`,
-          starRating: "No Ratings Yet",
+          starRating: "⭐⭐⭐⭐⭐ 4.5",
           youtubeIntro: "https://www.youtube.com/embed/ILXTx4nlbJk",
           learningOutcomes: [
             "Jumpstart the world of AI & ML",
@@ -753,48 +753,43 @@ export const courseData = [
           descriptionTop: "Comprehensive & easy to understand course for aspiring programmers covering C++ Basics, STL, OOPS, and modern features",
           priceInfo: {
             current: currentPrice,
+            tempInfo: {
+              price: '₹0',
+              couponCode: 'NEWLAUNCH',
+            },
             original: "₹18,560",
           },
-          udemyLink: `https://www.udemy.com/course/git-github-master-course/?couponCode=${couponCode}`,
-          starRating: "⭐⭐⭐⭐⭐ 4.8",
-          youtubeIntro: "https://www.youtube.com/embed/xT4kaFXpmD4",
+          udemyLink: `https://www.udemy.com/course/mastering-cplusplus-prateek-narang-hindi/?couponCode=NEWLAUNCH`,
+          starRating: "No ratings yet",
+          youtubeIntro: "https://www.youtube.com/embed/8otR-IXvUrQ",
           learningOutcomes: [
-            "Understand Version Control Systems",
-            "Master Git, the most popular VCS",
-            "Git Workflow - Staging area, git commits, git diff",
-            "Branching - Creating and Merging Branches",
-            "Deploying a Git Repository on Github",
-            "Using Github Pages to deploy websites",
-            "How to collaborate as a team",
-            "Moving back and forth in git timeline",
-            "Advanced Git Features - Rebasing, Stashing, Branching, Merge Conflicts",
-            "Project Work - Create a Web Portfolio",
+            'Solid Foundations in C++',
+            'Data Types, Control Structures, Loops',
+            'Function Proefficiency',
+            'OOP Mastery',
+            'STL Expertise',
+            'File I/O, Exception Handling',
+            'Interactive Learning',
+            'Quizzes, Projects, Assignments',
           ],
           courseDescription: [
-            "If you are curious to know how big tech giants manage multiple versions of their projects? In this course, you will learn everything related to version control systems.",
-            "Welcome to the Git & Github Master course (2021). This course is designed for absolute beginners who have no experience in project building and developers who already are working on projects, but want to upskill with the advanced features of git.",
-            "Hi, My name is Mohit Uniyal, I'm a data scientist and a programming instructor. I co-created Coding Minutes to help students & developers like you to build a solid foundation & become great programmers.",],
+            'Welcome to "Mastering C++," the ultimate course designed to empower you with the essential skills to become a proficient C++ programmer.',
+            "Whether you're a complete beginner or already have some programming experience, this course will guide you through the programming basics, advanced features, and the intricacies of Object-Oriented Programming (OOP) in C++, leaving you well-prepared to tackle real-world programming challenges.",
+            "Join us on this journey of mastering C++ and unlocking your full programming potential!",],
           courseFeatures: [
-            "Version Control Systems",
-            "Command Line Tool",
-            "Git Introduction",
-            "Tracking your projects",
-            "Additional Git commands",
-            "Non-linear Development: Branching",
-            "Non-linear Development: Merging",
-            "Non-linear Development: Rebasing",
-            "Introduction to Github",
-            "Social Coding with Github",
-            "Miscellaneous Git Tools",
-            "Rewriting History",
-            "Project Work : Creating your portfolio website",
-
+            "C++ programming basics, data types, control structures, efficient code",
+            "Modularization, pass-by-value, pass-by-reference, creating robust programs",
+            "Classes, objects, inheritance, encapsulation, polymorphism, secure applications.",
+            "Containers, algorithms, vectors, sets, maps, efficient code.",
+            "Templates, exception handling, file I/O, generic algorithms, flexibility.",
+            "Quizzes, projects, theory-practice balance, responsive instructor team.",
+            "Transformative journey to mastering C++ programming."
           ],
 
           courseDescriptionEnd: [
-            "No matter whether you are a student, web developer, mobile developer, data scientist or just a computer programmer. Everyone should have Git & Github in their toolkit. This course the only course you need to master Git & Github. The course covers everything in a practical hands-on manner. You will get a quiz in each section to test your understanding of the topics.",
+            "Discover a well-rounded learning experience—mixing theory with hands-on practice. Engage in interactive quizzes, tackle projects, and get guidance. Achieve mastery as you reinforce knowledge and track your progress."
           ],
-          instructor: [teamData[1]],
+          instructor: [teamData[0]],
           whyUs: whyCMData,
         },
       },
