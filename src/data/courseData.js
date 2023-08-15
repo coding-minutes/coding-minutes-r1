@@ -1,4 +1,4 @@
-import { codingEssentials, competitiveProgramming, computerVisionSpecialization, cppEssentials, deepLearningEssentials, dsaEssentials, dsaLevelUp, dynamicProgramming, gameTheory, gitAndGithub, graphAlgorithms, machineLearningEssentials, naturalLanguageProcessing, pythonDataScience, pythonProgramming } from "../assets"
+import { codingEssentials, competitiveProgramming, computerVisionSpecialization, cppEssentials, cppHindi, deepLearningEssentials, dsaEssentials, dsaLevelUp, dynamicProgramming, gameTheory, gitAndGithub, graphAlgorithms, machineLearningEssentials, naturalLanguageProcessing, pythonDataScience, pythonProgramming } from "../assets"
 import { teamData } from "./teamData"
 import { whyCMData } from './whyCMData'
 
@@ -686,6 +686,71 @@ export const courseData = [
         courseDetail: {
           title: "Git & GitHub Master Course (2022)",
           descriptionTop: "Master the most essential tools for software development, everything about Git, Github & Version Control.",
+          priceInfo: {
+            current: currentPrice,
+            original: "₹18,560",
+          },
+          udemyLink: `https://www.udemy.com/course/git-github-master-course/?couponCode=${couponCode}`,
+          starRating: "⭐⭐⭐⭐⭐ 4.8",
+          youtubeIntro: "https://www.youtube.com/embed/xT4kaFXpmD4",
+          learningOutcomes: [
+            "Understand Version Control Systems",
+            "Master Git, the most popular VCS",
+            "Git Workflow - Staging area, git commits, git diff",
+            "Branching - Creating and Merging Branches",
+            "Deploying a Git Repository on Github",
+            "Using Github Pages to deploy websites",
+            "How to collaborate as a team",
+            "Moving back and forth in git timeline",
+            "Advanced Git Features - Rebasing, Stashing, Branching, Merge Conflicts",
+            "Project Work - Create a Web Portfolio",
+          ],
+          courseDescription: [
+            "If you are curious to know how big tech giants manage multiple versions of their projects? In this course, you will learn everything related to version control systems.",
+            "Welcome to the Git & Github Master course (2021). This course is designed for absolute beginners who have no experience in project building and developers who already are working on projects, but want to upskill with the advanced features of git.",
+            "Hi, My name is Mohit Uniyal, I'm a data scientist and a programming instructor. I co-created Coding Minutes to help students & developers like you to build a solid foundation & become great programmers.",],
+          courseFeatures: [
+            "Version Control Systems",
+            "Command Line Tool",
+            "Git Introduction",
+            "Tracking your projects",
+            "Additional Git commands",
+            "Non-linear Development: Branching",
+            "Non-linear Development: Merging",
+            "Non-linear Development: Rebasing",
+            "Introduction to Github",
+            "Social Coding with Github",
+            "Miscellaneous Git Tools",
+            "Rewriting History",
+            "Project Work : Creating your portfolio website",
+
+          ],
+
+          courseDescriptionEnd: [
+            "No matter whether you are a student, web developer, mobile developer, data scientist or just a computer programmer. Everyone should have Git & Github in their toolkit. This course the only course you need to master Git & Github. The course covers everything in a practical hands-on manner. You will get a quiz in each section to test your understanding of the topics.",
+          ],
+          instructor: [teamData[1]],
+          whyUs: whyCMData,
+        },
+      },
+    ]
+  },
+  {
+    id: 6,
+    title: 'Programming in Hindi',
+    courses: [
+      {
+        courseImage: cppHindi,
+        difficultyLevel: "BEGINNER TO ADVANCED 🔥🔥🔥",
+        color: 'green1',
+        title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
+        mentors: "Mentor : Prteek Narang",
+        starRating: "No ratings yet",
+        isAvailable: true,
+        slug: 'cpp-hindi',
+        courseDetail: {
+          title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
+          descriptionTop: "Comprehensive & easy to understand course for aspiring programmers covering C++ Basics, STL, OOPS, and modern features",
           priceInfo: {
             current: currentPrice,
             original: "₹18,560",

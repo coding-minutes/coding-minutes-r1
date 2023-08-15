@@ -22,6 +22,7 @@ export { default as machineLearningEssentials } from './courseImages/machineLear
 export { default as naturalLanguageProcessing } from './courseImages/naturalLanguageProcessing.webp'
 export { default as pythonDataScience } from './courseImages/pythonDataScience.webp'
 export { default as pythonProgramming } from './courseImages/pythonProgramming.webp'
+export {default as cppHindi} from './courseImages/cppHindi.webp'
 
 // why cm images
 export { default as certificate } from './whyCM/certificate.webp'
