@@ -11,7 +11,6 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { BsInstagram, BsYoutube } from 'react-icons/bs'
 
 const CoursePage = () => {
-
   const [currentCourse, setCurrentCourse] = useState();
 
   const { courseName } = useParams();
@@ -30,8 +29,6 @@ const CoursePage = () => {
   }, []);
 
   const ratingsTemp = currentCourse?.title === 'Mastering C++: From Basics to Advanced Programming (हिंदी)' ? true : false;
-  const couponCodeTemp = currentCourse?.priceInfo?.tempInfo ? currentCourse?.priceInfo?.tempInfo?.couponCode : couponCode;
-  const priceTemp = currentCourse?.priceInfo?.tempInfo ? currentCourse?.priceInfo?.tempInfo?.price : currentCourse?.priceInfo?.current;
 
   return (
     <div >
@@ -51,10 +48,10 @@ const CoursePage = () => {
                 <div className="left-bottom">
                   <div className='left-bottom-first'>
                     <div className="price-div">
-                      <span className='price-span'>{priceTemp}</span>
+                      <span className='price-span'>{currentCourse?.priceInfo?.current}</span>
                       <span className='price-span2'>{currentCourse?.priceInfo.original}</span>
                     </div>
-                    <span className='coupon-code'>Use Code : {couponCodeTemp}</span>
+                    <span className='coupon-code'>Use Code : {couponCode}</span>
                   </div>
                   <div className='left-bottom-second'>
                     <button className="cm-gradient"><a href={currentCourse?.udemyLink} target="_blank">Enroll now on Udemy</a></button>

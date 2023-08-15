@@ -753,13 +753,9 @@ export const courseData = [
           descriptionTop: "Comprehensive & easy to understand course for aspiring programmers covering C++ Basics, STL, OOPS, and modern features",
           priceInfo: {
             current: currentPrice,
-            tempInfo: {
-              price: '₹0',
-              couponCode: 'NEWLAUNCH',
-            },
             original: "₹18,560",
           },
-          udemyLink: `https://www.udemy.com/course/mastering-cplusplus-prateek-narang-hindi/?couponCode=NEWLAUNCH`,
+          udemyLink: `https://www.udemy.com/course/mastering-cplusplus-prateek-narang-hindi/?couponCode=${couponCode}`,
           starRating: "No ratings yet",
           youtubeIntro: "https://www.youtube.com/embed/8otR-IXvUrQ",
           learningOutcomes: [
