@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
@@ -11,8 +11,7 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth !important;
 }
-body        /*remove after removing advertisement   */
-{
+body        /*remove after removing advertisement   */ {
   background: var(--primary-bg);
 }
 .light-theme {
@@ -21,23 +20,22 @@ body        /*remove after removing advertisement   */
   --primary-color: rgb(0, 0, 0);
   --secondary-color: rgb(255, 255, 255);
   --blog-bg: #2962ff;
-  --discord-bg:#5865f2; 
+  --discord-bg: #5865f2;
 }
 .dark-theme {
-  --primary-bg: #1E0738;
-  --secondary-bg: #310C5B;
+  --primary-bg: #1e0738;
+  --secondary-bg: #310c5b;
   --primary-color: rgb(255, 255, 255);
   --secondary-color: rgb(0, 0, 0);
   --blog-bg: #2962ff;
-  --discord-bg:#5865f2; 
+  --discord-bg: #5865f2;
 }
-
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-.components-outer-container{
+.components-outer-container {
   max-width: 1500px;
   margin: auto;
   /* background: red; */
@@ -91,4 +89,23 @@ img {
   font-size: 1.1rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+.orange-gradient {
+  background: linear-gradient(90deg, #f77b26 0%, #f6673a 100%);
+  background-size: 200% auto;
+  animation: gradientMovement 3s ease infinite;
+}
+
+@keyframes gradientMovement {
+  0%{
+    background-position: 0% 50%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
+
+.text-white {
+  color: white !important;
 }

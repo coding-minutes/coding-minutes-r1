@@ -17,7 +17,7 @@ export const navData = [
 ]
 
 const Navbar = () => {
-  const initialThemeState = JSON.parse(localStorage.getItem('themeSettings')) || 'dark-theme';
+  const initialThemeState = JSON.parse(localStorage.getItem('themeSettings')) || 'light-theme';
   const [toggleIcon, setToggleIcon] = useState(initialThemeState === 'light-theme' ? <FaMoon /> : <FaSun />);
   const [theme, setTheme] = useState(initialThemeState);
   const [logo, setLogo] = useState(initialThemeState === 'light-theme' ? logoBlack : logoWhite);

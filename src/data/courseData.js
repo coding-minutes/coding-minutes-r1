@@ -737,7 +737,7 @@ export const courseData = [
   },
   {
     id: 6,
-    title: 'Programming in Hindi',
+    title: 'Courses in Hindi',
     courses: [
       {
         courseImage: cppHindi,

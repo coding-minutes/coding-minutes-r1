@@ -26,6 +26,13 @@ const ExploreCourses = () => {
     filterProjectHandler(activeCategory);
   }
 
+  const hindiCategory = uniqueCategories.filter(category=> category==='Courses in Hindi')[0];
+
+const getCategoryClass = (category) => {
+  if(activeCategory===category) return 'cm-gradient selected-btn';
+  if(category===hindiCategory) return 'orange-gradient text-white';
+  else return 'category-bg';
+}
 
 
   return (
@@ -42,7 +49,7 @@ const ExploreCourses = () => {
                 {uniqueCategories.map((category, index) => (
                   <button
                     key={index}
-                    className={` category-btn ${activeCategory === category ? "cm-gradient selected-btn" : "category-bg"}`}
+                    className={`category-btn ${getCategoryClass(category)}`}
                     onClick={() => changeCoursesHandler(category)}
                   >
                     {category}
