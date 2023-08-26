@@ -5,6 +5,57 @@ import { whyCMData } from './whyCMData'
 export const couponCode = "FREEDOM23";
 const currentPrice = "₹500+taxes ";
 
+const cppHindiCourse = {
+  courseImage: cppHindi,
+  difficultyLevel: "BEGINNER TO ADVANCED 🔥🔥🔥",
+  color: 'green1',
+  title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
+  mentors: "Mentor : Prteek Narang",
+  starRating: "⭐⭐⭐⭐⭐ 4.3",
+  isAvailable: true,
+  slug: 'cpp-hindi',
+  courseDetail: {
+    title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
+    descriptionTop: "Comprehensive & easy to understand course for aspiring programmers covering C++ Basics, STL, OOPS, and modern features",
+    priceInfo: {
+      current: currentPrice,
+      original: "₹18,560",
+    },
+    udemyLink: `https://www.udemy.com/course/mastering-cplusplus-prateek-narang-hindi/?couponCode=${couponCode}`,
+    starRating: "⭐⭐⭐⭐⭐ 4.3/5",
+    youtubeIntro: "https://www.youtube.com/embed/8otR-IXvUrQ",
+    learningOutcomes: [
+      'Solid Foundations in C++',
+      'Data Types, Control Structures, Loops',
+      'Function Proefficiency',
+      'OOP Mastery',
+      'STL Expertise',
+      'File I/O, Exception Handling',
+      'Interactive Learning',
+      'Quizzes, Projects, Assignments',
+    ],
+    courseDescription: [
+      'Welcome to "Mastering C++," the ultimate course designed to empower you with the essential skills to become a proficient C++ programmer.',
+      "Whether you're a complete beginner or already have some programming experience, this course will guide you through the programming basics, advanced features, and the intricacies of Object-Oriented Programming (OOP) in C++, leaving you well-prepared to tackle real-world programming challenges.",
+      "Join us on this journey of mastering C++ and unlocking your full programming potential!",],
+    courseFeatures: [
+      "C++ programming basics, data types, control structures, efficient code",
+      "Modularization, pass-by-value, pass-by-reference, creating robust programs",
+      "Classes, objects, inheritance, encapsulation, polymorphism, secure applications.",
+      "Containers, algorithms, vectors, sets, maps, efficient code.",
+      "Templates, exception handling, file I/O, generic algorithms, flexibility.",
+      "Quizzes, projects, theory-practice balance, responsive instructor team.",
+      "Transformative journey to mastering C++ programming."
+    ],
+
+    courseDescriptionEnd: [
+      "Discover a well-rounded learning experience—mixing theory with hands-on practice. Engage in interactive quizzes, tackle projects, and get guidance. Achieve mastery as you reinforce knowledge and track your progress."
+    ],
+    instructor: [teamData[0]],
+    whyUs: whyCMData,
+  },
+}
+
 export const courseData = [
   {
     id: 1,
@@ -100,6 +151,7 @@ export const courseData = [
           whyUs: whyCMData,
         },
       },
+      cppHindiCourse,
       {
         courseImage: pythonProgramming,
         difficultyLevel: "BEGINNER TO INTERMEDIATE 🔥🔥",
@@ -739,56 +791,7 @@ export const courseData = [
     id: 6,
     title: 'Courses in Hindi',
     courses: [
-      {
-        courseImage: cppHindi,
-        difficultyLevel: "BEGINNER TO ADVANCED 🔥🔥🔥",
-        color: 'green1',
-        title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
-        mentors: "Mentor : Prteek Narang",
-        starRating: "No ratings yet",
-        isAvailable: true,
-        slug: 'cpp-hindi',
-        courseDetail: {
-          title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
-          descriptionTop: "Comprehensive & easy to understand course for aspiring programmers covering C++ Basics, STL, OOPS, and modern features",
-          priceInfo: {
-            current: currentPrice,
-            original: "₹18,560",
-          },
-          udemyLink: `https://www.udemy.com/course/mastering-cplusplus-prateek-narang-hindi/?couponCode=${couponCode}`,
-          starRating: "No ratings yet",
-          youtubeIntro: "https://www.youtube.com/embed/8otR-IXvUrQ",
-          learningOutcomes: [
-            'Solid Foundations in C++',
-            'Data Types, Control Structures, Loops',
-            'Function Proefficiency',
-            'OOP Mastery',
-            'STL Expertise',
-            'File I/O, Exception Handling',
-            'Interactive Learning',
-            'Quizzes, Projects, Assignments',
-          ],
-          courseDescription: [
-            'Welcome to "Mastering C++," the ultimate course designed to empower you with the essential skills to become a proficient C++ programmer.',
-            "Whether you're a complete beginner or already have some programming experience, this course will guide you through the programming basics, advanced features, and the intricacies of Object-Oriented Programming (OOP) in C++, leaving you well-prepared to tackle real-world programming challenges.",
-            "Join us on this journey of mastering C++ and unlocking your full programming potential!",],
-          courseFeatures: [
-            "C++ programming basics, data types, control structures, efficient code",
-            "Modularization, pass-by-value, pass-by-reference, creating robust programs",
-            "Classes, objects, inheritance, encapsulation, polymorphism, secure applications.",
-            "Containers, algorithms, vectors, sets, maps, efficient code.",
-            "Templates, exception handling, file I/O, generic algorithms, flexibility.",
-            "Quizzes, projects, theory-practice balance, responsive instructor team.",
-            "Transformative journey to mastering C++ programming."
-          ],
-
-          courseDescriptionEnd: [
-            "Discover a well-rounded learning experience—mixing theory with hands-on practice. Engage in interactive quizzes, tackle projects, and get guidance. Achieve mastery as you reinforce knowledge and track your progress."
-          ],
-          instructor: [teamData[0]],
-          whyUs: whyCMData,
-        },
-      },
+      cppHindiCourse
     ]
   }
 
