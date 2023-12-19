@@ -11,8 +11,8 @@ const Header = () => {
           <div className="left" data-aos="fade-right">
             <div className="first">
               <h1>Learn Coding, the pocket friendly way 🇮🇳</h1>
-              <h1 className="cm-gradient-text">Biggest Sale of Season - Diwali Sale is LIVE!</h1>
-              {/* <h1 className="cm-gradient-text">Get earlybird 90% off!</h1> */}
+              <h1 className="cm-gradient-text">Winter Sale is LIVE!</h1>
+              {/* <h1 className="cm-gradient-text">Upto 95% off!</h1> */}
             </div>
             <div className="second">
               <p><strong>Top-notch courses</strong> with interactive content, Ex-google
