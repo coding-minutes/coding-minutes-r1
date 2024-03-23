@@ -12,7 +12,7 @@ export const navData = [
   { id: 2, name: "Blogs", link: "/#blogs" },
   { id: 3, name: "Community", link: "https://discord.gg/jwvtDtnkJv" },
   { id: 4, name: "Be a Captain", link: "/#campus-captains" },
-  { id: 5, name: "CM IDE", link: "https://ide.codingminutes.com/" },
+  // { id: 5, name: "CM IDE", link: "https://ide.codingminutes.com/" },
   { id: 6, name: "Mentors", link: "/#mentors" },
 ]
 
