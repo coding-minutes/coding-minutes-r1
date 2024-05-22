@@ -10,8 +10,8 @@ const Header = () => {
         <div className="header-container">
           <div className="left" data-aos="fade-right">
             <div className="first">
-              <h1>Learn with your favorite Bhaiya🇮🇳</h1>
-              <h1 className="cm-gradient-text">Kickstart your Coding Career</h1>
+              <h1>Kickstart your</h1>
+              <h1 className="cm-gradient-text">Coding Career</h1>
               {/* <h1 className="cm-gradient-text">Upto 95% off!</h1> */}
             </div>
             <div className="second">
