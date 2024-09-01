@@ -10,7 +10,7 @@ const cppHindiCourse = {
   difficultyLevel: "BEGINNER TO ADVANCED 🔥🔥🔥",
   color: 'green1',
   title: "Mastering C++: From Basics to Advanced Programming (हिंदी)",
-  mentors: "Mentor : Prteek Narang",
+  mentors: "Mentor : Prateek Narang",
   starRating: "⭐⭐⭐⭐⭐ 4.3",
   isAvailable: true,
   slug: 'cpp-hindi',
