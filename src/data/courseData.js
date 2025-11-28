@@ -2,8 +2,8 @@ import { codingEssentials, competitiveProgramming, computerVisionSpecialization,
 import { teamData } from "./teamData"
 import { whyCMData } from './whyCMData'
 
-export const couponCode = "CMSEPT24SALE";
-const currentPrice = "₹549/- (incl taxes) ";
+export const couponCode = "CMBLACKFRIDAY2025";
+const currentPrice = "₹399/-";
 
 const cppHindiCourse = {
   courseImage: cppHindi,
