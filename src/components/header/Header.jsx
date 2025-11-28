@@ -10,13 +10,13 @@ const Header = () => {
         <div className="header-container">
           <div className="left" data-aos="fade-right">
             <div className="first">
-              <h1>Kickstart your</h1>
-              <h1 className="cm-gradient-text">Coding Career</h1>
-              {/* <h1 className="cm-gradient-text">Upto 95% off!</h1> */}
+              <h1>Black Friday Sale</h1>
+              <h1 className="cm-gradient-text">is LIVE</h1>
+              {/* <h1 className="cm-gradient-text">Flat 95% OFF</h1> */}
             </div>
             <div className="second">
-              <p><strong>Top-notch courses</strong> with interactive content, Ex-google
-                instructors, TA support, Projects & Assignments.</p>
+              <p><strong>Most loved courses</strong> with interactive content, Learn with Google
+                Engineers, TA support, Projects & Assignments.</p>
             </div>
             {/* <div className="second">
               <p><strong>28 hours of immersive content</strong> with 8+ hands-on industry
