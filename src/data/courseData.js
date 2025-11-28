@@ -740,7 +740,7 @@ export const courseData = [
           descriptionTop: "Master the most essential tools for software development, everything about Git, Github & Version Control.",
           priceInfo: {
             current: currentPrice,
-            original: "₹18,560",
+            original: "₹1,560",
           },
           udemyLink: `https://www.udemy.com/course/git-github-master-course/?couponCode=${couponCode}`,
           starRating: "⭐⭐⭐⭐⭐ 4.8",
@@ -782,6 +782,55 @@ export const courseData = [
             "No matter whether you are a student, web developer, mobile developer, data scientist or just a computer programmer. Everyone should have Git & Github in their toolkit. This course the only course you need to master Git & Github. The course covers everything in a practical hands-on manner. You will get a quiz in each section to test your understanding of the topics.",
           ],
           instructor: [teamData[1]],
+          whyUs: whyCMData,
+        },
+      },
+      {
+        courseImage: gitAndGithub,
+        difficultyLevel: "BEGINNER TO ADVANCED 🔥🔥🔥",
+        color: 'green1',
+        title: "Low Level Design - Solid Principles & Design Patterns",
+        mentors: "Mentor : Prateek Narang",
+        starRating: "⭐⭐⭐⭐⭐ 4.5",
+        isAvailable: true,
+        slug: 'low-level-design-course',
+        courseDetail: {
+          title: "Low Level Design Course",
+          descriptionTop: "Master the most SOLID Principles & Design Patterns.",
+          priceInfo: {
+            current: currentPrice,
+            original: "₹5,560",
+          },
+          udemyLink: `https://www.udemy.com/course/git-github-master-course/?couponCode=${couponCode}`,
+          starRating: "⭐⭐⭐⭐⭐ 4.8",
+          youtubeIntro: "https://www.youtube.com/embed/xT4kaFXpmD4",
+          learningOutcomes: [
+            "Understand SOLID Principles",
+            "Build Better Software",
+            "Creational Patterns",
+            "Structural Patterns",
+            "Behavioural Design Patterns",
+          ],
+          courseDescription: [
+            "Curious how senior engineers design scalable, maintainable systems? This course demystifies Low Level Design with practical, real-world approaches used across top tech companies.",
+            "Welcome to the Low Level Design Mastery Course. Whether you're preparing for system design interviews or want to architect cleaner, extensible codebases at work — this course will elevate your design thinking.",
+            "I'm Prateek Narang, an engineer and instructor. Through hands-on examples and proven design techniques, I’ll guide you toward building robust software using SOLID principles and classical design patterns."
+          ],
+          
+          courseFeatures: [
+            "Understanding Object-Oriented Design",
+            "Mastering SOLID Principles",
+            "Creational Design Patterns",
+            "Structural Design Patterns",
+            "Behavioral Design Patterns",
+            "Real-world LLD Case Studies",
+            "Interface Design & Abstractions",
+            "Writing Clean, Extensible Components",
+          ]
+          courseDescriptionEnd: [
+            "No matter whether you are a student, web developer, mobile developer, data scientist or just a computer programmer. Everyone should have LLD in their toolkit.",
+          ],
+          instructor: [teamData[0]],
           whyUs: whyCMData,
         },
       },
